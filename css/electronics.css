@@ -1,0 +1,227 @@
+/*---------------- clothe & apparel area start ----------------*/
+#electronics {
+  margin: 50px 0;
+}
+
+#electronics .elect_left {
+  background: #fff;
+  padding: 30px 5px;
+  border-radius: 5px;
+}
+
+#electronics .elect_left h3 {
+  font-size: 19px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  margin-bottom: 23px;
+}
+
+#electronics .elect_left ul li {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#electronics .elect_left ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #666;
+  text-transform: capitalize;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+#electronics .elect_left ul li:hover a {
+  color: #f14242;
+}
+
+#electronics .elect_left .elect_left_Btn a {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-top: 20px;
+  position: relative;
+}
+
+#electronics .elect_left .elect_left_Btn a span {
+  margin-left: 5px;
+}
+
+#electronics .elect_left .elect_left_Btn a::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background: #333;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#electronics .elect_left .elect_left_Btn a:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items {
+  position: relative;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_icon {
+  width: 142px;
+  padding: 10px 9px;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 6px 3px rgba(212, 207, 207, 0.4);
+          box-shadow: 0px 0px 6px 3px rgba(212, 207, 207, 0.4);
+  position: absolute;
+  left: 50px;
+  bottom: 60px;
+  z-index: 999;
+  opacity: 0;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_icon a i {
+  font-size: 17px;
+  color: #666;
+  margin: 0 5px;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_icon a i:hover {
+  color: #f14242;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items:hover .elect_icon {
+  opacity: 1;
+  bottom: 110px;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_img {
+  position: relative;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_img .electtop_img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_img .electtop_img:hover {
+  opacity: 0;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_text {
+  background: #fff;
+  margin-top: -7px;
+  padding: 20px 0;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_text a {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  display: block;
+  text-transform: capitalize;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_text a:hover {
+  color: #f14242;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_text .elect_star {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_text .elect_star i {
+  cursor: pointer;
+  color: #666;
+  font-size: 11px;
+  margin: 0 -1px;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_text .elect_star i .star_numb {
+  position: absolute;
+  left: 77px;
+  top: -32px;
+  background: #333;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_text .elect_star i .star_numb h6 {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  line-height: 30px;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_text .elect_star i .star_numb .shape {
+  position: absolute;
+  left: 9px;
+  bottom: -5px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background: #333;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_text .elect_star i:hover .star_numb {
+  opacity: 1;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_text .elect_star span {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_text .elect_star span a {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #bdb9b9;
+  text-transform: capitalize;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_text .elect_star span a:hover {
+  color: #f14242;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_text .elect_star .colornai {
+  color: #bdb9b9;
+}
+
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_text h5 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+/*---------------- clothe & apparel area end ----------------*/
+/*# sourceMappingURL=electronics.css.map */

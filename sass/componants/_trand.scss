@@ -1,0 +1,60 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*--------------- trand area start -----------------*/ 
+#trand{
+    margin: 50px 0;
+    .trand_slider{
+        .trand_inner{
+            position: relative;
+            .trand_img{
+               img{
+                border-radius: 5px;
+               }
+            }
+            .trand_text{
+                position: absolute;
+                left: 40px;
+                top: 40px;
+                h3{
+                    @include fs(25px,400,$yello,#fff);
+                    text-transform: capitalize;
+                }
+                .blackC{
+                    color: #333;
+                    &::after{
+                        background: #333;
+                    }
+                }
+                h4{
+                    @include fs(20px,600,$popi,#fff);
+                    text-transform: uppercase;
+                    margin-top: 5px;
+                    margin-bottom: 8px;
+                    span{
+                        color: $hover;
+                    }
+                }
+                a{
+                    @include fs(14px,600,$popi,#fff);
+                    text-transform: uppercase;
+                    position: relative;
+                    span{
+                        margin-left: 5px;
+                    }
+                    &::after{
+                        @include after_lb(0,-4px,100%,2px,#fff);
+                        transform: scaleX(0);
+                        transition: all linear .2s;
+                    }
+                    &:hover{
+                        &::after{
+                            transform: scaleX(1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*--------------- trand area end -----------------*/ 

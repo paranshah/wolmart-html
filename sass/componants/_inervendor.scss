@@ -1,0 +1,366 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/* ------------- inner vendor area start ------------*/ 
+    #vendor{
+        margin-bottom: 30px;
+        .vendor_left{
+            .catagories{
+               .catagoris_header{
+                cursor: pointer;
+                margin-bottom: 35px;
+                display: flex;
+                padding: 0 10px;
+                justify-content: space-between;
+                position: relative;
+                h4{
+                    @include fs(18px,600,$popi,#333);
+                }
+                &::after{
+                    @include after_lb(0,-18px,100%,2px,#dbd9d9);
+                }
+               }
+                ul{
+                    margin-bottom: 40px;
+                    li{
+                        margin-bottom: 15px;
+                        a{
+                            @include fs(14px,400,$popi,#333);
+                            display: block;
+                        }
+                    }
+                }
+            }
+            .contact_vendor{
+                .contact_header{
+                    cursor: pointer;
+                    margin-bottom: 35px;
+                    display: flex;
+                    padding: 0 10px;
+                    justify-content: space-between;
+                    position: relative;
+                    h4{
+                        @include fs(18px,600,$popi,#333);
+                    }
+                    &::after{
+                        @include after_lb(0,-18px,100%,2px,#dbd9d9);
+                    }
+                   }
+                   form{
+                    input{
+                        width: 100%;
+                        padding: 10px 15px;
+                        border: 1px solid #dbd9d9;
+                        margin-bottom: 10px;
+                        outline: 0;
+                    }
+                    textarea{
+                        width: 100%;
+                        height: 150px;
+                        border: 1px solid #dbd9d9;
+                        padding: 10px;
+                        outline: 0;
+                    }
+                   }
+                   a{
+                    @include fs(14px,600,$popi,#fff);
+                    text-transform: uppercase;
+                    padding: 10px 15px;
+                    background: #333;
+                    border-radius: 3px;
+                    margin-top: 10px;
+                    margin-bottom: 40px;
+                   }
+            }
+            .store_time{
+                .storetime_header{
+                 cursor: pointer;
+                 margin-bottom: 35px;
+                 display: flex;
+                 padding: 0 10px;
+                 justify-content: space-between;
+                 position: relative;
+                 h4{
+                     @include fs(18px,600,$popi,#333);
+                 }
+                 &::after{
+                     @include after_lb(0,-18px,100%,2px,#dbd9d9);
+                 }
+                }
+                 ul{
+                     margin-bottom: 40px;
+                     li{
+                         margin-bottom: 15px;
+                         @include fs(14px,400,$popi,#333);
+                     }
+                 }
+             }
+             .best_selling{
+                .bestselling_header{
+                    cursor: pointer;
+                    margin-bottom: 35px;
+                    display: flex;
+                    padding: 0 10px;
+                    justify-content: space-between;
+                    position: relative;
+                    h4{
+                        @include fs(18px,600,$popi,#333);
+                    }
+                    &::after{
+                        @include after_lb(0,-18px,100%,2px,#dbd9d9);
+                    }
+                   }
+                   .selling_inner{
+                    .selling_items{
+                        margin-top: 20px;
+                        .text{
+                            padding: 10px 0;
+                            a{
+                                @include fs(13px,500,$popi,#333);
+                                transition: all linear .2s;
+                                margin-bottom: -2px;
+                                &:hover{
+                                    color: #336699;
+                                }
+                            }
+                            .itme_star{
+                                i{
+                                    font-size: 13px;
+                                    color: #f93;
+                                }
+                                .colornone{
+                                    color: #cdcdcd;
+                                }
+                            }
+                        }
+                        h5{
+                            @include fs(18px,700,$popi,#333);
+                            margin-top: 3px;
+                        }
+                    }
+                   }
+             }
+             .top_rated{
+                .toprated_header{
+                    cursor: pointer;
+                    margin-bottom: 35px;
+                    display: flex;
+                    padding: 0 10px;
+                    justify-content: space-between;
+                    position: relative;
+                    margin-top: 20px;
+                    h4{
+                        @include fs(18px,600,$popi,#333);
+                    }
+                    &::after{
+                        @include after_lb(0,-18px,100%,2px,#dbd9d9);
+                    }
+                   }
+                   .rated_inner{
+                    .rated_items{
+                        margin-top: 20px;
+                        .text{
+                            padding: 10px 0;
+                            a{
+                                @include fs(13px,500,$popi,#333);
+                                transition: all linear .2s;
+                                margin-bottom: -2px;
+                                &:hover{
+                                    color: #336699;
+                                }
+                            }
+                            .itme_star{
+                                i{
+                                    font-size: 13px;
+                                    color: #f93;
+                                }
+                                .colornone{
+                                    color: #cdcdcd;
+                                }
+                            }
+                        }
+                        h5{
+                            @include fs(18px,700,$popi,#333);
+                            margin-top: 3px;
+                        }
+                    }
+                   }
+             }
+        }
+        .vendor_right{
+            margin-bottom: 50px;
+            .right_img{
+                position: relative;
+                .right_text{
+                    width: 350px;
+                    padding: 30px 40px;
+                    background: #333;
+                    position: absolute;
+                    height: 100%;
+                    left: 0;
+                    top: 0;
+                    img{
+                        border-radius: 50%;
+                    }
+                    h3{
+                        @include fs(18px,700,$popi,#fff);
+                        margin: 30px 0;
+                    }
+                    h4{
+                        @include fs(14px,400,$popi,#fff);
+                        span{
+                            margin-right: 5px;
+                            line-height: 34px;
+                        }
+                    }
+                    a{
+                        @include fs(14px,400,$popi,#fff);
+                        transition: all linear .3s;
+                        margin: 10px 0;
+                        span{
+                            margin-right: 5px;
+                        }
+                        &:hover{
+                            color: $hover;
+                        }
+                    }
+                    h5{
+                        @include fs(14px,400,$popi,#fff);
+                        span{
+                            margin-right: 5px;
+                        }
+                    }
+                    h6{
+                        @include fs(14px,400,$popi,#fff);
+                        margin-top: 10px;
+                        span{
+                            margin-right: 5px;
+                        }
+                    }
+                    .icons{
+                        margin-top: 30px;
+                        a{
+                            font-size: 15px;
+                            color: #fff;
+                            margin-right: 5px;
+                            i{
+                                padding: 5px;
+                                border: 1px solid #fff;
+                                border-radius: 30%;
+                                &:hover{
+                                    color: $hover;
+                                    border-color: $hover;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .product{
+                margin-top: 30px;
+                padding: 20px 10px;
+                border: 1px solid #dbd9d9;
+                border-radius: 3px;
+                h3{
+                    @include fs(15px,600,$popi,#333);
+                }
+            }
+            .produt_wrapper{
+                margin-top: 30px;
+                position: relative;
+                border: 1px solid #ccc;
+                padding: 20px 0;
+                .text{
+                    a{
+                        @include fs(13px,600,$popi,#333);
+                        transition: all linear .3s;
+                        margin-top: 20px;
+                        &:hover{
+                            color: #336699;
+                        }
+                    }
+                    .star{
+                        i{
+                            font-size: 13px;
+                            color: #f93;
+                            position: relative;
+                            cursor: pointer;
+                            .star_num{
+                                opacity: 0;
+                                transition: all ease .2s;
+                                h6{
+                                    position: absolute;
+                                    left: -11px;
+                                    top: -45px;
+                                    padding: 10px 5px;
+                                    @include fs(13px,400,$popi,#fff);
+                                    background: #333
+                                }
+                                .shape{
+                                    transform:rotate(45deg);
+                                    width: 10px;
+                                    height: 10px;
+                                    background: #333;
+                                    position: absolute;
+                                    left: 2px;
+                                    top: -15px;
+                                }
+                            }
+                            &:hover{
+                                .star_num{
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                        span{
+                            a{
+                                @include fs(13px,400,$popi,#666);
+                                transition: all linear .3s;
+                                margin: 0;
+                                &:hover{
+                                    color: #336699;
+                                }
+                            }
+                        }
+                        .colornai{
+                            color: #cdcdcd;
+                        }
+                    }
+                    h5{
+                        @include fs(16px,700,$popi,#020101);
+                        margin-top: 5px;
+                    }
+                }
+                .vendor_icon{
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+                    opacity: 0;
+                    transition: all linear .2s;
+                    a{
+                        display: block;
+                        margin-bottom: 7px;
+                       i{
+                        font-size: 16px;
+                        background: #fff;
+                        padding: 10px;
+                        border-radius: 50%;
+                        color: #333;
+                        transition: all linear .3s;
+                        &:hover{
+                            background: #336699;
+                            color: #fff;
+                        }
+                       }
+                    }
+                }
+                &:hover{
+                 .vendor_icon{
+                    opacity: 1;
+                 }   
+                }
+            }
+        }
+    }
+
+/* ------------- inner vendor area end ------------*/ 

@@ -1,0 +1,339 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*--------------- my account area start --------------*/ 
+#account{
+    margin: 60px 0;
+    .accout_nav{
+        .nav-pills{
+            .nav-link.active {
+               background-color:transparent;
+              a{
+                color:#336699; 
+              }
+            }
+            .nav-link{
+               a{
+                @include fs(16px,600,$popi,#333);
+               }
+                position: relative;
+                &::after{
+                    @include after_lb(0,0,100%,1px,#e1d8d8);
+                }
+            }
+        }
+    }
+    .tab_content{
+        .tab-content{
+            .tab-pane{
+                .dashbord_txt{
+                    h5{
+                        @include fs(15px,500,$popi,#666);
+                        margin-bottom: 5px;
+                        span{
+                            font-weight: 700;
+                            color: #333;
+                        }
+                        a{
+                            font-weight: 500;
+                            color: #336699;
+                        }
+                    }
+                    p{
+                        @include fs(14px,400,$popi,#666);
+                        margin-bottom: 15px;
+                        a{
+                            color: #336699;
+                        }
+                    }
+                    .dash_icon{
+                        .icon_inner{
+                            text-align: center;
+                            border: 1px solid #ccc;
+                            padding: 40px;
+                            margin-bottom: 20px;
+                            i{
+                                font-size: 60px;
+                                color: #333;
+                                margin-bottom: 20px;
+                            }
+                            h5{
+                                @include fs(14px,400,$popi,#666);
+                                text-transform: uppercase;
+                            }
+                            &:hover{
+                                i{
+                                    color: #336699;
+                                }
+                                h5{
+                                    color: #336699;
+                                }
+                            }
+                        }
+                    }
+                }
+                .order_text{
+                    .head{
+                        margin-bottom: 30px;
+                        i{
+                            color: #666;
+                            margin-right: 10px;
+                        }
+                        h4{
+                            @include fs(20px,700,$popi,#333);
+                        }
+                    }
+                    .order_name{
+                        padding-bottom: 20px;
+                        margin-bottom: 20px;
+                        position: relative;
+                        &::after{
+                            @include after_lb(0,0,100%,1px,#e7e0e0);
+                        }
+                        .ord{
+                            text-align: center;
+                            h4{
+                                @include fs(16px,700,$popi,#333);   
+                                text-transform: capitalize;
+                            }
+                        }
+                        .date{
+                            text-align: center;
+                            h4{
+                                @include fs(16px,700,$popi,#333);   
+                                text-transform: capitalize;
+                            }
+                        }
+                        .Status{
+                            text-align: center;
+                            h4{
+                                @include fs(16px,700,$popi,#333);   
+                                text-transform: capitalize;
+                            }
+                        }
+                        .Total{
+                            text-align: center;
+                            h4{
+                                @include fs(16px,700,$popi,#333);   
+                                text-transform: capitalize;
+                            }
+                        }
+                        .Actions{
+                            text-align: center;
+                            h4{
+                                @include fs(16px,700,$popi,#333);   
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+                    .order_dit{
+                        padding-top: 5px;
+                        padding-bottom: 20px;
+                        position: relative;
+                        margin-bottom: 20px;
+                        &::after{
+                            @include after_lb(0,0,100%,1px,#f7f0f0);
+                        }
+                        p{
+                            @include fs(14px,400,$popi,#666);
+                            text-align: center;   
+                            padding-top: 7px;
+                        }
+                        .view{
+                            a{
+                                padding: 5px 40px;
+                                border: 1px solid #ccc;
+                                text-align: center;
+                                @include fs(14px,600,$popi,#333);
+                                text-transform: uppercase;
+                                transition: all linear .3s;
+                                &:hover{
+                                    background: #333;
+                                    border-color: #333;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                    .oder_btn{
+                        margin-top: 20px;
+                        a{
+                            @include fs(14px,600,$popi,#fff);
+                            text-transform: uppercase;
+                            padding: 10px 20px;
+                            background: #333;
+                            border-radius: 3px;
+                            i{
+                                margin-left: 4px;
+                            }
+                        }
+                    }
+                }
+                .download_text{
+                    .head{      
+                        margin-bottom: 20px;                
+                        i{
+                            margin-right: 10px;
+                            color: #666;
+                        }
+                        h4{
+                            @include fs(20px,700,$popi,#333);
+                        }
+                    }
+                    p{
+                        @include fs(14px,400,$popi,#666);
+                        margin-bottom: 30px;
+                    }
+                    .download_btn{
+                        a{
+                            @include fs(14px,600,$popi,#fff);
+                            text-transform: uppercase;
+                            padding: 10px 20px;
+                            background: #333;
+                            border-radius: 3px;
+                            i{
+                                margin-left: 4px;
+                            }
+                        }
+                    }
+                }
+                .adress_txt{
+                    .head{      
+                        margin-bottom: 30px;                
+                        i{
+                            margin-right: 10px;
+                            color: #666;
+                        }
+                        h4{
+                            @include fs(20px,700,$popi,#333);
+                        }
+                        p{
+                            @include fs(14px,400,$popi,#666);
+                        }
+                    }
+                    .addres{
+                        .billing{
+                            padding-bottom: 15px;
+                            margin-bottom: 25px;
+                            position: relative;
+                            &::after{
+                                @include after_lb(0,0,100%,1px,#e0dede);
+                            }
+                            h4{
+                                @include fs(16px,700,$popi,#333);
+                            }
+                        }
+                        .name{
+                            ul{
+                                li{
+                                    @include fs(14px,400,$popi,#999);
+                                    padding-bottom: 10px;
+                                }
+                            }
+                        }
+                        .info{
+                            ul{
+                                li{
+                                    @include fs(14px,400,$popi,#333);
+                                    padding-bottom: 10px;
+                                }
+                            }
+                        }
+                        .btn{
+                            a{
+                                @include fs(16px,600,$popi,#336699);
+                                text-transform: uppercase;
+                                position: relative;
+                                &::after{
+                                    @include after_lb(0,0,100%,2px,#336699);
+                                    transform: scaleX(0);
+                                    opacity: 0;
+                                    transition: all linear .3s;
+                                }
+                                &:hover{
+                                    &::after{
+                                        transform: scaleX(1);
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .account_ditails{
+                    .head{
+                        margin-bottom: 30px;
+                        i{
+                            margin-right: 5px;
+                            color: #666;
+                        }
+                        h4{
+                            @include fs(20px,700,$popi,#333);
+                        } 
+                    }
+                    .name{
+                      form{
+                        label{
+                            @include fs(14px,400,$popi,#666);
+                            display: block;
+                            margin-bottom: 5px;
+                        }
+                        input{
+                            width: 100%;
+                            outline: 0;
+                            border: 1px solid #ccc;
+                            @include fs(14px,500,$popi,#333);
+                            padding: 10px 20px;
+                            &:focus{
+                                border-color: #336699;
+                            }
+                            &::placeholder{
+                                @include fs(13px,400,$popi,#666);
+                            }
+                        }
+                        .dis_name{
+                            margin: 25px 0;
+                            p{
+                                @include fs(13px,400,$popi,#666);
+                            }
+                        }
+                        .email{
+                            margin-top: 25px;
+                        }
+                      }
+
+                    }
+                    .password{
+                        .head{
+                            margin-bottom: 30px;
+                            h4{
+                                @include fs(18px,600,$popi,#333);
+                            } 
+                        }
+                        .current{
+                            label{
+                                @include fs(14px,400,$popi,#333);
+                            }
+                        }
+                        .new{
+                            margin: 20px 0;
+                        }
+                        .confirm{
+                            margin-bottom: 40px;
+                        }
+                        .btn{
+                            button{
+                                padding: 10px 20px;
+                                @include fs(14px,500,$popi,#fff);
+                                text-transform: uppercase;
+                                background: #333;
+                                border-radius: 4px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*--------------- my account area end --------------*/ 

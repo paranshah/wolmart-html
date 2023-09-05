@@ -1,0 +1,210 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*-------------- Compare area start --------------*/ 
+#compare{
+    margin-bottom: 60px;
+    .product{
+        margin-bottom: 40px;
+        .name{
+            h5{
+                @include fs(15px,400,$popi,#666);
+            }
+        }
+        .itmes_wrapper{
+            .itmes{
+                .cross{
+                    margin-bottom: 5px;
+                    a{
+                        @include fs(24px,400,$popi,#333);
+                        &:hover{
+                            color: #336699;
+                        }
+                    }
+                }
+                .img{
+                    position: relative;
+                    .icon{
+                        position: absolute;
+                        right: 15px;
+                        top: 20px;
+                        opacity: 0;
+                        transition: all linear .2s;
+                        a{
+                            display:block;
+                            font-size: 20px;
+                            color: #666;
+                            margin-bottom: 3px;
+                            padding: 5px 10px;
+                            border-radius: 50%;
+                            background: #fff;
+                            &:hover{
+                                background: #336699;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+                .item_name{
+                    margin-top: 10px;
+                    a{
+                        @include fs(14px,400,$popi,#333);
+                        &:hover{
+                            color: #336699;
+                        }
+                    }
+                }
+                &:hover{
+                    .img{
+                        .icon{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .price{
+        text-align: center;
+        background: #fbfbfb;
+        padding: 20px 0;
+        margin-bottom: 30px;
+        .pri{
+            h5{
+                @include fs(15px,400,$popi,#666);
+            }
+        }
+        .ammout{
+            h6{
+                @include fs(14px,400,$popi,#336699);
+                display: inline-block;
+            }
+            span{
+                @include fs(14px,400,$popi,#666); 
+                margin-left: 10px;
+            }
+        }
+    }
+    .Availability{
+        text-align: center;
+        margin-bottom: 30px;
+        .ability{
+            h5{
+                @include fs(15px,400,$popi,#666);
+            }
+        }
+        .stock{
+            h6{
+                @include fs(14px,400,$popi,#f93);
+                display: inline-block;
+            }
+        }
+    }
+    .description{
+        padding: 20px 0;
+        background: #fbfbfb;
+        margin-bottom: 20px;
+        .descp{
+            h5{
+                @include fs(15px,400,$popi,#666);
+            }
+        }
+        .items_wrapper{
+            .items{
+                ul{
+                    li{
+                        text-align: center;
+                        @include fs(14px,400,$popi,#333);
+                        line-height: 24px;
+                        margin-bottom: 10px;
+                        i{
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .rateing{
+        margin-bottom: 30px;
+        .rate{
+            h5{
+                @include fs(15px,400,$popi,#666);
+            }
+        }
+        .star{ 
+            text-align: center;
+            i{
+                font-size: 14px;
+                color: #f93;              
+            }
+            .colornai{
+                color: #cccc;
+            }
+            a{
+                @include fs(12px,400,$popi,#666);
+            }
+        }
+    }
+    .Category{
+        padding: 20px 0;
+        background: #fbfbfb;
+        margin-bottom: 30px;
+        .Cat{
+            h5{
+                @include fs(15px,400,$popi,#666);
+            }
+        }
+        .name{
+            text-align: center;
+           h6{
+            @include fs(14px,500,$popi,#333);
+           }
+        }
+    }
+    .SKU{
+        margin-bottom: 30px;
+        .title{
+            h5{
+                @include fs(15px,400,$popi,#666);
+            }
+        }
+        .num{
+            text-align: center;
+           h6{
+            @include fs(14px,500,$popi,#333);
+           }
+        }
+    }
+    .Size{
+        margin-bottom: 30px;
+        padding: 20px 0;
+        background: #fbfbfb;
+        .title{
+            h5{
+                @include fs(15px,400,$popi,#666);
+            }
+        }
+        .num{
+            text-align: center;
+           h6{
+            @include fs(14px,500,$popi,#333);
+           }
+        }
+    }
+    .Brand{
+        margin-bottom: 30px;
+        .title{
+            h5{
+                @include fs(15px,400,$popi,#666);
+            }
+        }
+        .num{
+            text-align: center;
+           h6{
+            @include fs(14px,500,$popi,#333);
+           }
+        }
+    }
+}
+/*-------------- Compare area end --------------*/ 

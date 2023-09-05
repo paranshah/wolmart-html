@@ -1,0 +1,677 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*_-------------- vendor list2 area start ---------------*/
+#vendorlsit2 {
+    .vender_top {
+        position: relative;
+        margin-bottom: 40px;
+
+        .top_text {
+            padding: 20px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5);
+
+            .brand {
+                text-align: center;
+                position: relative;
+
+                img {
+                    border-radius: 50%;
+                    position: relative;
+                    left: 0;
+                    top: -75px;
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+
+            .start {
+                margin-top: -60px;
+
+                i {
+                    font-size: 14px;
+                    color: #f93;
+                    cursor: pointer;
+                }
+            }
+
+            .text_middle {
+                h4 {
+                    @include fs(20px, 600, $popi, #fff);
+                }
+
+                h5 {
+                    @include fs(14px, 400, $popi, #eee);
+                    line-height: 24px;
+                    margin: 8px 0;
+
+                    span {
+                        margin-right: 5px;
+                    }
+                }
+
+                a {
+                    display: block;
+                    @include fs(14px, 400, $popi, #eee);
+                    margin-bottom: 5px;
+
+                    span {
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+            .vedor_icons {
+                .inqury {
+                    a {
+                        @include fs(14px, 600, $popi, #333);
+                        padding: 10px 15px;
+                        background: #eee;
+                        transition: all linear .3s;
+                        margin-bottom: 30px;
+
+                        &:hover {
+                            background: #333;
+                            color: #fff;
+                        }
+                    }
+                }
+
+                .icons {
+                    a {
+                        margin-left: 5px;
+
+                        img {
+                            width: 25px;
+                            height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .vendor_left {
+        .catagories {
+            .catagoris_header {
+                cursor: pointer;
+                margin-bottom: 35px;
+                display: flex;
+                padding: 0 10px;
+                justify-content: space-between;
+                position: relative;
+
+                h4 {
+                    @include fs(18px, 600, $popi, #333);
+                }
+
+                &::after {
+                    @include after_lb(0, -18px, 100%, 2px, #dbd9d9);
+                }
+            }
+
+            ul {
+                margin-bottom: 40px;
+                margin-left: 10px;
+
+                li {
+                    margin-bottom: 15px;
+
+                    a {
+                        @include fs(14px, 400, $popi, #333);
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        .Coupons {
+            .cupons_header {
+                cursor: pointer;
+                margin-bottom: 35px;
+                display: flex;
+                padding: 0 10px;
+                justify-content: space-between;
+                position: relative;
+
+                h4 {
+                    @include fs(18px, 600, $popi, #333);
+                }
+
+                &::after {
+                    @include after_lb(0, -18px, 100%, 2px, #dbd9d9);
+                }
+            }
+
+            .cupons_inner {
+                padding: 10px;
+                border: 1px dashed #333;
+                border-radius: 3px;
+                margin-bottom: 50px;
+                background: #eee;
+                margin-left: 10px;
+
+                h5 {
+                    @include fs(16px, 600, $popi, #333);
+                }
+            }
+        }
+
+        .store_time {
+            .storetime_header {
+                cursor: pointer;
+                margin-bottom: 35px;
+                display: flex;
+                padding: 0 10px;
+                justify-content: space-between;
+                position: relative;
+
+                h4 {
+                    @include fs(18px, 600, $popi, #333);
+                }
+
+                &::after {
+                    @include after_lb(0, -18px, 100%, 2px, #dbd9d9);
+                }
+            }
+
+            ul {
+                margin-bottom: 40px;
+                margin-left: 10px;
+
+                li {
+                    margin-bottom: 15px;
+                    @include fs(14px, 600, $popi, #333);
+
+                    span {
+                        margin-left: 50px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+
+        .shipping_rule {
+            .rule_header {
+                cursor: pointer;
+                margin-bottom: 35px;
+                display: flex;
+                padding: 0 10px;
+                justify-content: space-between;
+                position: relative;
+
+                h4 {
+                    @include fs(18px, 600, $popi, #333);
+                }
+
+                &::after {
+                    @include after_lb(0, -18px, 100%, 2px, #dbd9d9);
+                }
+            }
+
+            .shippin_day {
+                h6 {
+                    @include fs(14px, 400, $popi, #333);
+                    margin-left: 10px;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+
+        .store_location {
+            .location_header {
+                cursor: pointer;
+                margin-bottom: 35px;
+                display: flex;
+                padding: 0 10px;
+                justify-content: space-between;
+                position: relative;
+
+                h4 {
+                    @include fs(18px, 600, $popi, #333);
+                }
+
+                &::after {
+                    @include after_lb(0, -18px, 100%, 2px, #dbd9d9);
+                }
+            }
+
+            .store_map {
+                margin-bottom: 35px;
+            }
+        }
+
+        .best_selling {
+            .bestselling_header {
+                cursor: pointer;
+                margin-bottom: 35px;
+                display: flex;
+                padding: 0 10px;
+                justify-content: space-between;
+                position: relative;
+
+                h4 {
+                    @include fs(18px, 600, $popi, #333);
+                }
+
+                &::after {
+                    @include after_lb(0, -18px, 100%, 2px, #dbd9d9);
+                }
+            }
+
+            .selling_inner {
+                margin-bottom: 40px;
+
+                .selling_items {
+                    margin-top: 20px;
+
+                    .text {
+                        padding: 10px 0;
+
+                        a {
+                            @include fs(13px, 500, $popi, #333);
+                            transition: all linear .2s;
+                            margin-bottom: -2px;
+
+                            &:hover {
+                                color: #336699;
+                            }
+                        }
+
+                        .itme_star {
+                            i {
+                                font-size: 13px;
+                                color: #f93;
+                            }
+
+                            .colornone {
+                                color: #cdcdcd;
+                            }
+                        }
+                    }
+
+                    h5 {
+                        @include fs(18px, 700, $popi, #333);
+                        margin-top: 3px;
+                    }
+                }
+            }
+        }
+    }
+
+    .vend_right {
+        margin-bottom: 70px;
+
+        .vend_nav {
+            .nav-item {
+                button {
+                    @include fs(16px, 700, $popi, #333);
+                    border: none;
+                    transition: all linear .2s;
+                    position: relative;
+                    margin-right: 10px;
+                    &:hover {
+                        color: #336699;
+
+                        &::after {
+                            transform: scaleX(1);
+                            opacity: 1;
+                        }
+                    }
+
+                    &::after {
+                        @include after_lb(0, 0, 100%, 2px, #336699);
+                        transform: scaleX(0);
+                        transition: all linear .2s;
+                        opacity: 0;
+                    }
+
+                    &.active {
+                        color: #336699;
+
+                        &::after {
+                            transform: scaleX(1);
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+
+        .tab-content {
+            .tab-pane {
+                .VP_header {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                    margin-left: 20px;
+
+                    h5 {
+                        @include fs(13px, 600, $popi, #333);
+                    }
+
+                    form {
+                        select {
+                            width: 165px;
+                            padding: 6px 10px;
+                            margin-left: 15px;
+                            outline: 0;
+                            border: 1px solid #cdcdcd;
+                            @include fs(13px, 400, $popi, #333);
+                        }
+                    }
+                }
+
+                .produt_wrapper {
+                    margin-top: 30px;
+                    position: relative;
+                    border: 1px solid #ccc;
+                    padding: 20px 0;
+                    .text {
+                        a {
+                            @include fs(13px, 600, $popi, #333);
+                            transition: all linear .3s;
+                            margin-top: 20px;
+
+                            &:hover {
+                                color: #336699;
+                            }
+                        }
+
+                        .star {
+                            i {
+                                font-size: 13px;
+                                color: #f93;
+                                position: relative;
+                                cursor: pointer;
+
+                                .star_num {
+                                    opacity: 0;
+                                    transition: all ease .2s;
+
+                                    h6 {
+                                        position: absolute;
+                                        left: -11px;
+                                        top: -45px;
+                                        padding: 10px 5px;
+                                        @include fs(13px, 400, $popi, #fff);
+                                        background: #333
+                                    }
+
+                                    .shape {
+                                        transform: rotate(45deg);
+                                        width: 10px;
+                                        height: 10px;
+                                        background: #333;
+                                        position: absolute;
+                                        left: 2px;
+                                        top: -15px;
+                                    }
+                                }
+
+                                &:hover {
+                                    .star_num {
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+
+                            span {
+                                a {
+                                    @include fs(13px, 400, $popi, #666);
+                                    transition: all linear .3s;
+                                    margin: 0;
+
+                                    &:hover {
+                                        color: #336699;
+                                    }
+                                }
+                            }
+
+                            .colornai {
+                                color: #cdcdcd;
+                            }
+                        }
+
+                        h5 {
+                            @include fs(16px, 700, $popi, #020101);
+                            margin-top: 5px;
+                        }
+                    }
+
+                    .vendor_icon {
+                        position: absolute;
+                        top: 20px;
+                        right: 20px;
+                        opacity: 0;
+                        transition: all linear .2s;
+
+                        a {
+                            display: block;
+                            margin-bottom: 7px;
+
+                            i {
+                                font-size: 16px;
+                                background: #fff;
+                                padding: 10px;
+                                border-radius: 50%;
+                                color: #333;
+                                transition: all linear .3s;
+
+                                &:hover {
+                                    background: #336699;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        .vendor_icon {
+                            opacity: 1;
+                        }
+                    }
+                }
+
+                .profile_txt {
+                    h6 {
+                        @include fs(13px, 400, $popi, #333);
+                        line-height: 24px;
+                        margin-top: 40px;
+
+                        span {
+                            display: block;
+                            margin-top: 30px;
+                        }
+                    }
+                }
+
+                .policie_text {
+                    margin-top: 30px;
+                    padding-bottom: 30px;
+                    margin-left: 15px;
+                    position: relative;
+
+                    h3 {
+                        @include fs(20px, 600, $popi, #333);
+                    }
+
+                    h6 {
+                        @include fs(13px, 400, $popi, #333);
+                        line-height: 24px;
+                        margin-top: 30px;
+                    }
+
+                    &::after {
+                        @include after_lb(0, 0, 100%, 1px, #eeee);
+                    }
+                }
+
+                .review_top {
+                    margin-left: 10px;
+                    padding: 20px;
+                    margin-top: 30px;
+                    border: 1px solid #eeee;
+
+                    h3 {
+                        @include fs(20px, 700, $popi, #333);
+                    }
+
+                    form {
+                        input {
+                            width: 100%;
+                            border: 1px solid #eeee;
+                            padding: 10px 25px;
+                            outline: 0;
+                            margin-top: 30px;
+                            margin-bottom: 20px;
+                            @include fs(13px, 400, $popi, #333);
+                        }
+
+                        button {
+                            @include fs(13px, 700, $popi, #333);
+                            padding: 15px;
+                            border-radius: 3px;
+                            background: #eee;
+                            border: #eee;
+                            text-transform: uppercase;
+                            transition: all linear .3s;
+
+                            &:hover {
+                                background: #333;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+
+                .review_btm {
+                    padding: 30px 20px;
+                    border: 1px solid #eeee;
+                    margin-left: 10px;
+                    margin-top: 30px;
+
+                    .btm_head {
+                        h3 {
+                            @include fs(20px, 700, $popi, #333);
+                        }
+
+                        h4 {
+                            @include fs(15px, 400, $popi, #333);
+
+                            span {
+                                font-weight: 700;
+                            }
+
+                            margin: 20px 0;
+                        }
+
+                        .review_star {
+                            position: relative;
+                            display: flex;
+                            justify-content: space-between;
+                            padding-bottom: 30px;
+                            margin-right: 100px;
+                            .star_wrapper {
+                                .star_inner {
+                                    i {
+                                        font-size: 14px;
+                                        color: #f93;
+                                    }
+
+                                    span {
+                                        @include fs(13px, 300, $popi, #333);
+                                        margin-left: 10px;
+                                    }
+                                }
+                            }
+
+                            .rate {
+                                text-align: center;
+
+                                .rate_top {
+                                    display: inline-block;
+                                    padding: 5px 10px;
+                                    border-radius: 3px;
+                                    background: #4e4e4e;
+                                    @include fs(25px, 500, $popi, #fff);
+                                    text-align: center;
+
+                                    sub {
+                                        margin-left: -5px;
+                                    }
+                                }
+
+                                .rate_star {
+                                    i{
+                                        font-size: 14px;
+                                        color: #f93;
+                                    }
+                                }
+                            }
+                            &::after{
+                                @include after_lb(0,0,100%,1px,#eeee);
+                            }
+                        }
+                    }
+                    .btm_last{
+                        margin-top: 30px;
+                        .left{
+                            .img{
+                                img{
+                                    width: 70px;
+                                    height: 70px;
+                                }
+                                p{
+                                    @include fs(13px,400,$popi,#333);
+                                    margin-top: 20px;
+                                }
+                                h6{
+                                    padding: 3px 10px;
+                                    border-radius: 3px;
+                                    background: #4e4e4e;
+                                    @include fs(13px,400,$popi,#fff);
+                                    display: inline-block;
+                                }
+                            }
+                            .text{
+                                h5{
+                                    @include fs(17px,600,$popi,#000);
+                                }
+                                h6{
+                                    @include fs(13px,400,$popi,#333);
+                                    margin-top: 30px;
+                                    margin-bottom: 35px;
+                                }
+                                p{
+                                    @include fs(13px,400,$popi,#333);
+                                    line-height: 24px;   
+                                }
+                            }
+                            
+                        }
+                        .right{
+                            .star_inner{
+                                i{
+                                    font-size: 14px;
+                                    color: #f93;
+                                }
+                                span{
+                                    @include fs(13px,400,$popi,#333);
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*_-------------- vendor list2 area end ---------------*/

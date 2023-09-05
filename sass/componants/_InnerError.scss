@@ -1,0 +1,33 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*-------------- Error area start -------------*/ 
+#Error{
+    background: #f5f5f5;
+    padding: 80px 0;
+    .error_text{
+        margin-top: 60px;
+        h3{
+            @include fs(30px,700,$popi,#333);
+            margin-bottom: 10px;
+            span{
+                color: #f93;
+            }
+        }
+        p{
+            @include fs(14px,400,$popi,#666);
+        }
+        a{
+            @include fs(14px,500,$popi,#fff);
+            text-transform: uppercase;
+            background: #333;
+            padding: 10px 25px;
+            border-radius: 3px;
+            margin-top: 30px;
+            i{
+                margin-left: 5px;
+            }
+        }
+    }
+}
+/*-------------- Error area end -------------*/ 

@@ -1,0 +1,227 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*----------- become a vendor area start ------------*/ 
+#store{
+    margin: 80px 0;
+    .store_text{
+        padding-top: 60px;
+        padding-right: 140px;
+        h6{
+            @include fs(20px,600,$popi,#336699);
+            margin-bottom: 15px;
+        }
+        h3{
+            @include fs(35px,700,$popi,#333);
+            margin-bottom: 15px;
+        }
+        p{
+            @include fs(14px,400,$popi,#666);
+            line-height: 24px;
+        }
+        a{
+            @include fs(14px,500,$popi,#333);
+            text-transform: uppercase;
+            padding: 10px 30px;
+            border: 2px solid #333;
+            margin-top: 40px;
+            transition: all linear .3s;
+            &:hover{
+                background: #333;
+                color: #fff;
+            }
+        }
+    }
+}
+#trades{
+    background: #f5f5f5;
+    padding: 80px 0;
+    margin-bottom: 80px;
+    .trades_img{
+        img{
+            border-radius: 5px;
+        }
+    }
+    .trede_text{
+        padding-top: 60px;
+        h6{
+            @include fs(20px,600,$popi,#336699);
+            margin-bottom: 15px;
+        }
+        h3{
+            @include fs(35px,700,$popi,#333);
+            margin-bottom: 15px;
+        }
+        p{
+            @include fs(14px,400,$popi,#666);
+            line-height: 24px;
+            margin-bottom: 40px;
+        }
+      .trede_btm{
+        margin-bottom: 30px;
+        .btm_icon{
+            text-align: center;
+            svg{
+                fill: #336699;
+                width: 70px;
+                height: 70px;
+            }
+        }
+        .btm_text{
+            padding-top: 10px;
+            h4{
+                @include fs(16px,600,$popi,#666); 
+            }
+        }
+      }
+    }
+}
+#fees{
+    margin-bottom: 80px;
+    .fee_header{
+        h6{
+            @include fs(20px,600,$popi,#336699);
+            margin-bottom: 15px; 
+        }
+        h3{
+            @include fs(35px,700,$popi,#333);
+            margin-bottom: 15px;
+        }
+        p{
+            @include fs(14px,300,$popi,#666);
+        }
+    }
+    .fees{
+        margin-top: 60px;
+        h3{
+            @include fs(90px,800,$popi,#ccc);
+        }
+        h5{
+            @include fs(20px,700,$popi,#333);
+            margin-bottom: 10px;
+        }
+        p{
+            @include fs(14px,400,$popi,#666);
+            padding: 0 165px;
+        }
+    }
+}
+#seller{
+    padding: 70px 0;
+    background: #f5f5f5;
+    margin-bottom: 80px;
+    .seller_text{
+        h6{
+            @include fs(18px,600,$popi,#336699);
+            margin-bottom: 15px;
+        }
+        h3{
+            @include fs(35px,700,$popi,#333);
+            margin-bottom: 15px;
+        }
+        p{
+            @include fs(14px,400,$popi,#666);
+            line-height: 24px;
+            margin-bottom: 40px;
+        }
+        a{
+            @include fs(14px,600,$popi,#333);
+            text-transform: uppercase;
+            position: relative;
+            &::after{
+                @include after_lb(0,-3px,100%,2px,#333);
+                transition: all linear .3s;
+                opacity: 0;
+                transform: scaleX(0);
+            }
+            &:hover{
+                &::after{
+                    opacity: 1;
+                    transform: scaleX(1);
+                }
+            }
+        }
+    }
+    .seller_slider{
+        .seller_items{
+            padding: 30px;
+            background: #fff;
+            .seller_img{
+                text-align: center;
+                img{
+                    width: 100px;
+                    height: 100px;
+                    margin:  0 auto;
+                }
+            }
+            .star{
+                margin: 10px 0;
+                i{
+                    font-size: 13px;
+                    color: #f93;
+                }
+            }
+            p{
+                @include fs(14px,400,$popi,#666);
+                line-height: 24px;
+            }
+            h5{
+                @include fs(14px,600,$popi,#333);
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+            h6{
+                @include fs(14px,300,$popi,#666);
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+#question{
+    margin-bottom: 80px;
+    .question_header{
+        h5{
+            @include fs(18px,600,$popi,#336699);
+        }
+        h2{
+            @include fs(35px,700,$popi,#333);
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+    }
+    .question_wrappr{
+        .question_items{
+            padding-right: 50px;
+            margin-bottom: 50px;
+            h4{
+                @include fs(20px,600,$popi,#333);
+                margin-bottom: 20px;
+            }
+            p{
+                @include fs(14px,400,$popi,#666);
+                line-height: 24px;
+            }
+        }
+    }
+}
+#brand{
+    padding: 60px 0;
+    .brand_text{
+        h3{
+            @include fs(40px,500,$popi,#fff);
+            margin-bottom: 30px;
+        }
+        a{
+            padding: 10px 20px;
+            border: 2px solid #fff;
+            @include fs(13px,700,$popi,#ffff);
+            text-transform: uppercase;
+            transition: all linear .3s;
+            &:hover{
+                background: #fff;
+                color: #336699;
+            }
+        }
+    }
+}
+/*----------- become a vendor area end ------------*/ 

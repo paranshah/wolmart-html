@@ -1,0 +1,130 @@
+@import"../veriables/veriables";
+@import"../mixins/mixins";
+
+#mainproduct-top-banner{
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .banner-top-text-item{
+        display: flex;
+        flex-wrap: wrap;
+
+        li{
+
+            &:first-child a{
+                color: $menu;
+            }
+            a{
+                color: $head;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $popi;
+
+                i{
+                    font-size: 12px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    color: $menu;
+                }
+            }
+
+        }
+    }
+
+    .hover-img{
+
+
+        .hover-right{
+
+            transition: all linear 0.3s;
+
+            &:hover .main-hover-img{
+                opacity: 1;
+            }
+
+            .main-hover-img{
+                position: absolute;
+                text-align: center;
+                right: 0;
+                bottom: -150px;
+                width: 120px;
+                height: 138px;
+                padding: 10px 10px 10px 10px;
+                background: #fff;
+                transition: all linear 0.3s;
+                opacity: 0;
+
+                img{
+                    position: absolute;
+                    left: 5px;
+                    top: 5px;                    
+                }
+
+                h4{
+                    text-align: center;
+                    position: absolute;
+                    bottom: 5px;
+                    font-family: $popi;
+                    font-size: 11px;
+                    font-weight: 400;
+                    color: $head;
+                }
+            }
+        }        
+
+        .hover-left{
+            transition: all linear 0.3s;
+
+            &:hover .main-hover-img{
+                opacity: 1;
+            }
+
+            .main-hover-img{
+                position: absolute;
+                text-align: center;
+                left: 0;
+                bottom: -150px;
+                width: 120px;
+                height: 138px;
+                padding: 10px 10px 10px 10px;
+                background: #fff;
+                transition: all linear 0.3s;
+                opacity: 0;
+
+                img{
+                    position: absolute;
+                    left: 5px;
+                    top: 5px;                    
+                }
+
+                h4{
+                    text-align: center;
+                    position: absolute;
+                    bottom: 5px;
+                    font-family: $popi;
+                    font-size: 11px;
+                    font-weight: 400;
+                    color: $head;
+                }
+            }
+        }
+
+        a{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 1px solid $buttonb;
+            text-align: center;
+            margin-left: 8px;
+            position: relative;
+
+            i{
+                line-height: 30px;
+                font-size: 15px;
+                color: $head;
+            }
+        }
+    }
+
+
+}

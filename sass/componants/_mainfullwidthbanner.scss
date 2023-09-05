@@ -1,0 +1,54 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+#manin-fullwidthbanner{
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+    .shop-main-banner-text{
+
+        h3{
+            font-size: 28px;
+            font-family: $popi;
+            font-weight: 700;
+            color: $head;
+            
+            span{
+                color: $ones;
+                font-weight: 700;
+            }
+
+        }
+
+        h1{
+
+            margin-top: 10px;
+            font-size: 55px;
+            font-family: $popi;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        a{
+            padding: 17px 33px;
+            border: 1px solid $head;
+            margin-top: 25px;
+            font-family: $popi;
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+            transition: all linear 0.3s;
+            background: $head;
+
+            &:hover{
+                background: transparent;
+                color: $head;
+            }
+
+            i{
+                font-size: 15px;
+                margin-left: 10px;
+            }
+        }
+    }
+}

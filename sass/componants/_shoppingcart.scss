@@ -1,0 +1,425 @@
+@import"../veriables/veriables";
+@import"../mixins/mixins";
+
+#shoppingcart{
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+    .shoppingcart-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+        ul{ 
+            display: flex;
+            li{
+                a{
+
+                    font-size: 20px;
+                font-family: $popi;
+                color: $pera;
+                font-weight: 700;
+                transition: all linear 0.3s;
+
+                &:hover{
+                    color: $ones;
+                }
+
+                }
+
+                i{
+                    margin-right: 20px;
+                    margin-left: 20px;
+                    color: $buttonb;
+                }
+            }
+        }
+    }
+
+    .quantity-cart{
+        display: flex;
+        justify-content: center;
+        ul{
+            display: flex;
+            
+            li{
+                &:nth-child(2){
+                    margin-left: 520px;
+                    margin-right: 100px;
+                }
+                &:nth-child(3){
+                    margin-right: 100px;
+                }
+                
+
+                a{
+                    font-family: $popi;
+                    color: $head;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .quantity-cart-product{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        border-bottom: 1px solid $buttonb;
+
+
+        .quantity-cart-product-img{
+            position: relative;
+            width: 25%;
+            img{
+                width: 100%;
+                transform: scale(0.5);
+            }
+            
+            a{
+                position: absolute;
+                left: 153px;
+                top: 53px;
+                width: 20px;
+                height: 20px;
+                background: $buttonb;
+                line-height: 20px;
+                text-align: center;
+                border-radius: 50%;
+
+                i{
+                    font-size: 15px;
+                    color: $head;
+                }
+            }
+        }
+
+        .quantity-cart-product-text{
+            p{
+                font-size: 13px;
+                font-family: $popi;
+                font-weight: 400;
+                color: $head;
+            }
+        }
+
+        .quantity-cart-product-price{
+
+            h5{
+                color: $pera;
+                font-size: 18px;
+                font-family: $popi;
+                font-weight: 600;
+
+            }
+        }
+
+        .quantity-cart-product-plus{
+
+            a{
+                padding: 10px 20px;
+                border: 1px solid $buttonb;
+                span{
+                    margin-right: 25px;
+                    color: $pera;
+                font-size: 12px;
+                font-family: $popi;
+                font-weight: 600;
+                }
+                i{
+                    margin-left: 10px;
+                    width: 25px;
+                    height: 25px;
+                    background: $buttonb;
+                    line-height: 25px;
+                    text-align: center;
+                    border-radius: 50%;
+                    color: $pera;
+                    font-size: 12px;
+
+                }
+            }
+        }
+
+        .quantity-cart-product-price2{
+            h5{
+                color: $head;
+                font-size: 18px;
+                font-family: $popi;
+                font-weight: 600;
+            }
+
+        }
+    }
+
+    .product-cart-button{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+
+        .product-cart-button-one{
+            button{
+                padding: 10px 25px;
+                background: $head;
+                color: #fff;
+                font-size: 16px;
+                font-family: $popi;
+                font-weight: 600;
+                border: none;
+
+                i{
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .product-cart-button-two{
+
+            button{
+                padding: 10px 20px;
+                border: 1px solid $buttonb;
+                color: $head;
+                font-size: 16px;
+                font-family: $popi;
+                font-weight: 600;
+                background: transparent;
+                margin-left: 30px;
+            }
+
+            .buttontwo{
+                padding: 10px 20px;
+                border: 1px solid $buttonb;
+                color: $pera;
+                font-size: 16px;
+                font-family: $popi;
+                font-weight: 600;
+            }
+        }
+
+    }
+
+    .coupon-cod-item{
+        padding-top: 80px;
+        h3{
+            color: $head;
+                font-size: 20px;
+                font-family: $popi;
+                font-weight: 600;
+        }
+
+        form{
+            margin-top: 30px;
+            input{
+                border-top: none;
+                outline: none;
+                border-left: none;
+                border-right: none;
+                padding: 15px;
+                border-bottom: 1px solid $buttonb;
+                width: 100%;
+            }
+        }
+
+        button{
+            margin-top: 30px;
+            padding: 10px 25px;
+                transition: all linear 0.3s;
+                color: $head;
+                font-size: 16px;
+                font-family: $popi;
+                font-weight: 600;
+                border: 1px solid $head;
+
+                &:hover{
+                    background: $head;
+                    color: #fff;
+                }
+        }
+    }
+
+    .cart-totals-item{
+
+        padding: 20px 20px;
+        border: 1px solid $buttonb;
+
+        h2{
+            font-size: 20px;
+            font-family: $popi;
+            color: $head;
+            font-weight: 700;
+        }
+
+        .totals-price{
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-top: 30px;
+            padding-bottom: 20px;
+            h4{
+                font-size: 16px;
+            font-family: $popi;
+            color: $head;
+            font-weight: 600;
+            }
+        }
+
+        .totals-checkbox{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid $buttonb;
+            border-top: 1px solid $buttonb;
+            
+            h5{
+                font-size: 16px;
+                font-family: $popi;
+                color: $head;
+                font-weight: 600;
+            }
+
+            ul{
+                margin-top: 20px;
+
+                li{
+                    font-size: 14px;
+                    color: $pera;
+                    font-family: $popi;;
+                font-weight: 400;
+                line-height: 30px;
+
+                input{
+                    margin-right: 20px;
+                }
+
+                }
+            }
+
+            h4{
+                font-size: 16px;
+                font-family: $popi;
+                color: $pera;
+                font-weight: 400;
+
+                span{
+                    font-weight: 600;
+                }
+            }
+
+            .dropdown{
+
+                margin-top: 25px;
+
+                .btn {
+
+                    font-weight: 400;
+                    color: $pera;
+                    font-family: $popi;
+                    width: 100%;
+                    
+                } 
+
+                .dropdown-toggle::after {
+                    display: inline-block;
+                    margin-left: 80px;
+                    vertical-align: .255em;
+                    content: "";
+                    border-top: .3em solid;
+                    border-right: .3em solid transparent;
+                    border-bottom: 0;
+                    border-left: .3em solid transparent;
+                }
+
+                .btn-secondary {
+                    color: $pera;
+                    background-color: transparent;
+                    border-color: $buttonb;
+                }
+            }
+
+            .totals-checkbox-two{
+                .dropdown{
+
+                    margin-top: 25px;
+    
+                    .btn {
+    
+                        font-weight: 400;
+                        color: $pera;
+                        font-family: $popi;
+                        width: 100%;
+                        
+                    } 
+    
+                    .dropdown-toggle::after {
+                        display: inline-block;
+                        margin-left: 147px;
+                        vertical-align: .255em;
+                        content: "";
+                        border-top: .3em solid;
+                        border-right: .3em solid transparent;
+                        border-bottom: 0;
+                        border-left: .3em solid transparent;
+                    }
+    
+                    .btn-secondary {
+                        color: $pera;
+                        background-color: transparent;
+                        border-color: $buttonb;
+                    }
+                }
+            }
+
+            form{
+                input{
+                    margin-top: 25px;
+                    width: 100%;
+                    padding: 10px 20px;
+                    font-weight: 400;
+                        color: $pera;
+                        font-family: $popi;
+                        width: 100%;
+                        outline: none;
+                        border: 1px solid $buttonb;
+                }
+            }
+
+            button{
+                    margin-top: 30px;
+                    padding: 10px 25px;
+                    -webkit-transition: all linear 0.3s;
+                    transition: all linear 0.3s;
+                    color: #333;
+                    font-size: 16px;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 600;
+                    border: 1px solid #333;
+                    background: transparent;
+
+                    &:hover{
+                        background: $head;
+                        color: #fff;
+                    }
+                
+            }
+
+
+        }
+
+        button{
+                width: 100%;
+                margin-top: 30px;
+                    padding: 10px 25px;
+                    -webkit-transition: all linear 0.3s;
+                    transition: all linear 0.3s;
+                    color: #ffff;
+                    font-size: 16px;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 500;
+                    border: 1px solid #333;
+                    background: $head;
+        }
+
+    }
+    
+
+}

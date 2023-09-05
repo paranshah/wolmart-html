@@ -1,0 +1,4800 @@
+/* X-Small part start========================= */
+
+@media(max-width:575.99px){
+
+    /* top menu part start========================== */
+
+	.search-fix{
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		z-index: 9999;	
+	}
+
+	.search-barfix{
+		display: none;
+	}
+
+    #search {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    #top-menu .top-menupera p {
+
+        text-align: center;
+    }
+
+    #top-menu .menu-link {
+        display: none;
+    }
+
+    #top-menu .top-main-menu .top-menu-text {
+
+        justify-content: center;
+    }
+    
+     /* top menu part end========================== */
+
+     /* search part start======================================*/
+
+     #search .search-bar .wrapper .search_box .dropdown {
+        display: none;
+    }
+
+    #search .search-all-icon {
+        display: none;
+    }
+
+    #search .search-bar .wrapper .search_box {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    #search .logo img {
+        width: 50%;
+    }
+
+    
+/* search part end============================================================= */
+
+/* Compare area start================================== */
+
+
+
+/* ===============================Compare area end */
+
+/* bannerwithsidebar part start=========================================================================== */
+
+.all-saidebar-item{
+	display: none;
+}
+
+
+#bannerwithsidebar .shop-main-banner .shop-main-banner-text h3 {
+	font-size: 19px;
+}
+#bannerwithsidebar .shop-main-banner .shop-main-banner-text h1 {
+
+	font-size: 40px;
+}
+
+#bannerwithsidebar-bottom .border-sidebar .bannerwithsidebar-bottom-allproduct .bannerwithsidebar-bottom-product {
+	margin-top: 38px;
+}
+
+.bannerwithsidebar-product-bottom{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#bannerwithsidebar-product .bannerwithsidebar-product-page-n {
+	
+	justify-content: center;
+}
+
+#bannerwithsidebar-product .bannerwithsidebar-product-toggler .sidebar-toggler a i {
+	
+	display: none;
+}
+
+#bannerwithsidebar-product .bannerwithsidebar-product-toggler .sidebar-toggler a .last {
+	display: none;
+}
+
+
+#bannerwithsidebar-product .bannerwithsidebar-product-toggler {
+    margin-top: 20px;
+	justify-content: start;
+}
+
+#bannerwithsidebar-product .bannerwithsidebar-product-toggler {
+	margin-top: 20px;
+	justify-content: start;
+	display: none;
+}
+
+#bannerwithsidebar-product .bannerwithsidebar-product-head-button .dropdown .dropdown-toggle::after {
+	margin-left: 17px;
+}
+
+#bannerwithsidebar-product .bannerwithsidebar-product-head-button .dropdown .btn-secondary {
+	width: 134px;
+}
+
+#bannerwithsidebar-product .bannerwithsidebar-product-filter h4 {
+	display: none;
+}
+
+#bannerwithsidebar-product .bannerwithsidebar-product-head-button h5 {
+	display: none;
+}
+
+/* bannerwithsidebar part end============================================================================== */
+ 
+/* ========================== banner area start ================================== */
+#banner .banner_items img{
+	height: 500px;
+	object-fit: cover;
+}
+#banner .banner_slider .banner_items .banner_text1 {
+	top: 150px;
+	right: 30px;
+}
+#banner .banner_slider .banner_items .banner_text1 h2 {
+	font-size: 50px;
+}
+#banner .banner_slider .banner_items .banner_text1 h4 {
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 40px;
+	margin-bottom: 12px;
+}
+#banner .banner_slider .banner_items .banner_text1 h3 {
+	font-size: 23px;
+	margin-bottom: 20px;
+}
+#banner .banner_slider .banner_items .banner_text1 a {
+	font-size: 15px;
+	padding: 8px 15px;
+}
+#banner .banner_slider .banner_text2 {
+	top: 100px;
+	left: 30px;
+}
+#banner .banner_slider .banner_text2 h2 {
+	font-size: 30px;
+}
+#banner .banner_slider .banner_text2 h3 {
+	font-size: 27px;
+}
+#banner .banner_slider .banner_text2 a {
+	font-size: 15px;
+	padding: 10px 20px;
+}
+#banner .banner_slider .banner_text3 {
+	left: 20px;
+	top: 150px;
+}
+#banner .banner_slider .banner_text3 h3 {
+	font-size: 35px;
+	margin-bottom: 25px;
+}
+#banner .banner_slider .banner_text3 a {
+	font-size: 15px;
+}
+#banner .banner_slider .banner_text3 .sale_logo {
+	position: absolute;
+	right: -210px;
+	bottom: -185px;
+}
+#banner .banner_slider .banner_text3 .sale_logo img {
+	-webkit-transform: scale(0.6);
+	transform: scale(0.4);
+	object-fit: none;
+}
+/* ========================== banner area end ================================== */
+
+/* ========================== Support area start ================================== */
+#support .support_wrapper .support_text {
+	text-align: center;
+}
+#support .support_wrapper .EIAR::after {
+  	display: none;
+}
+/* ========================== Support area end ================================== */
+
+/* ========================== Service area start ================================== */
+#service .service_slider .service_inner {
+	margin: 0 auto;
+}
+/* ========================== Service area end ================================== */
+
+/* ========================== bigsale area start ================================== */
+#bigsale {
+	margin: 30px 0;
+}
+#bigsale .bigsale_wrapper {
+	background-position: left;
+}
+#bigsale .bigS_left_text{
+	flex-wrap: wrap;
+} 
+#bigsale .bigsale_wrapper .bigS_left_text h5 {
+	font-size: 20px;
+	margin-top: 15px;
+	margin-left: 0;
+	margin-bottom: 5px;
+}
+#bigsale .bigsale_wrapper .bigS_left_text h5::before {
+	bottom: -3px;
+}
+#bigsale .bigsale_wrapper .bigS_right_text {
+	flex-wrap: wrap;
+	justify-content: start;
+}
+#bigsale .bigsale_wrapper .bigS_right_text h5 {
+	font-size: 16px;
+}
+#bigsale .bigsale_wrapper .bigS_right_text a {
+	padding: 10px 15px;
+	margin-left: 0;
+	margin-top: 20px;
+}
+
+/* ========================== bigsale area end ================================== */
+
+/* ========================== Dealsday area start ================================== */
+#dealsday {
+	margin-bottom: 30px;
+}
+#dealsday .deals-pday-head .deals-pday-head-text {
+	flex-wrap: wrap;
+}
+#dealsday .deals-pday-head .deals-pday-head-text .deals-pday-head-counter {
+	flex-wrap: wrap;
+}
+#dealsday .deals-pday-head .deals-pday-head-text .deals-pday-head-counter .deals-main-counter {
+	margin-left: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#dealsday .dealsday_slider .deals_items .deals_inner {
+	margin: 0 auto;
+	width: 100%;
+}
+#dealsday .owl-theme .owl-nav.disabled + .owl-dots {
+	margin: 0 auto;
+}
+#dealsday .dealsday_slider .deals_items .deals_inner .deals_icon {
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100px;
+	padding: 3px 0;
+}
+#dealsday .dealsday_slider .deals_items .deals_inner .deals_icon a i {
+	font-size: 11px;
+}
+#dealsday .dealsday_slider .deals_items .deals_inner:hover .deals_icon {
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 140px;
+}
+/* ========================== Dealsday area end ================================== */
+
+/* ========================== growingprud area start ================================== */
+#growingprud .wrapper {
+	padding: 20px 20px;
+}
+#growingprud .wrapper .head_text h4 {
+	padding-right: 0;
+}
+#growingprud .wrapper .best_selling {
+	margin-bottom: 20px;
+}
+#growingprud .wrapper .head_text h3 {
+	font-size: 21px;
+}
+#growingprud .wrapper .head_text h4 {
+	line-height: 22px;
+}
+#growingprud .wrapper .best_selling .vendor_slider .slider_inner .overlay a {
+	line-height: 18px;
+	font-size: 13px;
+}
+/* ========================== growingprud area end ================================== */
+
+/* ========================== trend area start ================================== */
+#trand {
+	margin: 30px 0;
+}
+#trand .trand_slider .trand_inner .trand_img img {
+	border-radius: 0;
+}
+#trand .trand_slider .trand_inner .trand_text {
+	top: 10px;
+	left: 20px;
+}
+#trand .trand_slider .trand_inner .trand_text h3 {
+	font-size: 20px;
+}
+#trand .trand_slider .trand_inner .trand_text h4 {
+	font-size: 18px;
+}
+/* ========================== trend area end ================================== */
+
+/* ========================== clotheapprel area start ================================== */
+#clotheapprel{
+	margin: 20px;
+}
+#clotheapprel .cna_left {
+	margin-bottom: 20px;
+	text-align: center;
+}
+#clotheapprel .cna_right .cna_slider .cna_right_inner .cna_items .cna_icon {
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100px;
+	padding: 3px 0;
+}
+#clotheapprel .cna_right .cna_slider .cna_right_inner .cna_items .cna_img a {
+	display: block;
+}
+#clotheapprel .cna_right .cna_slider .cna_right_inner .cna_items .cna_icon a i {
+	font-size: 11px;
+}
+#clotheapprel .cna_right .cna_slider .cna_right_inner .cna_items:hover .cna_icon {
+	bottom: 130px;
+}
+/* ========================== clotheapprel area end ================================== */
+
+/* ========================== fashionelect area start ================================== */
+#fashionelect {
+	margin: 30px 0;
+}
+#fashionelect .fne_wrapper .fne_inner img {
+	height: 150px;
+	object-fit: cover;
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text {
+	left: 20px;
+	top: 20px;
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text h3 {
+	font-size: 22px;
+	margin-bottom: 0;
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text h4 {
+	font-size: 25px;
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text img {
+	-webkit-transform: scale(0.5);
+	transform: scale(0.3);
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text a {
+	margin-top: 20px;
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text img {
+	transform: scale(0.3);
+	right: -50px;
+	top: -7px;
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text .fnersle {
+	right: -100px;
+}
+#fashionelect .fne_wrapper .fne_inner {
+	margin-bottom: 20px;
+}
+/* ========================== fashionelect area end ================================== */
+
+/* ========================== electronics area start ================================== */
+#electronics {
+	margin: 30px 0;
+}
+#electronics .elect_left {
+	text-align: center;
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_icon {
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100px;
+	padding: 3px 0;
+}
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_icon a i {
+	font-size: 11px;
+}
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_img a{
+	display: block;
+}
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items:hover .elect_icon {
+	opacity: 1;
+	bottom: 130px;
+}
+/* ========================== electronics area end ================================== */
+
+/* ========================== fridaysale area end ================================== */
+#fridaysale {
+	margin: 0;
+}
+#fridaysale .fridaysale_inner .saleimg img {
+	height: 180px;
+}
+#fridaysale .fridaysale_inner .sale_text h3 {
+	font-size: 30px;
+	line-height: 24px;
+}
+#fridaysale .fridaysale_inner .sale_text h4 {
+	font-size: 35px;
+	margin-top: 15px;
+}
+/* ========================== fridaysale area end ================================== */
+
+/* ========================== giftgade area start ================================== */
+#giftgade{
+	margin: 30px 0;
+}
+#giftgade .giftgad_left {
+	padding: 20px 5px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+#giftgade .giftgad_right .giftgad_slider .giftgad_right_inner .giftgad_items .giftgad_icon {
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100px;
+	padding: 3px 0;
+}
+#giftgade .giftgad_right .giftgad_slider .giftgad_right_inner .giftgad_items .giftgad_icon a i {
+	font-size: 11px;
+}
+#giftgade .giftgad_right .giftgad_slider .giftgad_right_inner .giftgad_items .giftgad_img a{
+	display: block;
+}
+#giftgade .giftgad_right .giftgad_slider .giftgad_right_inner .giftgad_items:hover .giftgad_icon {
+	bottom: 130px;
+}
+/* ========================== giftgade area end ================================== */
+
+/* ========================== client area start ================================== */
+#client {
+	margin: 0;
+}
+#client .client_slider .client_inner {
+	margin: 0 auto;
+}
+/* ========================== client area end ================================== */
+
+/* ========================== wolmartporduct area start ================================== */
+#wolmartporduct {
+	margin: 30px 0;
+}
+#wolmartporduct .Wproduct_header{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#wolmartporduct .product_buttton {
+	text-align: center !important;
+}
+#wolmartporduct .product_buttton button {
+	margin: 5px 20px;
+}
+#wolmartporduct .product_wrapper {
+	justify-content: center;
+}
+#wolmartporduct .product_wrapper .product_items .product_inner {
+	width: 140px;
+	display: inline-block;
+	margin: 10px 4px;
+}
+#wolmartporduct .product_wrapper .product_items .product_inner .product_icon {
+	width: 100px;
+	padding: 3px 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 10px;
+}
+#wolmartporduct .product_wrapper .product_items .product_inner:hover .product_icon {
+	bottom: 140px;
+}
+#wolmartporduct .product_wrapper .product_items .product_inner .product_icon a i {
+	font-size: 11px;
+}
+#wolmartporduct .product_wrapper .product_items .product_inner .product_text a {
+	line-height: 18px;
+}
+#wolmartporduct .product_wrapper .product_items .product_inner .product_text .product_star {
+	margin-bottom: 0;
+	margin-top: -5px;
+}
+/* ========================== wolmartporduct area end ================================== */
+
+/* ========================== recentview area stat ================================== */
+#recentview {
+	margin-top: 0;
+	margin-bottom: 50px;
+}
+#recentview .recentview_slider .view_items .items_inner {
+	margin: 0 auto;
+}
+/* ========================== recentview area end ================================== */
+
+/* ========================== blogbred area start ================================== */
+#blogbred .bred_text {
+	padding: 30px 0;
+}
+/* ========================== blogbred area end ================================== */
+
+/* ========================== blogbredBtm area start ================================== */
+#blogbredBtm .btm_inner .bred_btm_text {
+	padding: 10px 0;
+}
+#blogbredBtm {
+	margin-bottom: 20px;
+}
+/* ========================== blogbredBtm area end ================================== */
+
+/* ========================== about page start ================================== */
+#about {
+	margin-bottom: 30px;
+}
+#about .about_header {
+	padding: 0;
+	margin-top: 0;
+}
+#about .about_header h2 {
+	font-size: 22px;
+}
+#about .about_header p {
+	line-height: 22px;
+	margin-top: 15px;
+	padding: 0 0px;
+}
+#about .about_img {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+#about .service .service_text h3 {
+	font-size: 21px;
+	text-align: center;
+}
+#about .service .service_text {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+#about .service .service_text .serv_accordion .accordion .accordion-item h2 .accordion-button {
+	font-size: 16px;
+}
+#about .service .service_text .serv_accordion .accordion .accordion-item .accordion-body p {
+	line-height: 22px;
+}
+#about .about_counter {
+	margin: 30px 0;
+}
+#boost {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+#boost .boost_text {
+	padding-top: 20px;
+}
+#boost .boost_text h3 {
+	font-size: 18px;
+	text-align: center;
+}
+#boost .boost_text p {
+	font-size: 13px;
+	line-height: 22px;
+	margin-top: 15px;
+}
+#boost .boost_text a {
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+#award {
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+#award .award_head {
+	margin-bottom: 30px;
+}
+#leader .leader_header p {
+	line-height: 22px;
+	padding: 0;
+}
+#leader {
+	margin-bottom: 40px;
+}
+/* ========================== about page end ================================== */
+
+/* ---------------------- account page start --------------------------------- */
+#account .tab_content{
+	margin-top: 50px;
+}
+/* ---------------------- account page end --------------------------------- */
+
+/* ---------------------- blog page start --------------------------------- */
+#blog{
+	margin-bottom: 40px;
+}
+#blog .blog_wrapper .blog_right_wrapper .blog_right .categories {
+	text-align: center;
+}
+#blog .blog_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table tbody tr td span {
+	margin-right: 0;
+}
+#blog .blog_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table tbody tr td {
+	text-align: center;
+}
+#blog .blog_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table thead tr th {
+	text-align: center;
+}
+/* ---------------------- blog page end --------------------------------- */
+
+/* ---------------------- bloggrid page end --------------------------------- */
+#bloggrid .grid_nav .grid_button button {
+	margin-bottom: 15px;
+}
+#bloggrid .grid_items_wrapper .blog_right_wrapper .blog_right .categories {
+	text-align: center;
+}
+/* ---------------------- bloggrid page end --------------------------------- */
+
+/* ---------------------- bloglist page start --------------------------------- */
+#bloglist .blog_wrapper .blog_right_wrapper .blog_right .categories {
+	text-align: center;
+}
+/* ---------------------- bloglist page end --------------------------------- */
+
+/* ---------------------- maskgrid page start --------------------------------- */
+#maskgrid .mask_nav .mask_button button {
+	margin-bottom: 15px;
+}
+#maskgrid .mask_arrow .pagination li a {
+	margin: 0 3px;
+}
+#maskgrid .grid_items_wrapper .mask_inner:hover .grid_text .inner_text {
+	margin-bottom: -13px;
+}
+/* ---------------------- maskgrid page end --------------------------------- */
+
+/* ---------------------- blogsingle page start --------------------------------- */
+#blogsingle{
+	margin-bottom: 40px;
+}
+#blogsingle .single_left .left_top .top_text .heading a {
+	font-size: 25px;
+}
+#blogsingle .single_left .left_middle .middle_top .middle_tt .middle_btn a {
+	margin-bottom: 15px;
+}
+#blogsingle .single_left .left_middle .middle_top .middle_tt .middle_icon {
+	margin-bottom: 0;
+	text-align: center;
+}
+#blogsingle .single_left .single_comment .images {
+	margin-bottom: 20px;
+}
+#blogsingle .post_text {
+	margin-bottom: 30px;
+}
+#blogsingle .single_left .related_post {
+	margin-bottom: 0;
+}
+#blogsingle .single_right_wrapper .single_right .categories {
+	text-align: center;
+}
+#blogsingle .single_left .single_leftbtm form input {
+	margin-bottom: 10px;
+}
+#blogsingle .single_right_wrapper .single_right .calender .calder_inner .table table tbody tr td span {
+	margin-right: 0;
+}
+#blogsingle .single_right_wrapper .single_right .calender .calder_inner .table table thead tr th {
+	text-align: center;
+}
+#blogsingle .single_right_wrapper .single_right .calender .calder_inner .table table tbody tr td {
+	text-align: center;
+}
+/* ---------------------- blogsingle page end --------------------------------- */
+
+/* ---------------------- elements page start --------------------------------- */
+#elements .elements_icon .iconItem {
+	width: 48%;
+	padding: 25px 0;
+}
+/* ---------------------- elements page end --------------------------------- */
+
+/* ---------------------- bloggrid page start --------------------------------- */
+#bloggrid .grid_items_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table thead tr th {
+	text-align: center;
+}
+#bloggrid .grid_items_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table tbody tr td {
+	text-align: center;
+}
+#bloggrid .grid_items_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table tbody tr td span {
+	margin-right: 0;
+}
+/* ---------------------- bloggrid page end --------------------------------- */
+
+/* ---------------------- store page start --------------------------------- */
+#store {
+	margin: 40px 0;
+}
+#store .store_text {
+	padding-top: 0;
+	padding-right: 0;
+}
+#store .store_text h3 {
+	font-size: 33px;
+}
+#store .store_text a {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#trades {
+	background: #f5f5f5;
+	padding: 0;
+	margin-bottom: 0;
+}
+#trades .trede_text {
+	padding-top: 30px;
+}
+#trades .trede_text .trede_btm .btm_text {
+	text-align: center;
+}
+#trades .trede_text h3 {
+	font-size: 33px;
+}
+#fees {
+	margin-bottom: 30px;
+}
+#fees .fee_header h3 {
+	font-size: 33px;
+}
+#fees .fees {
+	margin-top: 30px;
+}
+#fees .fees p {
+	padding: 0;
+}
+#seller {
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+#seller .seller_text p {
+	margin-bottom: 10px;
+}
+#seller .seller_text a {
+	margin-bottom: 30px;
+}
+#question {
+	margin-bottom: 0px;
+}
+#question .question_header h2 {
+	font-size: 33px;
+}
+#brand {
+	margin-bottom: 50px;
+}
+/* ---------------------- store page end --------------------------------- */
+
+/* ---------------------- list1 page start --------------------------------- */
+#list1 .list1_headerR {
+	margin-top: 20px;
+	justify-content: center;
+}
+#list1 .list_items {
+	margin-top: 40px;
+}
+#list1 .list_items .listitems_top .lsit_text {
+	left: 15px;
+	top: 15px;
+}
+#list1 .list_items .listitems_top .lsit_text h5 {
+	margin-bottom: 2px;
+}
+#list1 .list_items .listitems_top .lsit_text .list_start {
+	margin-top: 8px;
+}
+
+/* ---------------------- list1 page end --------------------------------- */
+
+/* ---------------------- storelist2 page start --------------------------------- */
+#storelist2 .right .list_items .vendr_brand {
+	bottom: 75px;
+	width: 70px;
+	height: 70px;
+}
+#storelist2 .right .list_items .vendr_shape {
+	bottom: 75px;
+	width: 70px;
+	height: 70px;
+}
+#storelist2 .right .list_items .listitems_btm a {
+	margin-top: 20px;
+}
+#storelist2 .right .list_items:hover .vendr_brand {
+	bottom: 69px;
+}
+#storelist2 .right .list_items .listitems_top .lsit_text {
+	left: 20px;
+	top: 10px;
+}
+#storelist2 .right .list_items .listitems_top .lsit_text h5 {
+	margin-bottom: 3px;
+}
+#storelist2 .right .list_items {
+	margin-top: 40px;
+}
+/* ---------------------- storelist2 page end --------------------------------- */
+
+/* ---------------------- storelist2 page end --------------------------------- */
+#storebreadcumb .bread_wrapper .storebred_header a {
+	font-size: 13px;
+}
+#storelist3 .form_area form select {
+	margin: 5px 0;
+}
+#storelist3 .form_area input {
+	margin: 10px 0;
+}
+#storelist3 .list_wrapper .items_inner .img img {
+	object-fit: cover;
+}
+#storelist3 .list_wrapper .items_inner .text {
+	text-align: center;
+}
+#storelist3 .list_wrapper .items_inner .text .inner_text .start {
+	justify-content: center;
+}
+#storelist3 .list_wrapper .items_inner .text .inner_text a {
+	margin-top: 5px;
+}
+/* ---------------------- storelist2 page end --------------------------------- */
+
+/* ---------------------- storelist4 page start --------------------------------- */
+#storelist4 .list_wrapper .list_inner {
+	margin-bottom: 30px;
+}
+/* ---------------------- storelist4 page end --------------------------------- */
+
+/* ---------------------- vendor page start --------------------------------- */
+#vendor {
+	margin-bottom: 50px;
+}
+#vendor .vendor_left {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+#vendor .vendor_left .catagories ul {
+	text-align: center;
+}
+#vendor .vendor_left .store_time ul {
+	text-align: center;
+}
+#vendor .mdr{
+	align-items: center;
+}
+#vendor .vendor_left .catagories .catagoris_header {
+	justify-content: center;
+}
+#vendor .vendor_left .catagories .catagoris_header h4 {
+	margin-right: 15px;
+}
+#vendor .vendor_left .store_time .storetime_header {
+	justify-content: center;
+}
+#vendor .vendor_left .store_time .storetime_header h4 {
+	margin-right: 15px;
+}
+#vendor .vendor_right .right_img .rt_img {
+	height: 400px;
+	object-fit: cover;
+}
+#vendor .vendor_right .right_img .right_text {
+	width: 100%;
+	padding: 30px 40px;
+	background: none;
+}
+#vendor .vendor_right .right_img .right_text h3 {
+	margin: 15px 0;
+}
+#vendor .vendor_right .product {
+	margin-top: 50px;
+	text-align: center;
+}
+#vendor .vendor_right .produt_wrapper {
+	border: 1px solid #ccc;
+	padding-bottom: 25px;
+}
+/* ---------------------- vendor page end --------------------------------- */
+
+/* ---------------------- vendorlsit2 page start --------------------------------- */
+#vendorlsit2 .vender_top .top_img img {
+	height: 450px;
+	object-fit: cover;
+}
+#vendorlsit2 .vender_top .top_text .brand img {
+	width: 80px;
+	height: 80px;
+}
+#vendorlsit2 .vender_top .top_text .vedor_icons .inqury a {
+	padding: 5px 10px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+#vendorlsit2 .inqury{
+	text-align: left;
+}
+#vendorlsit2 .vendor_left .catagories .catagoris_header {
+	justify-content: center;
+}
+#vendorlsit2 .vendor_left .catagories .catagoris_header h4 {
+	margin-right: 10px;
+}
+#vendorlsit2 .vendor_left .catagories ul li a {
+	text-align: center;
+}
+#vendorlsit2 .vendor_left .store_time .storetime_header {
+	justify-content: center;
+}
+#vendorlsit2 .vendor_left .store_time .storetime_header h4 {
+	margin-right: 10px;
+}
+#vendorlsit2 .vendor_left .store_time ul li {
+	text-align: center;
+}
+#vendorlsit2 .vendor_left .best_selling .selling_inner .selling_items .mdr{
+	align-items: center;
+}
+#vendorlsit2 .nav-tabs {
+	justify-content: center;
+}
+#vendorlsit2 .vend_right .vend_nav .nav-item button {
+	margin-bottom: 10px;
+}
+#vendorlsit2 .vend_right .tab-content .tab-pane .review_btm .btm_head .review_star {
+	margin-right: 0;
+	padding-bottom: 0;
+}
+/* ---------------------- vendorlsit2 page end --------------------------------- */
+
+/* ---------------------- vendorlsit3 page start --------------------------------- */
+#vendorlist3 .vendor_left .catagories ul li {
+	text-align: center;
+}
+#vendorlist3 .mdr{
+	align-items: center;
+}
+#vendorlist3 .vendor_right .right_img img{
+	height: 400px;
+	object-fit: cover;
+}
+#vendorlist3 .vendor_right .right_img .text h5 {
+	text-align: center;
+}
+#vendorlist3 .nav-tabs {
+	border-bottom: 1px solid #dee2e6;
+	text-align: center;
+	justify-content: center;
+}
+/* ---------------------- vendorlsit3 page end --------------------------------- */
+
+/* ---------------------- vendorlsit4 page start --------------------------------- */
+#vendorlist4 .vendor_left .catagories .catagoris_header {
+	justify-content: center;
+}
+#vendorlist4 .vendor_left .catagories .catagoris_header h4 {
+	margin-right: 10px;
+}
+#vendorlist4 .vendor_left .catagories ul li {
+	text-align: center;
+}
+/* ---------------------- vendorlsit4 page end --------------------------------- */
+
+/* ---------------------- wishlist page start --------------------------------- */
+#wishlist .wishlist_header {
+	text-align: center;
+}
+#wishlist .name {
+	display: none;
+}
+#wishlist .Product .product_img a img {
+	max-width: 100%;
+}
+#wishlist .Product .product_img a button {
+	right: 5px;
+	top: 5px;
+}
+#wishlist .product_name{
+	text-align: center;
+}
+#wishlist .price{
+	text-align: center;
+}
+#wishlist .stock{
+	text-align: center;
+}
+#wishlist .Product .button .view a {
+	padding: 10px 20px;
+}
+#wishlist .Product .button .cart a {
+	padding: 10px 20px;
+}
+/* ---------------------- wishlist page end --------------------------------- */
+
+/* checkout part start============================================================= */
+
+#checkout .shoppingcart-head ul li a {
+	font-size: 14px;
+}
+
+#checkout .shoppingcart-head ul li i {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+/* checkout part end========================================================================= */
+
+/* comingson part start============================================================= */
+
+#coming-soon .coming-soon-text h1 {
+	font-size: 50px;
+}
+
+#coming-soon .coming-soon-text h1 span {
+	font-size: 75px;
+}
+
+#coming-soon .coming-soon-logo img {
+	width: 40%;
+}
+
+#coming-soon .coming-soon-text p {
+
+	text-align: center;
+}
+
+#coming-soon .coming-soon-counter .countdown-container .countdown-el .big-text {
+	font-size: 27px;
+}
+
+#coming-soon .coming-soon-counter {
+	width: 100%;
+}
+
+#coming-soon .coming-soon-counter .countdown-container .hours-c::before {
+	
+	width: 5px;
+	height: 5px;
+	right: -30%;
+	bottom: 47%;
+}
+
+#coming-soon .coming-soon-counter .countdown-container .hours-c::after {
+	width: 5px;
+	height: 5px;
+	right: -30%;
+	top: 19%;
+}
+
+#coming-soon .coming-soon-counter .countdown-container .days-c::after {
+	width: 5px;
+	height: 5px;
+	right: -40%;
+	top: 19%;
+}
+
+#coming-soon .coming-soon-counter .countdown-container .days-c::before {
+	width: 5px;
+	height: 5px;
+	right: -40%;
+	bottom: 47%;
+}
+
+#coming-soon .coming-soon-counter .countdown-container .mins-c::after {
+	width: 5px;
+	height: 5px;
+	right: -50%;
+	top: 19%;
+}
+
+#coming-soon .coming-soon-counter .countdown-container .mins-c::before {
+	width: 5px;
+	height: 5px;
+	right: -50%;
+	bottom: 47%;
+}
+
+#coming-soon {
+	padding-top: 100px;
+}
+
+/* comingson part end=================================================================  */
+
+/* fullwidthbanner part start=============================================================== */
+
+#manin-fullwidthbanner-bottom-button .bannerwithsidebar-product-toggler {
+	
+	display: none;
+}
+
+#manin-fullwidthbanner {
+	padding-bottom: 30px;
+}
+
+#manin-fullwidthbanner .shop-main-banner-text h3 {
+	font-size: 20px;
+}
+
+#manin-fullwidthbanner .shop-main-banner-text h1 {
+	font-size: 45px;
+}
+
+#manin-fullwidthbanner-bottom-button .bannerwithsidebar-product-head-button h6 {
+
+	display: none;
+}
+
+#manin-fullwidthbanner-bottom-button .bannerwithsidebar-product-head-button .dropdown .btn-secondary {
+	
+	margin-top: 15px;
+}
+
+#manin-fullwidthbanner-bottom-button .bannerwithsidebar-product-page-n {
+	
+	justify-content: center;
+}
+
+/* fullwidthbanner part start=============================================================== */
+
+
+/* mainproduct part start================================================================== */
+
+#show-product .zoom-size button {
+	padding: 8px 6px;
+	margin-right: 5px;
+}
+
+#show-product .zoom-buy .buy-plus {
+	padding: 10px 8px;
+}
+
+#show-product .zoom-buy .addtocart {
+	
+    padding: 10px 15px;
+}
+
+#show-product .zoom-buy .buy-plus .main-plus {
+	margin-left: 50px;
+}
+
+#show-product .zoom-buy .addtocart a {
+	font-size: 14px;
+}
+
+#show-product .zoom-icon .other-icon::after {
+	
+	display: none;
+}
+
+#show-product .zoom-icon .other-icon {
+	margin-left: 0px;
+}
+
+#show-product .product-left {
+	margin-top: 20px;
+}
+
+#show-product .product-left_banner {
+	height: 44%;
+}
+
+#frequently .frequently-all-product-plus .frequently-product-plus input {
+	width: 15px;
+	height: 15px;
+}
+
+#frequently .frequently-cart-button h2 {
+	display: none;
+}
+
+#frequently .frequently-cart-button .cart-button {
+	margin-left: 0px;
+    margin-top: 25px;
+}
+
+#frequently .frequently-cart-button .cart-button span {
+	display: none;
+}
+
+#frequently .frequently-description ul {
+	
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#frequently .frequently-description ul li {
+	font-size: 20px;
+}
+
+#frequently .frequently-description ul li::after {
+	display: none;
+}
+
+#frequently .description-iteam-all .fvideo {
+	
+	display: none;
+}
+
+#frequently .description-iteam-all .description-iteam h2 {
+	display: none;
+}
+
+#frequently .description-iteam-all .description-iteam {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	flex-wrap: wrap;
+}
+
+#frequently .frequently-description ul li {
+	font-size: 14px;
+	cursor: pointer;
+}
+
+#frequently .frequently-description ul .customer-reviewss,
+#frequently .frequently-description ul .vendor-info,
+#frequently .frequently-description ul .specification,
+#frequently .frequently-description ul .descriptionnav {	
+	margin-bottom: 10px;
+}
+
+#frequently .description-iteam-all .description-iteam .fmark p {
+	line-height: 24px;
+}
+
+#frequently .dptext-all {
+	flex-wrap: wrap;
+}
+
+#frequently .dptext-all .dptext {
+	margin-bottom: 35px;
+}
+
+#frequently .more-products-item .more-products-item-head {
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+#frequently .more-products-item .more-products-item-head h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+#frequently .all-more-product .more-product-details ul {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+#frequently .all-more-product .more-product-details {
+	
+	text-align: center;
+}
+
+#frequently .vendor-info-show .vendor-info-reviews {
+	
+	display: none;
+}
+
+
+#frequently .customer-reviews .customer-com {
+	width: 100%;
+	margin-top: 30px;
+}
+
+#frequently .customer-reviews {
+	
+	flex-wrap: wrap;
+}
+
+#frequently .customer-reviews .customer-com .customer-form form label {
+	margin-left: 0px;
+}
+
+#frequently .customer-reviews .customer-rating .customer-ratinggg h4 span {
+	
+	margin-left: 0px;
+}
+
+#frequently .customer-reviews-show .customer-commend-item .customer-commend-menu ul {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#frequently .all-more-product .all-more-product-img h3 a {
+	
+	left: 0;
+}
+
+#frequently .all-more-product .all-more-product-img {
+	text-align: center;
+}
+
+/* mainproduct part star end========================================================= */
+
+/* ordercomplete part start=========================================================== */
+
+#order-complete .shoppingcart-head ul li i {
+	margin-right: 10px;
+	margin-left: 10px;
+	color: #ccc;
+}
+
+#order-complete .shoppingcart-head ul li a {
+	font-size: 14px;
+}
+
+#order-complete .order-details-head h2 {
+	
+	text-align: center;
+}
+
+#order-complete .order-details-product h4 {
+	
+	text-align: center;
+}
+
+#order-complete .address-end-item a {
+	
+	width: 100%;
+	text-align: center;
+}
+
+#order-complete .address-end-item .billing-address h4 {
+	
+	margin-top: 10px;
+}
+
+/* ordercomplete part end======================================== */
+
+/* shop part start==================================================================== */
+
+#shop-banner .shop-main-banner .shop-main-banner-text h1 {
+
+	font-size: 40px;
+}
+
+#shop-product .shop-product-head-all-item {
+	
+	flex-wrap: wrap;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#shop-product .shop-product-head-all-item .shop-product-head-right .shop-right-button a i {
+	display: none;
+}
+
+#shop-product .shop-product-head-all-item .shop-product-head button {
+	
+	margin-bottom: 15px;
+}
+
+#shop-product .shop-product-head-all-item .shop-product-head-right .shop-right-button button {
+	display: none;
+}
+
+#shop-product .shop-product-all-item {
+	
+	text-align: center;
+		margin: 0 auto;
+		margin-bottom: 30px;
+}
+
+#shop-product .shop-product-all-item .shop-product-icon {
+	
+	bottom:80px;
+	opacity: 1;
+}
+
+/* shop part end================================================= */
+
+/* shopping cart part start======================================== */
+
+
+#shoppingcart .shoppingcart-head ul li a {
+	font-size: 14px;
+}
+
+#shoppingcart .shoppingcart-head ul li i {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#shoppingcart .quantity-cart-product .quantity-cart-product-img a {
+	
+	display: none;
+}
+
+#shoppingcart .quantity-cart-product .quantity-cart-product-plus{
+	text-align: center;
+}
+
+#shoppingcart .quantity-cart-product .quantity-cart-product-plus a span {
+	margin-right: 0px;
+}
+
+/* #shoppingcart .quantity-cart-product .quantity-cart-product-plus a {
+	padding: 0px 0px;
+} */
+
+#shoppingcart .quantity-cart-product .quantity-cart-product-plus a i {
+	margin-left: 1px;
+	width: 0px;
+}
+
+#shoppingcart .quantity-cart-product .quantity-cart-product-plus a {
+	padding: 10px 15px;
+	border: 1px solid #ccc;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: baseline;
+}
+
+#shoppingcart .quantity-cart-product {
+	
+	margin-bottom: 20px;
+}
+
+#shoppingcart .quantity-cart-product .quantity-cart-product-price h5 {
+	font-size: 14px;
+}
+
+#shoppingcart .quantity-cart-product .quantity-cart-product-price2 h5 {
+	font-size: 14px;
+}
+
+#shoppingcart .quantity-cart-product .quantity-cart-product-img {
+	width: 50%;
+}
+
+#shoppingcart .product-cart-button .product-cart-button-one button {
+	padding: 14px 10px;
+}
+
+#shoppingcart .product-cart-button .product-cart-button-two button {
+	padding: 10px 20px;
+	margin-bottom: 5px;
+	margin-left: 5%;
+	width: 90%;
+
+}
+
+#shoppingcart .quantity-cart-product {
+	
+	padding-bottom: 20px;
+}
+
+#shoppingcart .coupon-cod-item button {
+	
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/* shopping cart part end======================================== */
+
+
+/* footer part start=============================================================================== */
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .footer-top-item .footer-logo img {
+	width: 55%;
+}
+
+#footer .footer-top-item .footer-email .footer-email-text {
+	margin-left: 0px;
+	margin-top: 20px;
+}
+
+#footer .footer-top-item .footer-email a i {    
+	display: none;
+}
+
+
+
+#footer .footer-middle-item .footer-middle-all-menu-text {
+	
+	margin-top: 30px;
+
+}
+
+#footer .footer-top-item .footer-email {
+	
+	justify-content: center;
+}
+
+
+#footer .footer-top-item .email-box .form {
+	
+	flex-wrap: wrap;
+}
+
+#footer .footer-top-item .email-box .form .footer-eml {
+	
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#footer .footer-top-item .email-box {
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+#footer .footer-top-item .email-box .form .footer-email-btn {
+	
+	width: 100%;
+}
+
+/* #footer .footer-end-item .consumer-electric .consumer-electric-item li::after {
+	display: none;
+} */
+
+#footer .footer-end-item .consumer-electric .consumer-electric-item li {
+	margin-top: 10px;
+    margin-left: 0px;
+}
+#footer .footer-end-item .consumer-electric .consumer-electric-item li:first-child {
+	margin-left: 0px;
+}
+
+#footer .footer-end-item .consumer-electric {
+	
+	margin-top: 25px;
+}
+
+#footer .footer-bottom .footer-bottom-item .footer-bottom-payment {
+	
+	margin-top: 10px;
+}
+
+/* footer part end====================================================================================== */
+
+}
+
+@media (min-width: 420px) and (max-width:575.99px){
+#banner .banRT_img .banRT_text {
+	left: 30px;
+	top: 40px;
+}
+#banner .banRb_img .banRb_text {
+	position: absolute;
+	left: 30px;
+	top: 40px;
+}
+#bigsale .bigS_left_text {
+		align-items: center;
+}
+#bigsale .bigsale_wrapper .bigS_left_text h5 {
+	margin-top: 10px;
+	margin-bottom: 6px;
+	margin-left: 10px;
+}
+#bigsale .bigsale_wrapper .bigS_right_text {
+	flex-wrap: wrap;
+	justify-content: start;
+	display: block;
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text {
+	left: 20%;
+	top: 30%;
+	transform: translateX(-20%) translateY(-30%);
+}
+#dealsday .deals-pday-head .deals-pday-head-text .deals-pday-head-counter {
+	display: block;
+}
+#dealsday .deals-pday-head .deals-pday-head-text .deals-pday-head-more{
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 10px;
+}
+#trand .trand_slider .trand_inner .trand_text {
+	top: 30%;
+	left: 20%;
+	transform: translateX(-20%) translateY(-30%);
+}
+#trand .trand_slider .trand_inner .trand_text h3 {
+	font-size: 25px;
+}
+#trand .trand_slider .trand_inner .trand_text h4 {
+	font-size: 20px;
+}
+#wolmartporduct .product_wrapper .product_items .product_inner {
+	margin: 10px 10px;
+	width: 175px;
+}
+#wolmartporduct .product_wrapper .product_items .product_inner .product_icon {
+	width: 142px;
+	padding: 7px 7px;
+	bottom: 10px;
+}
+#wolmartporduct .product_wrapper .product_items .product_inner .product_icon a i {
+	font-size: 17px;
+}
+#wolmartporduct .product_wrapper .product_items .product_inner:hover .product_icon {
+	bottom: 130px;
+}
+#dealsday .dealsday_slider .deals_items .deals_inner .deals_icon{
+	width: 142px;
+	padding: 7px 7px;
+}
+#dealsday .dealsday_slider .deals_items .deals_inner .deals_icon a i{
+	font-size: 17px;
+}
+#clotheapprel .cna_right .cna_slider .cna_right_inner .cna_items .cna_icon {
+	width: 142px;
+	padding: 7px 7px;
+}
+#clotheapprel .cna_right .cna_slider .cna_right_inner .cna_items .cna_icon a i {
+	font-size: 17px;
+}
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_icon {
+	width: 142px;
+	padding: 7px 7px;
+}
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_icon a i {
+	font-size: 17px;
+}
+#giftgade .giftgad_right .giftgad_slider .giftgad_right_inner .giftgad_items .giftgad_icon {
+	width: 142px;
+	padding: 7px 7px;
+}
+#giftgade .giftgad_right .giftgad_slider .giftgad_right_inner .giftgad_items .giftgad_icon a i {
+	font-size: 17px;
+}
+}
+
+/* X-Small part end========================= */
+
+
+/* Small part start======================================================================================= */
+
+@media (min-width: 575.99px) and (max-width:767.99px){
+
+	/* search part start==================================================================== */
+
+	#search {
+		padding-top: 15px;
+		padding-bottom: 10px;
+	}
+
+	.search-fix{
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		z-index: 9999;	
+	}
+
+	.off-main-menu {
+		width: 64%;
+	}
+
+	.off-bag .off-bag-two {
+		width: 70%;
+	}
+
+	#top-menu .menu-link {
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#top-menu .top-menupera {
+		text-align: center;
+	}
+
+	#top-menu .top-main-menu .top-menu-text {
+		display: none;
+	}
+
+	#search .logo img {
+		width: 70%;
+	}
+
+	#search .off-logo-barr {
+		
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+
+	/* search part end==================================================================== */
+
+/* bannerwithsidebar part start=========================================================================== */
+
+	
+	#bannerwithsidebar-bottom .border-sidebar .bannerwithsidebar-bottom-allproduct .bannerwithsidebar-bottom-product {
+		
+		margin-bottom: 30px;
+	}
+
+	#bannerwithsidebar-product .bannerwithsidebar-product-filter h4 {
+		
+		display: none;
+	}
+
+	#bannerwithsidebar-product .bannerwithsidebar-product-toggler {
+		
+		display: none;
+	}
+
+
+	/* .all-saidebar-item{
+		display: none;
+	} */
+
+	#bannerwithsidebar-product .banner-all-product {
+		text-align: center;
+		width: 50%;
+		left: 50%;
+	}
+
+
+	#bannerwithsidebar-product .all-saidebar-item .sidebar-all-Price .sidebar-all-Price-on {
+
+		width: 50%;
+	}
+
+	#bannerwithsidebar-product .all-saidebar-item .sidebar-all-categories .categories-on {
+		
+		width: 50%;
+	}
+	#bannerwithsidebar-product .all-saidebar-item .sidebar-all-size .sidebar-all-size-off {
+		width: 50%;
+	}
+
+	#bannerwithsidebar-product .all-saidebar-item .sidebar-all-size .sidebar-all-size-on {
+		width: 50%;
+	}
+
+	#bannerwithsidebar-product .all-saidebar-item .sidebar-all-size .sidebar-all-size-item {
+		
+		width: 50%;
+	}
+
+	#bannerwithsidebar-product .all-saidebar-item .sidebar-all-color .sidebar-all-color-on {
+		width: 50%;
+	}
+
+	#bannerwithsidebar-product .all-saidebar-item .sidebar-all-brand .sidebar-all-brand-on {
+		width: 50%;
+	}
+
+	.bannerwithsidebar-product-bottom {
+		position: relative;
+		left: 63%;
+		margin-bottom: 30px;
+	}
+
+	#bannerwithsidebar-product .banner-all-product .banner-product-icon {
+		width: 55%;
+	}
+
+/* bannerwithsidebar part end=========================================================================== */
+
+/* ========================== banner area start ================================== */
+#banner .banner_items img{
+	height: 500px;
+	object-fit: cover;
+}
+#banner .banner_slider .banner_items .banner_text1 {
+	top: 150px;
+	right: 30px;
+}
+#banner .banner_slider .banner_items .banner_text1 h2 {
+	font-size: 60px;
+}
+#banner .banner_slider .banner_items .banner_text1 h4 {
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 40px;
+	margin-bottom: 12px;
+}
+#banner .banner_slider .banner_items .banner_text1 h3 {
+	font-size: 23px;
+	margin-bottom: 20px;
+}
+#banner .banner_slider .banner_items .banner_text1 a {
+	font-size: 15px;
+	padding: 8px 15px;
+}
+#banner .banner_slider .banner_text2 {
+	top: 100px;
+	left: 30px;
+}
+#banner .banner_slider .banner_text2 h2 {
+	font-size: 30px;
+}
+#banner .banner_slider .banner_text2 h3 {
+	font-size: 27px;
+}
+#banner .banner_slider .banner_text2 a {
+	font-size: 15px;
+	padding: 10px 20px;
+}
+#banner .banner_slider .banner_text3 {
+	left: 20px;
+	top: 150px;
+}
+#banner .banner_slider .banner_text3 h3 {
+	font-size: 35px;
+	margin-bottom: 25px;
+}
+#banner .banner_slider .banner_text3 a {
+	font-size: 15px;
+}
+#banner .banner_slider .banner_text3 .sale_logo {
+	position: absolute;
+	right: -210px;
+	bottom: -185px;
+}
+#banner .banner_slider .banner_text3 .sale_logo img {
+	-webkit-transform: scale(0.6);
+	transform: scale(0.4);
+	object-fit: none;
+}
+#banner .banRT_img img{
+	height: 250px;
+	object-fit: cover;
+}
+#banner .banRb_img img{
+	height: 250px;
+	object-fit: cover;
+}
+/* ========================== banner area end ================================== */
+
+/* ========================== Support area start ================================== */
+#support .support_wrapper .support_text {
+	text-align: center;
+}
+#support .support_wrapper .EIAR::after {
+  	display: none;
+}
+/* ========================== Support area end ================================== */
+
+/* ========================== Service area start ================================== */
+#service .service_slider .service_inner {
+	margin: 0 auto;
+}
+/* ========================== Service area end ================================== */
+
+/* ========================== bigsale area start ================================== */
+#bigsale {
+	margin: 30px 0;
+}
+#bigsale .bigsale_wrapper {
+	background-position: left;
+}
+#bigsale .bigS_left_text{
+	flex-wrap: wrap;
+	align-items: center;
+} 
+#bigsale .bigsale_wrapper .bigS_left_text h5 {
+	margin-top: 0;
+	margin-left: 20px;
+	margin-bottom: 0;
+}
+#bigsale .bigsale_wrapper .bigS_left_text h5::before {
+	bottom: -3px;
+}
+#bigsale .bigsale_wrapper .bigS_right_text {
+	display: block;
+}
+#bigsale .bigsale_wrapper .bigS_right_text h5 {
+	font-size: 16px;
+}
+#bigsale .bigsale_wrapper .bigS_right_text a {
+	padding: 10px 15px;
+	margin-left: 0;
+	margin-top: 20px;
+}
+
+/* ========================== bigsale area end ================================== */
+
+/* ========================== Dealsday area start ================================== */
+#dealsday {
+	margin-bottom: 30px;
+}
+#dealsday .deals-pday-head .deals-pday-head-text {
+	flex-wrap: wrap;
+}
+#dealsday .deals-pday-head .deals-pday-head-text .deals-pday-head-counter {
+	display: block;
+}
+#dealsday .deals-pday-head .deals-pday-head-text .deals-pday-head-counter .deals-main-counter {
+	margin-left: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#dealsday .dealsday_slider .deals_items .deals_inner {
+	margin: 0 auto;
+	width: 100%;
+}
+#dealsday .owl-theme .owl-nav.disabled + .owl-dots {
+	margin: 0 auto;
+}
+#dealsday .dealsday_slider .deals_items .deals_inner .deals_icon {
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#dealsday .dealsday_slider .deals_items .deals_inner:hover .deals_icon {
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 120px;
+}
+/* ========================== Dealsday area end ================================== */
+
+/* ========================== growingprud area start ================================== */
+#growingprud .wrapper {
+	padding: 20px 20px;
+}
+#growingprud .wrapper .head_text h4 {
+	padding-right: 0;
+}
+#growingprud .wrapper .best_selling {
+	margin-bottom: 20px;
+}
+#growingprud .wrapper .head_text h3 {
+	font-size: 21px;
+}
+#growingprud .wrapper .head_text h4 {
+	line-height: 22px;
+	padding-right: 100px;
+}
+#growingprud .wrapper .best_selling .vendor_slider .slider_inner .overlay a {
+	line-height: 18px;
+	font-size: 13px;
+}
+/* ========================== growingprud area end ================================== */
+
+/* ========================== trend area start ================================== */
+#trand {
+	margin: 30px 0;
+}
+#trand .trand_slider .trand_inner .trand_img img {
+	border-radius: 0;
+}
+#trand .trand_slider .trand_inner .trand_text {
+	top: 30%;
+	left: 20%;
+	transform: translateY(-30%) translateX(-20%);
+}
+/* ========================== trend area end ================================== */
+
+/* ========================== clotheapprel area start ================================== */
+#clotheapprel{
+	margin: 20px;
+}
+#clotheapprel .cna_left {
+	margin-bottom: 20px;
+	text-align: center;
+}
+#clotheapprel .cna_right .cna_slider .cna_right_inner .cna_items .cna_icon {
+	left: 50%;
+	transform: translateX(-50%);
+}
+#clotheapprel .cna_right .cna_slider .cna_right_inner .cna_items .cna_img a {
+	display: block;
+}
+#clotheapprel .cna_right .cna_slider .cna_right_inner .cna_items:hover .cna_icon {
+	bottom: 120px;
+}
+/* ========================== clotheapprel area end ================================== */
+
+/* ========================== fashionelect area start ================================== */
+#fashionelect {
+	margin: 30px 0;
+}
+#fashionelect .fne_wrapper .fne_inner img {
+	height: 200px;
+	object-fit: cover;
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text {
+	left: 25%;
+	top: 30%;
+	transform: translateX(-25%) translateY(-30%);
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text h3 {
+	font-size: 22px;
+	margin-bottom: 0;
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text h4 {
+	font-size: 25px;
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text img {
+	-webkit-transform: scale(0.5);
+	transform: scale(0.3);
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text a {
+	margin-top: 30px;
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text img {
+	transform: scale(0.3);
+	right: -95px;
+	top: -25px;
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text .fnersle {
+	right: -145px;
+}
+#fashionelect .fne_wrapper .fne_inner {
+	margin-bottom: 20px;
+}
+/* ========================== fashionelect area end ================================== */
+
+/* ---------------------- store page start --------------------------------- */
+#store {
+	margin: 50px 0;
+}
+#store .store_text {
+	padding-top: 0;
+	padding-right: 0;
+}
+#store .store_text a {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+#trades {
+	background: #f5f5f5;
+	padding: 0;
+	margin-bottom: 30px;
+}
+#trades .trede_text {
+	padding-top: 30px;
+}
+#trades .trede_text .trede_btm .btm_text {
+	text-align: center;
+}
+#fees {
+	margin-bottom: 30px;
+}
+#fees .fees {
+	margin-top: 30px;
+}
+#fees .fees p {
+	padding: 0;
+}
+#seller {
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+#seller .seller_text p {
+	margin-bottom: 10px;
+}
+#seller .seller_text a {
+	margin-bottom: 30px;
+}
+#question {
+	margin-bottom: 0px;
+}
+#brand {
+	margin-bottom: 50px;
+}
+/* ---------------------- store page end --------------------------------- */
+
+/* ========================== electronics area start ================================== */
+#electronics {
+	margin: 30px 0;
+}
+#electronics .elect_left {
+	text-align: center;
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_icon {
+	left: 50%;
+	transform: translateX(-50%);
+}
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_img a{
+	display: block;
+}
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items:hover .elect_icon {
+	opacity: 1;
+	bottom: 120px;
+}
+/* ========================== electronics area end ================================== */
+
+/* ========================== fridaysale area end ================================== */
+#fridaysale {
+	margin: 0;
+}
+#fridaysale .fridaysale_inner .saleimg img {
+	height: 250px;
+	object-fit: cover;
+}
+#fridaysale .fridaysale_inner .sale_text h3 {
+	font-size: 40px;
+}
+#fridaysale .fridaysale_inner .sale_text h4 {
+	font-size: 40px;
+	margin-top: 15px;
+}
+/* ========================== fridaysale area end ================================== */
+
+/* ========================== giftgade area start ================================== */
+#giftgade{
+	margin: 30px 0;
+}
+#giftgade .giftgad_left {
+	padding: 20px 5px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+#giftgade .giftgad_right .giftgad_slider .giftgad_right_inner .giftgad_items .giftgad_icon {
+	left: 50%;
+	transform: translateX(-50%);
+}
+#giftgade .giftgad_right .giftgad_slider .giftgad_right_inner .giftgad_items .giftgad_img a{
+	display: block;
+}
+#giftgade .giftgad_right .giftgad_slider .giftgad_right_inner .giftgad_items:hover .giftgad_icon {
+	bottom: 120px;
+}
+/* ========================== giftgade area end ================================== */
+
+/* ========================== client area start ================================== */
+#client {
+	margin: 0;
+}
+#client .client_slider .client_inner {
+	margin: 0 auto;
+}
+/* ========================== client area end ================================== */
+
+/* ========================== wolmartporduct area start ================================== */
+#wolmartporduct {
+	margin: 30px 0;
+}
+#wolmartporduct .Wproduct_header{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#wolmartporduct .product_buttton {
+	text-align: center !important;
+}
+#wolmartporduct .product_buttton button {
+	margin: 5px 20px;
+}
+#wolmartporduct .product_wrapper {
+	justify-content: center;
+}
+#wolmartporduct .product_wrapper .product_items .product_inner {
+	margin: 10px 7px;
+}
+#wolmartporduct .product_wrapper .product_items .product_inner .product_icon {
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 10px;
+}
+#wolmartporduct .product_wrapper .product_items .product_inner:hover .product_icon {
+	bottom: 120px;
+}
+/* ========================== wolmartporduct area end ================================== */
+
+/* ========================== recentview area stat ================================== */
+#recentview {
+	margin-top: 0;
+	margin-bottom: 50px;
+}
+#recentview .recentview_slider .view_items .items_inner {
+	margin: 0 auto;
+}
+/* ========================== recentview area end ================================== */
+
+/* ========================== about page start ================================== */
+#about {
+	margin-bottom: 30px;
+}
+#about .about_header {
+	padding: 0;
+	margin-top: 0;
+}
+#about .about_header h2 {
+	font-size: 25px;
+}
+#about .about_header p {
+	line-height: 22px;
+	margin-top: 15px;
+	padding: 0 0px;
+}
+#about .about_img {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+#about .service .service_text h3 {
+	font-size: 23px;
+	text-align: center;
+	padding: 0 30px;
+}
+#about .service .service_text {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+#about .service .service_text .serv_accordion .accordion .accordion-item h2 .accordion-button {
+	font-size: 16px;
+}
+#about .about_counter {
+	margin: 30px 0;
+}
+#boost {
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+#boost .boost_text {
+	padding-top: 30px;
+}
+#boost .boost_text h3 {
+	font-size: 23px;
+	text-align: center;
+	padding-right: 0;
+}
+#award {
+	padding-bottom: 30px;
+	margin-bottom: 40px;
+}
+#award .award_head {
+	margin-bottom: 40px;
+}
+
+#leader {
+	margin-bottom: 40px;
+}
+/* ========================== about page end ================================== */
+
+/* ========================== account page start ================================== */
+#account .tab_content{
+	margin-top: 50px;
+}
+/* ========================== account page end ================================== */
+
+/* ========================== blog page start ================================== */
+#blog{
+	margin-bottom: 40px;
+}
+#blog .blog_wrapper .blog_right_wrapper .blog_right .categories {
+	text-align: center;
+}
+#blog .blog_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table thead tr th {
+	text-align: center;
+}
+#blog .blog_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table tbody tr td {
+	text-align: center;
+}
+#blog .blog_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table tbody tr td span {
+	margin-right: 0;
+}
+/* ========================== blog page end ================================== */
+
+/* ---------------------- bloggrid page end --------------------------------- */
+#bloggrid .grid_nav .grid_button button {
+	margin-bottom: 10px;
+}
+#bloggrid .grid_items_wrapper .blog_right_wrapper .blog_right .categories {
+	text-align: center;
+}
+/* ---------------------- bloggrid page end --------------------------------- */
+
+/* ---------------------- bloglist page start --------------------------------- */
+#bloglist .blog_wrapper .blog_right_wrapper .blog_right .categories {
+	text-align: center;
+}
+#bloglist .blog_wrapper .blog_right_wrapper .blog_right .categories {
+	text-align: center;
+}
+/* ---------------------- bloglist page end --------------------------------- */
+
+/* ---------------------- maskgrid page start --------------------------------- */
+#maskgrid .mask_nav .mask_button button {
+	margin-bottom: 15px;
+}
+#maskgrid .grid_items_wrapper .mask_inner .grid_text .inner_text {
+	margin-bottom: -15px;
+}
+#maskgrid .mask_arrow .pagination{
+	justify-content: center;
+}
+#maskgrid .grid_items_wrapper .mask_inner:hover .grid_text .inner_text {
+	margin-bottom: 20px;
+}
+/* ---------------------- maskgrid page end --------------------------------- */
+
+/* ---------------------- blogsingle page start --------------------------------- */
+#blogsingle{
+	margin-bottom: 40px;
+}
+#blogsingle .single_left .left_top .top_text p {
+	margin-bottom: 0;
+}
+#blogsingle .post_img{
+	text-align: center;
+}
+#blogsingle .post_text{
+	margin-bottom: 30px;
+} 
+#blogsingle .single_left .single_comment .images {
+	margin-bottom: 20px;
+}
+#blogsingle .single_left .single_leftbtm form input {
+	margin-bottom: 15px;
+}
+#blogsingle .single_right_wrapper .single_right .categories {
+	text-align: center;
+}
+#blogsingle .single_right_wrapper .single_right .calender .calder_inner .table table thead tr th {
+	text-align: center;
+}
+#blogsingle .single_right_wrapper .single_right .calender .calder_inner .table table tbody tr td {
+	text-align: center;
+}
+
+/* ---------------------- blogsingle page end --------------------------------- */
+
+/* ---------------------- bloggrid page start --------------------------------- */
+#bloggrid .grid_items_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table thead tr th {
+	text-align: center;
+}
+#bloggrid .grid_items_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table tbody tr td span {
+	margin-right: 0;
+}
+#bloggrid .grid_items_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table tbody tr td {
+	text-align: center;
+}
+/* ---------------------- bloggrid page end --------------------------------- */
+
+/* ---------------------- list1 page start --------------------------------- */
+#list1 .list1_headerR .default button {
+	padding: 5px 8px;
+}
+#list1 .list1_headerR .default button span {
+	margin-left: 10px;
+}
+#list1 .list_items {
+	margin-top: 50px;
+}
+/* ---------------------- list1 page end --------------------------------- */
+
+/* ---------------------- storelist3 page start --------------------------------- */
+#storelist3 .list_wrapper .items_inner .text {
+	width: 100%;
+}
+#storelist3 .list_wrapper .items_inner .text {
+	padding: 20px 40px;
+}
+/* ---------------------- storelist3 page end --------------------------------- */
+
+/* ---------------------- storelist4 page start --------------------------------- */
+#storelist4 .list_wrapper .list_inner {
+	margin-bottom: 40px;
+}
+/* ---------------------- storelist4 page end --------------------------------- */
+
+/* ---------------------- vendor page start --------------------------------- */
+#vendor {
+	margin-bottom: 50px;
+}
+#vendor .vendor_left {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+#vendor .vendor_left .catagories .catagoris_header {
+	justify-content: center;
+}
+#vendor .vendor_left .catagories .catagoris_header h4 {
+	margin-right: 15px;
+}
+#vendor .vendor_left .catagories ul {
+	text-align: center;
+}
+#vendor .vendor_left .store_time ul {
+	text-align: center;
+}
+#vendor .mdr{
+	align-items: center;
+}
+#vendor .vendor_right .right_img .rt_img {
+	height: 400px;
+	object-fit: cover;
+}
+#vendor .vendor_right .right_img .right_text {
+	width: 100%;
+	padding: 30px 40px;
+	background: none;
+}
+#vendor .vendor_right .right_img .right_text h3 {
+	margin: 15px 0;
+}
+#vendor .vendor_right .product {
+	margin-top: 50px;
+	text-align: center;
+}
+#vendor .vendor_left .store_time .storetime_header {
+	justify-content: center;
+}
+#vendor .vendor_left .store_time .storetime_header h4 {
+	margin-right: 15px;
+}
+#vendor .vendor_right .produt_wrapper {
+	border: 1px solid #ccc;
+	padding-bottom: 25px;
+}
+/* ---------------------- vendor page end --------------------------------- */
+
+/* ---------------------- vendorlsit2 page start --------------------------------- */
+#vendorlsit2 .vender_top .top_img img{
+	height: 500px;
+	object-fit: cover;
+}
+#vendorlsit2 .inqury{
+	text-align: left;
+}
+#vendorlsit2 .vender_top .top_text .vedor_icons .inqury a {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+#vendorlsit2 .vender_top .top_text .text_middle h5 {
+	padding-right: 100px;
+}
+#vendorlsit2 .vendor_left .catagories .catagoris_header {
+	justify-content: center;
+}
+#vendorlsit2 .vendor_left .catagories .catagoris_header h4 {
+	margin-right: 10px;
+}
+#vendorlsit2 .vendor_left .catagories ul li a {
+	text-align: center;
+}
+#vendorlsit2 .vendor_left .store_time .storetime_header {
+	justify-content: center;
+}
+#vendorlsit2 .vendor_left .store_time .storetime_header h4 {
+	margin-right: 10px;
+}
+#vendorlsit2 .vendor_left .store_time ul li {
+	text-align: center;
+}
+#vendorlsit2 .vendor_left .best_selling .selling_inner .selling_items .mdr{
+	align-items: center;
+}
+#vendorlsit2 .nav-tabs {
+	justify-content: center;
+}
+#vendorlsit2 .vend_right .vend_nav .nav-item button {
+	margin-bottom: 10px;
+}
+#vendorlsit2 .vend_right .tab-content .tab-pane .review_btm .btm_head .review_star {
+	margin-right: 0;
+	padding-bottom: 0;
+}
+/* ---------------------- vendorlsit2 page end --------------------------------- */
+
+/* ---------------------- vendorlsit3 page start --------------------------------- */
+#vendorlist3 .vendor_left .catagories .catagoris_header {
+	justify-content: center;
+}
+#vendorlist3 .vendor_left .catagories .catagoris_header h4 {
+	margin-right: 10px;
+}
+#vendorlist3 .vendor_left .catagories ul li {
+	text-align: center;
+}
+#vendorlist3 .mdr{
+	align-items: center;
+}
+#vendorlist3 .vendor_right .right_img img{
+	height: 300px;
+	object-fit: cover;
+}
+#vendorlist3 .vendor_right .right_img .text h5 {
+	text-align: center;
+}
+#vendorlist3 .nav-tabs {
+	border-bottom: 1px solid #dee2e6;
+	text-align: center;
+	justify-content: center;
+}
+/* ---------------------- vendorlsit23 page end --------------------------------- */
+
+/* ---------------------- vendorlsit4 page start --------------------------------- */
+#vendorlist4 .vendor_left .catagories .catagoris_header {
+	justify-content: center;
+}
+#vendorlist4 .vendor_left .catagories .catagoris_header h4 {
+	margin-right: 10px;
+}
+#vendorlist4 .vendor_left .catagories ul li {
+	text-align: center;
+}
+#vendorlist4 .vendor_right .produt_wrapper .text .cart a {
+	left: 80px;
+}
+/* ---------------------- vendorlsit4 page end --------------------------------- */
+
+/* ---------------------- wishlist page start --------------------------------- */
+#wishlist .wishlist_header {
+	text-align: center;
+}
+#wishlist .name {
+	display: none;
+}
+#wishlist .Product .product_img a img {
+	max-width: 100%;
+}
+#wishlist .Product .product_img a button {
+	right: 5px;
+	top: 5px;
+}
+#wishlist .product_name{
+	text-align: center;
+}
+#wishlist .price{
+	text-align: center;
+}
+#wishlist .stock{
+	text-align: center;
+}
+#wishlist .Product .button .view a {
+	padding: 10px 20px;
+}
+#wishlist .Product .button .cart a {
+	padding: 10px 20px;
+}
+#wishlist .alc{
+	align-items: center;
+}
+/* ---------------------- wishlist page end --------------------------------- */
+
+/* coming soon part start=================================================================== */
+
+#coming-soon {
+	padding-top: 153px;
+}
+
+#coming-soon .coming-soon-counter .countdown-container .days-c::before {
+	
+	right: -60%;
+	bottom: 50%;
+}
+
+#coming-soon .coming-soon-counter .countdown-container .days-c::after {
+	
+	right: -60%;
+	top: 19%;
+}
+
+#coming-soon .coming-soon-counter .countdown-container .hours-c::after {
+	
+	right: -52%;
+	top: 20%;
+}
+
+#coming-soon .coming-soon-counter .countdown-container .hours-c::before {
+	
+	right: -52%;
+	bottom: 47%;
+}
+
+#coming-soon .coming-soon-counter .countdown-container .mins-c::before {
+	
+	right: -67%;
+	bottom: 45%;
+}
+
+#coming-soon .coming-soon-counter .countdown-container .mins-c::after {
+	
+	right: -67%;
+	top: 19%;
+}
+
+/* coming soon part end=================================================================== */
+
+/* bannerwithsidebar part start======================================================= */
+
+#manin-fullwidthbanner-bottom-button .bannerwithsidebar-product-head-button h6 {
+	
+	margin-left: 0px;
+}
+
+#manin-fullwidthbanner-bottom-button .bannerwithsidebar-product-head-button {
+	
+	margin-top: 20px;
+}
+
+#manin-fullwidthbanner-bottom-button .bannerwithsidebar-product-toggler {
+	
+	display: none;
+}
+
+.bannerwithsidebar-product-bottom {
+	
+	left: 30%;
+}
+
+#manin-fullwidthbanner-bottom-button .bannerwithsidebar-product-page-n {
+	
+	justify-content: center;
+}
+
+/* bannerwithsidebar part end======================================================= */
+
+/* mainproduct part start======================================================== */
+
+#show-product .product-left_banner {
+	
+	height: 46%;
+}
+
+#frequently .frequently-cart-button h2 {
+	
+	display: none;
+}
+
+#frequently .frequently-cart-button .cart-button span {
+	display: none;
+}
+
+#frequently .frequently-cart-button .cart-button {
+	margin-top: 25px;
+	margin-left: 0px;
+}
+
+#frequently .frequently-description {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#frequently .frequently-description ul li {
+	margin-right: 24px;
+	font-size: 14px;
+}
+
+#frequently .description-iteam-all .description-iteam h2 {
+	text-align: center;
+}
+
+#frequently .description-iteam-all .description-iteam p {
+	text-align: center;
+}
+
+#frequently .description-iteam-all .description-iteam .fmark p {
+	line-height: 23px;
+}
+
+#frequently .dptext-all .dptext h2 {
+	
+	font-size: 13px;
+}
+
+#frequently .all-more-product .all-more-product-img {
+	text-align: center;
+}
+
+#frequently .all-more-product .all-more-product-img h3 a {
+	
+	left: 0;
+}
+
+#frequently .all-more-product .more-product-details {
+	text-align: center;
+}
+
+#frequently .all-more-product .more-product-details ul {
+	
+	justify-content: center;
+}
+
+#order-complete .address-end-item .billing-address h4 {
+	
+	margin-top: 20px;
+}
+
+#frequently .customer-reviews {
+	
+	flex-wrap: wrap;
+}
+
+#frequently .customer-reviews .customer-com {
+	width: 100%;
+}
+
+#frequently .customer-reviews .customer-rating {
+	width: 63%;
+	margin-bottom: 30px;
+}
+
+/* mainproduct part end======================================================== */
+
+/* shop part start=============================================================== */
+
+#shop-product .shop-product-head-all-item .shop-product-head button {
+	
+	margin-bottom: 10px;
+}
+
+#shop-product .shop-product-head-all-item .shop-product-head-right .shop-right-button button i {
+	margin-left: 0px;
+}
+
+/* shop part end=============================================================== */
+
+
+/* shoppingcart part start=========================================================== */
+
+#shoppingcart .quantity-cart-product .quantity-cart-product-img a {
+	
+	display: none;
+	
+}
+
+#shoppingcart .quantity-cart-product .quantity-cart-product-plus a i {
+	
+	width: 0px;
+	height: 0px;
+}
+#shoppingcart .product-cart-button .product-cart-button-two button {
+	padding: 10px 26px;
+	margin-bottom: 5px;
+}
+
+#shoppingcart .coupon-cod-item button {
+	
+	margin-bottom: 20px;
+}
+
+#shoppingcart .product-cart-button {
+	
+	align-items: center;
+}
+
+/* shoppingcart part end=========================================================== */
+
+/* footer part start=============================================================================== */
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .footer-top-item .footer-logo img {
+	width: 50%;
+}
+
+#footer .footer-top-item .footer-email .footer-email-text {
+	margin-left: 0px;
+	margin-top: 20px;
+}
+
+#footer .footer-top-item .footer-email a i {
+	
+	margin-right: 20px;
+	margin-top: 21px;
+}
+
+
+#footer .footer-middle-item .footer-middle-all-menu-text {
+	
+	margin-top: 30px;
+
+}
+
+#footer .footer-top-item .footer-email {
+	
+	justify-content: center;
+}
+
+
+#footer .footer-top-item .email-box .form {
+	
+	flex-wrap: wrap;
+}
+
+#footer .footer-top-item .email-box .form .footer-eml {
+	
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#footer .footer-top-item .email-box {
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+#footer .footer-top-item .email-box .form .footer-email-btn {
+	
+	width: 100%;
+}
+
+/* #footer .footer-end-item .consumer-electric .consumer-electric-item li::after {
+	display: none;
+} */
+
+#footer .footer-end-item .consumer-electric .consumer-electric-item li {
+	margin-top: 10px;
+    margin-left: 0px;
+}
+#footer .footer-end-item .consumer-electric .consumer-electric-item li:first-child {
+	margin-left: 0px;
+}
+
+#footer .footer-end-item .consumer-electric {
+	
+	margin-top: 25px;
+}
+
+#footer .footer-bottom .footer-bottom-item .footer-bottom-payment {
+	
+	margin-top: 10px;
+}
+
+/* footer part end====================================================================================== */
+
+}
+
+
+/* Small part end======================================================================================= */
+
+/* Medium part start========================================================================== */
+
+@media (min-width: 767.99px) and (max-width:991.99px){
+
+	/* search part start==================================================================== */
+
+	.search-fix{
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 100%;
+		z-index: 9;	
+	}
+
+
+	.off-main-menu {
+		width: 64%;
+	}
+
+	.off-bag .off-bag-two {
+		width: 70%;
+	}
+
+	#top-menu .menu-link {
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#top-menu .top-menupera {
+		text-align: center;
+	}
+
+	#top-menu .top-main-menu .top-menu-text {
+		display: none;
+	}
+
+	#search .logo img {
+		width: 70%;
+	}
+
+	#search .off-logo-barr {
+		
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	#search {
+		padding-top: 15px;
+		padding-bottom: 10px;
+	}
+
+
+	/* search part end==================================================================== */
+
+	
+/* bannerwithsidebar part start=========================================================================== */
+
+	
+#bannerwithsidebar-bottom .border-sidebar .bannerwithsidebar-bottom-allproduct .bannerwithsidebar-bottom-product {
+		
+	margin-bottom: 30px;
+}
+
+#bannerwithsidebar-product .bannerwithsidebar-product-filter h4 {
+	
+	display: none;
+}
+
+#bannerwithsidebar-product .bannerwithsidebar-product-toggler {
+	
+	display: none;
+}
+
+
+/* .all-saidebar-item{
+	display: none;
+} */
+
+#bannerwithsidebar-product .banner-all-product {
+	text-align: center;
+	width: 50%;
+	left: 50%;
+}
+
+
+.bannerwithsidebar-product-bottom {
+	position: relative;
+	left: 63%;
+	margin-bottom: 30px;
+}
+
+#bannerwithsidebar-product .banner-all-product .banner-product-icon {
+	width: 55%;
+}
+
+#bannerwithsidebar-product .all-saidebar-item .sidebar-all-categories .categories-off {
+	
+	width: 50%;
+}
+
+#bannerwithsidebar-product .all-saidebar-item .sidebar-all-Price .sidebar-all-Price-on {
+	
+	width: 50%;
+}
+
+#bannerwithsidebar-product .all-saidebar-item .sidebar-all-categories .categories-on {
+	width: 50%;
+}
+
+#bannerwithsidebar-product .all-saidebar-item .sidebar-all-Price .sidebar-all-Price-off {
+	width: 50%;
+}
+
+#bannerwithsidebar-product .all-saidebar-item .sidebar-all-size .sidebar-all-size-item {
+	width: 43%;
+}
+
+#bannerwithsidebar-product .all-saidebar-item .sidebar-all-size .sidebar-all-size-on {
+	width: 50%;
+}
+
+#bannerwithsidebar-product .all-saidebar-item .sidebar-all-size .sidebar-all-size-off {
+	
+	width: 50%;
+}
+
+#bannerwithsidebar-product .all-saidebar-item .sidebar-all-brand .sidebar-all-brand-on {
+	width: 50%;
+}
+
+#bannerwithsidebar-product .all-saidebar-item .sidebar-all-brand .sidebar-all-brand-off {
+	
+	width: 50%;
+}
+
+#bannerwithsidebar-product .all-saidebar-item .sidebar-all-color .sidebar-all-color-on {
+	width: 50%;
+}
+
+#bannerwithsidebar-product .all-saidebar-item .sidebar-all-color .sidebar-all-color-off {
+	width: 50%;
+}
+
+#bannerwithsidebar-product .bannerwithsidebar-product-page-n {
+	
+	margin-right: 50px;
+}
+
+#coming-soon {
+	
+	padding-top: 144px;
+}
+
+/* bannerwithsidebar part end=========================================================================== */
+/* ========================== banner area start ================================== */
+#banner .banner_items img{
+	height: 500px;
+	object-fit: cover;
+}
+#banner .banner_slider .banner_items .banner_text1 {
+	right: 60px;
+}
+#banner .banner_slider .banner_items .banner_text1 h4 {
+	font-size: 18px;
+}
+#banner .banner_slider .banner_text2 {
+	top: 170px;
+	left: 50px;
+}
+#banner .banner_slider .banner_text3 {
+	left: 50px;
+	top: 170px;
+}
+#banner .banner_slider .banner_text3 .sale_logo {
+	position: absolute;
+	right: -250px;
+	bottom: -200px;
+}
+#banner .banner_slider .banner_text3 .sale_logo img {
+	transform: scale(0.6);
+	object-fit: none;
+}
+#banner .banRT_img img{
+	height: 250px;
+	object-fit: cover;
+}
+#banner .banRT_img .banRT_text {
+	left: 40px;
+	top: 30px;
+}
+#banner .banRb_img img{
+	height: 250px;
+	object-fit: cover;
+}
+#banner .banRb_img .banRb_text {
+	left: 50px;
+	top: 30px;
+}
+/* ========================== banner area end ================================== */
+
+/* ========================== Support area start ================================== */
+#support .support_wrapper .support_text {
+	text-align: center;
+}
+#support .support_wrapper .EIAR::after {
+  	display: none;
+}
+/* ========================== Support area end ================================== */
+
+/* ========================== Service area start ================================== */
+#service .service_slider .service_inner {
+	margin: 0 auto;
+}
+/* ========================== Service area end ================================== */
+
+/* ========================== bigsale area start ================================== */
+#bigsale {
+	margin: 30px 0;
+}
+#bigsale .bigsale_wrapper {
+	background-position: left;
+}
+#bigsale .bigS_left_text{
+	flex-wrap: wrap;
+	align-items: center;
+} 
+#bigsale .bigsale_wrapper .bigS_left_text h5 {
+	margin-top: 0;
+	margin-left: 20px;
+	margin-bottom: 0;
+}
+#bigsale .bigsale_wrapper .bigS_left_text h5::before {
+	bottom: -3px;
+}
+#bigsale .bigsale_wrapper .bigS_right_text {
+	display: block;
+}
+#bigsale .bigsale_wrapper .bigS_right_text h5 {
+	font-size: 16px;
+}
+#bigsale .bigsale_wrapper .bigS_right_text a {
+	padding: 10px 15px;
+	margin-left: 0;
+	margin-top: 20px;
+}
+
+/* ========================== bigsale area end ================================== */
+
+/* ========================== Dealsday area start ================================== */
+#dealsday {
+	margin-bottom: 30px;
+}
+#dealsday .deals-pday-head .deals-pday-head-text {
+	flex-wrap: wrap;
+}
+#dealsday .deals-pday-head .deals-pday-head-text .deals-pday-head-counter {
+	display: block;
+}
+#dealsday .deals-pday-head .deals-pday-head-text .deals-pday-head-counter .deals-main-counter {
+	margin-left: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#dealsday .dealsday_slider .deals_items .deals_inner {
+	margin: 0 auto;
+	width: 100%;
+}
+#dealsday .owl-theme .owl-nav.disabled + .owl-dots {
+	margin: 0 auto;
+}
+#dealsday .dealsday_slider .deals_items .deals_inner .deals_icon {
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#dealsday .dealsday_slider .deals_items .deals_inner:hover .deals_icon {
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 120px;
+}
+/* ========================== Dealsday area end ================================== */
+
+/* ========================== growingprud area start ================================== */
+#growingprud .wrapper {
+	padding: 20px 20px;
+}
+#growingprud .wrapper .head_text h4 {
+	padding-right: 0;
+}
+#growingprud .wrapper .best_selling {
+	margin-bottom: 20px;
+}
+#growingprud .wrapper .head_text h3 {
+	font-size: 21px;
+}
+#growingprud .wrapper .head_text h4 {
+	padding-right: 200px;
+}
+#growingprud .wrapper .best_selling .vendor_slider .slider_inner .overlay a {
+	line-height: 18px;
+	font-size: 13px;
+}
+/* ========================== growingprud area end ================================== */
+
+/* ========================== trend area start ================================== */
+#trand .trand_slider .trand_inner .trand_img img {
+	border-radius: 0;
+}
+#trand .trand_slider .trand_inner .trand_text {
+	top: 30%;
+	left: 20%;
+	transform: translateY(-30%) translateX(-20%);
+}
+/* ========================== trend area end ================================== */
+
+/* ========================== clotheapprel area start ================================== */
+#clotheapprel .cna_left {
+	margin-bottom: 20px;
+	text-align: center;
+}
+#clotheapprel .cna_right .cna_slider .cna_right_inner .cna_items .cna_icon {
+	left: 50%;
+	transform: translateX(-50%);
+}
+#clotheapprel .cna_right .cna_slider .cna_right_inner .cna_items .cna_img a {
+	display: block;
+}
+#clotheapprel .cna_right .cna_slider .cna_right_inner .cna_items:hover .cna_icon {
+	bottom: 120px;
+}
+/* ========================== clotheapprel area end ================================== */
+
+/* ========================== fashionelect area start ================================== */
+#fashionelect .fne_wrapper .fne_inner img {
+	height: 200px;
+	object-fit: cover;
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text {
+	left: 25%;
+	top: 30%;
+	transform: translateX(-25%) translateY(-30%);
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text img {
+	-webkit-transform: scale(0.5);
+	transform: scale(0.3);
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text img {
+	transform: scale(0.3);
+	right: -55px;
+	top: -10px;
+}
+#fashionelect .fne_wrapper .fne_inner .fne_text .fnersle {
+	right: -120px;
+}
+#fashionelect .fne_wrapper .fne_inner {
+	margin-bottom: 20px;
+}
+/* ========================== fashionelect area end ================================== */
+
+/* ========================== electronics area start ================================== */
+#electronics .elect_left {
+	text-align: center;
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_icon {
+	left: 50%;
+	transform: translateX(-50%);
+}
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_img a{
+	display: block;
+}
+#electronics .elect_right .elect_slider .elect_right_inner .elect_items:hover .elect_icon {
+	opacity: 1;
+	bottom: 120px;
+}
+/* ========================== electronics area end ================================== */
+
+/* ---------------------- store page start --------------------------------- */
+#store {
+	margin: 50px 0;
+}
+#store .store_text {
+	padding-top: 0;
+	padding-right: 0;
+}
+#store .store_text a {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+#trades {
+	background: #f5f5f5;
+	padding: 0;
+	margin-bottom: 30px;
+}
+#trades .trede_text {
+	padding-top: 30px;
+}
+#trades .trede_text .trede_btm .btm_text {
+	text-align: center;
+}
+#fees {
+	margin-bottom: 30px;
+}
+#fees .fees {
+	margin-top: 30px;
+}
+#fees .fees p {
+	padding: 0;
+}
+#seller {
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+#seller .seller_text p {
+	margin-bottom: 10px;
+}
+#seller .seller_text a {
+	margin-bottom: 30px;
+}
+#question {
+	margin-bottom: 0px;
+}
+#brand {
+	margin-bottom: 50px;
+}
+/* ---------------------- store page end --------------------------------- */
+
+/* ========================== fridaysale area end ================================== */
+#fridaysale .fridaysale_inner .saleimg img {
+	height: 250px;
+	object-fit: cover;
+}
+#fridaysale .fridaysale_inner .sale_text h3 {
+	font-size: 40px;
+}
+#fridaysale .fridaysale_inner .sale_text h4 {
+	font-size: 40px;
+	margin-top: 15px;
+}
+/* ========================== fridaysale area end ================================== */
+
+/* ========================== giftgade area start ================================== */
+#giftgade .giftgad_left {
+	padding: 20px 5px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+#giftgade .giftgad_right .giftgad_slider .giftgad_right_inner .giftgad_items .giftgad_icon {
+	left: 50%;
+	transform: translateX(-50%);
+}
+#giftgade .giftgad_right .giftgad_slider .giftgad_right_inner .giftgad_items .giftgad_img a{
+	display: block;
+}
+#giftgade .giftgad_right .giftgad_slider .giftgad_right_inner .giftgad_items:hover .giftgad_icon {
+	bottom: 120px;
+}
+/* ========================== giftgade area end ================================== */
+
+/* ========================== client area start ================================== */
+
+#client .client_slider .client_inner {
+	margin: 0 auto;
+}
+/* ========================== client area end ================================== */
+
+/* ========================== wolmartporduct area start ================================== */
+
+#wolmartporduct .Wproduct_header{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#wolmartporduct .product_buttton {
+	text-align: center !important;
+}
+#wolmartporduct .product_buttton button {
+	margin: 5px 20px;
+}
+#wolmartporduct .product_wrapper {
+	justify-content: center;
+}
+#wolmartporduct .product_wrapper .product_items .product_inner {
+	margin: 10px 10px;
+}
+#wolmartporduct .product_wrapper .product_items .product_inner .product_icon {
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 10px;
+}
+#wolmartporduct .product_wrapper .product_items .product_inner:hover .product_icon {
+	bottom: 120px;
+}
+/* ========================== wolmartporduct area end ================================== */
+
+/* ========================== recentview area stat ================================== */
+
+#recentview .recentview_slider .view_items .items_inner {
+	margin: 0 auto;
+}
+/* ========================== recentview area end ================================== */
+
+/* ------------------- about page start -------------------------------- */
+#about .about_header {
+	margin-top: 20px;
+}
+#about .about_header h2 {
+	font-size: 30px;
+}
+#about .about_img {
+	margin-bottom: 50px;
+}
+#about .service .service_text {
+	margin-top: 0;
+	margin-bottom: 50px;
+}
+#about .service .service_text h3 {
+	font-size: 28px;
+	text-align: center;
+	padding: 0 60px;
+}
+#about .about_counter {
+	margin: 60px 0;
+}
+#boost .boost_text h3 {
+	font-size: 28px;
+	padding: 0 50px;
+	text-align: center;
+}
+#boost {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#leader .leader_header p {
+	padding: 0 50px;
+}
+/* ------------------- about page end -------------------------------- */
+
+/* ------------------- blog page start -------------------------------- */
+#blog{
+	margin-bottom: 50px;
+}
+#blog .blog_wrapper .blog_right_wrapper .blog_right .categories {
+	text-align: center;
+}
+#blog .blog_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table thead tr th {
+	text-align: center;
+}
+#blog .blog_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table tbody tr td {
+	text-align: center;
+}
+#blog .blog_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table tbody tr td span {
+	margin-right: 0;
+}
+/* ------------------- blog page end -------------------------------- */
+
+/* ========================== account page start ================================== */
+#account .tab_content{
+	margin-top: 50px;
+}
+/* ========================== account page end ================================== */
+
+/* ========================== bloggrid page start ================================== */
+#bloggrid .grid_nav .grid_button button {
+margin-bottom: 15px;
+}
+#bloggrid .grid_items_wrapper .blog_right_wrapper .blog_right .categories {
+	text-align: center;
+}
+/* ========================== bloggrid page end ================================== */
+
+/* ---------------------- maskgrid page start --------------------------------- */
+#maskgrid .mask_nav .mask_button button {
+	margin-bottom: 15px;
+}
+#maskgrid .grid_items_wrapper .mask_inner .grid_text .inner_text {
+	margin-bottom: -15px;
+}
+#maskgrid .mask_arrow .pagination{
+	justify-content: center;
+}
+#maskgrid .grid_items_wrapper .mask_inner:hover .grid_text .inner_text {
+	margin-bottom: 20px;
+}
+/* ---------------------- maskgrid page end --------------------------------- */
+
+/* ---------------------- blogsingle page start --------------------------------- */
+#blogsingle{
+	margin-bottom: 50px;
+}
+#blogsingle .post_img{
+	text-align: center;
+}
+#blogsingle .post_text{
+	margin-bottom: 30px;
+} 
+#blogsingle .single_left .related_post {
+	margin-bottom: 0;
+}
+#blogsingle .images {
+	margin-bottom: 20px;
+}
+#blogsingle .single_left .single_leftbtm form input {
+	margin-bottom: 15px;
+}
+#blogsingle .single_right_wrapper .single_right .categories {
+	text-align: center;
+}
+#blogsingle .single_right_wrapper .single_right .calender .calder_inner .table table thead tr th {
+	text-align: center;
+}
+#blogsingle .single_right_wrapper .single_right .calender .calder_inner .table table tbody tr td {
+	text-align: center;
+}
+/* ---------------------- blogsingle page end --------------------------------- */
+
+/* ---------------------- elements page start --------------------------------- */
+#elements .element_header {
+	margin-bottom: 50px;
+	padding: 0 70px;
+}
+#elements .elements_icon .iconItem {
+	width: 215px;
+}
+/* ---------------------- elements page end --------------------------------- */
+
+/* ---------------------- bloggrid page start --------------------------------- */
+#bloggrid .grid_items_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table thead tr th {
+	text-align: center;
+}
+#bloggrid .grid_items_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table tbody tr td {
+	text-align: center;
+}
+#bloggrid .grid_items_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table tbody tr td span {
+	margin-right: 0;
+}
+#bloggrid .grid_items_wrapper .grid_items {
+	margin-bottom: 50px;
+}
+/* ---------------------- bloggrid page end --------------------------------- */
+
+/* ---------------------- list1 page start --------------------------------- */
+#list1 .list_items {
+	margin-top: 50px;
+}
+/* ---------------------- list1 page end --------------------------------- */
+
+/* ---------------------- storelist3 page start --------------------------------- */
+#storelist3 .list_wrapper .items_inner .text {
+	width: 100%;
+}
+#storelist3 .list_wrapper .items_inner .text {
+	padding: 20px 40px;
+}
+#storelist3 .list_wrapper .items_inner .text .inner_text a {
+	margin-top: 5px;
+}
+/* ---------------------- storelist3 page end --------------------------------- */
+
+/* ---------------------- storelist4 page start --------------------------------- */
+#storelist4 .list_wrapper .list_inner {
+	margin-bottom: 40px;
+}
+/* ---------------------- storelist4 page end --------------------------------- */
+
+/* ---------------------- vendor page start --------------------------------- */
+#vendor {
+	margin-bottom: 50px;
+}
+#vendor .vendor_left {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+#vendor .vendor_left .catagories .catagoris_header {
+	justify-content: center;
+}
+#vendor .vendor_left .catagories .catagoris_header h4 {
+	margin-right: 15px;
+}
+#vendor .vendor_left .catagories ul {
+	text-align: center;
+}
+#vendor .vendor_left .store_time ul {
+	text-align: center;
+}
+#vendor .mdr{
+	align-items: center;
+}
+#vendor .vendor_right .right_img .rt_img {
+	height: 400px;
+	object-fit: cover;
+}
+#vendor .vendor_right .right_img .right_text {
+	width: 100%;
+	padding: 30px 40px;
+	background: none;
+}
+#vendor .vendor_right .right_img .right_text h3 {
+	margin: 15px 0;
+}
+#vendor .vendor_right .product {
+	margin-top: 50px;
+	text-align: center;
+}
+#vendor .vendor_left .store_time .storetime_header {
+	justify-content: center;
+}
+#vendor .vendor_left .store_time .storetime_header h4 {
+	margin-right: 15px;
+}
+#vendor .vendor_right .produt_wrapper {
+	border: 1px solid #ccc;
+	padding-bottom: 25px;
+}
+/* ---------------------- vendor page end --------------------------------- */
+
+/* ---------------------- vendorlsit2 page start --------------------------------- */
+#vendorlsit2 .vender_top .top_img img{
+	height: 500px;
+	object-fit: cover;
+}
+#vendorlsit2 .inqury{
+	text-align: left;
+}
+#vendorlsit2 .vender_top .top_text .vedor_icons .inqury a {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+#vendorlsit2 .vender_top .top_text .text_middle h5 {
+	padding-right: 100px;
+}
+#vendorlsit2 .vendor_left .catagories .catagoris_header {
+	justify-content: center;
+}
+#vendorlsit2 .vendor_left .catagories .catagoris_header h4 {
+	margin-right: 10px;
+}
+#vendorlsit2 .vendor_left .catagories ul li a {
+	text-align: center;
+}
+#vendorlsit2 .vendor_left .store_time .storetime_header {
+	justify-content: center;
+}
+#vendorlsit2 .vendor_left .store_time .storetime_header h4 {
+	margin-right: 10px;
+}
+#vendorlsit2 .vendor_left .store_time ul li {
+	text-align: center;
+}
+#vendorlsit2 .vendor_left .best_selling .selling_inner .selling_items .mdr{
+	align-items: center;
+}
+#vendorlsit2 .nav-tabs {
+	justify-content: center;
+}
+#vendorlsit2 .vend_right .vend_nav .nav-item button {
+	margin-bottom: 10px;
+}
+#vendorlsit2 .vend_right .tab-content .tab-pane .review_btm .btm_head .review_star {
+	margin-right: 0;
+	padding-bottom: 0;
+}
+/* ---------------------- vendorlsit2 page end --------------------------------- */
+
+/* ---------------------- vendorlsit3 page start --------------------------------- */
+#vendorlist3 .vendor_left .catagories .catagoris_header {
+	justify-content: center;
+}
+#vendorlist3 .vendor_left .catagories .catagoris_header h4 {
+	margin-right: 10px;
+}
+#vendorlist3 .vendor_left .catagories ul li {
+	text-align: center;
+}
+#vendorlist3 .mdr{
+	align-items: center;
+}
+#vendorlist3 .vendor_right .right_img img{
+	height: 300px;
+	object-fit: cover;
+}
+#vendorlist3 .vendor_right .right_img .text h5 {
+	text-align: center;
+}
+#vendorlist3 .nav-tabs {
+	border-bottom: 1px solid #dee2e6;
+	text-align: center;
+	justify-content: center;
+}
+/* ---------------------- vendorlsit23 page end --------------------------------- */
+
+/* ---------------------- vendorlsit4 page start --------------------------------- */
+#vendorlist4 .vendor_left .catagories .catagoris_header {
+	justify-content: center;
+}
+#vendorlist4 .vendor_left .catagories .catagoris_header h4 {
+	margin-right: 10px;
+}
+#vendorlist4 .vendor_left .catagories ul li {
+	text-align: center;
+}
+#vendorlist4 .vendor_right .produt_wrapper .text .cart a {
+	left: 120px;
+}
+/* ---------------------- vendorlsit4 page end --------------------------------- */
+
+/* ---------------------- wishlist page start --------------------------------- */
+#wishlist .Product .button {
+	padding-top: 0;
+	flex-wrap: wrap;
+}
+#wishlist .Product .button .view a {
+	padding: 5px 20px;
+	margin-bottom: 10px;
+}
+#wishlist .alc {
+	align-items: center;
+}
+/* ---------------------- wishlist page end --------------------------------- */
+
+/* fullwidthbanner part start=================================================================== */
+
+#manin-fullwidthbanner-bottom-button .fullwidthwithsidebar-product-filter h4 {
+	
+	margin-bottom: 10px;
+}
+
+#manin-fullwidthbanner-bottom-button .bannerwithsidebar-product-head-button h6 {
+	
+	margin-left: 0px;
+}
+
+#manin-fullwidthbanner-bottom-button .bannerwithsidebar-product-toggler {
+	
+	justify-content: center;
+}
+
+.bannerwithsidebar-product-bottom {
+	position: relative;
+	left: 35%;
+}
+
+/* fullwidthbanner part end=================================================================== */
+
+/* mainproduct part start======================================================= */
+
+#show-product .product-left_banner {
+	height: 49%;
+}
+
+#frequently .frequently-cart-button .cart-button span {
+	display: none;
+}
+
+#frequently .frequently-cart-button h2 {
+	
+	display: none;
+}
+
+#frequently .frequently-cart-button .cart-button {
+	margin-left: 0px;
+	margin-top: 30px;
+}
+
+#frequently .frequently-description ul li {
+	
+	font-size: 19px;
+}
+
+#frequently .description-iteam-all .description-iteam .fmark p {
+	line-height: 17px;
+	text-align: center;
+}
+
+#frequently .description-iteam-all .description-iteam p {
+	text-align: center;
+}
+
+#frequently .description-iteam-all .description-iteam h2 {
+	text-align: center;
+}
+
+#frequently .all-more-product {
+	
+	text-align: center;
+}
+
+#frequently .all-more-product .more-product-details ul {
+	justify-content: center;
+}
+
+#frequently .all-more-product .all-more-product-img h3 a {
+	left: 0;
+}
+
+#frequently .all-more-product .more-product-details ul {
+	
+	justify-content: center;
+}
+
+#order-complete .address-end-item .billing-address h4 {
+	
+	margin-top: 20px;
+}
+
+#frequently .customer-reviews {
+	
+	flex-wrap: wrap;
+}
+
+#frequently .customer-reviews .customer-com {
+	width: 100%;
+}
+
+#frequently .customer-reviews .customer-rating {
+	width: 45%;
+	margin-bottom: 30px;
+}
+
+#shop-product .shop-product-head-all-item .shop-product-head-right .shop-right-button button i {
+	margin-left: 00px;
+}
+
+#shop-product .shop-product-head-all-item .shop-product-head button {
+	
+	margin-bottom: 10px;
+}
+
+#shoppingcart .cart-totals-item {
+	
+	margin-top: 15px;
+}
+
+/* mainproduct part end======================================================= */
+
+	/* footer part start=============================================================================== */
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .footer-top-item .footer-logo img {
+	width: 50%;
+}
+
+#footer .footer-top-item .footer-email .footer-email-text {
+	margin-left: 0px;
+	margin-top: 20px;
+}
+
+#footer .footer-top-item .footer-email a i {
+	
+	margin-right: 20px;
+	margin-top: 21px;
+}
+
+
+#footer .footer-middle-item .footer-middle-all-menu-text {
+	
+	margin-top: 30px;
+
+}
+
+#footer .footer-top-item .footer-email {
+	
+	justify-content: center;
+}
+
+
+#footer .footer-top-item .email-box .form {
+	
+	flex-wrap: wrap;
+}
+
+#footer .footer-top-item .email-box .form .footer-eml {
+	
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#footer .footer-top-item .email-box {
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+#footer .footer-top-item .email-box .form .footer-email-btn {
+	
+	width: 100%;
+}
+
+/* #footer .footer-end-item .consumer-electric .consumer-electric-item li::after {
+	display: none;
+} */
+
+#footer .footer-end-item .consumer-electric .consumer-electric-item li {
+	margin-top: 10px;
+    margin-left: 0px;
+}
+#footer .footer-end-item .consumer-electric .consumer-electric-item li:first-child {
+	margin-left: 0px;
+}
+
+#footer .footer-end-item .consumer-electric {
+	
+	margin-top: 25px;
+}
+
+#footer .footer-bottom .footer-bottom-item .footer-bottom-payment {
+	
+	margin-top: 10px;
+}
+
+/* footer part end====================================================================================== */
+
+}
+
+/* Medium part end========================================================================== */
+
+/* Large part start================================================================================= */
+
+@media (min-width: 992px) and (max-width:1199.99px){
+	
+	/* navbar part start========================================================================= */
+
+	#search .logo img {
+		width: 100%;
+	}
+
+	#top-menu .menu-link .all-link .menu-textlink {
+		margin-left: 10px;
+	}
+
+	#main-menu .menu-Pages ul li {
+		margin-left: 15px;
+	}
+
+	#search .search-bar .wrapper .search_box .dropdown::before {
+		
+		display: none;
+	}
+
+	#search .search-all-icon .call h4 a {
+		font-size: 14px;
+	}
+
+	#main-menu .menu-all-icon .menu-icon-one a {
+		font-size: 12px;
+	}
+
+	#main-menu .menu-all-icon .menu-icon-one {
+		margin-left: 13px;
+	}
+
+	#main-menu .menu-all-icon .menu-icon-one {
+		margin-left: 13px;
+	}
+
+	#main-menu .menu-Pages ul .shop-menu .shop-menu-drop .shop-iteam-three {
+		width: 21%;
+	}
+	
+	/* navbar part end========================================================================= */
+
+	/* bannerwithsidebar part start=============================================== */
+
+	#bannerwithsidebar-bottom .border-sidebar .bannerwithsidebar-bottom-allproduct .bannerwithsidebar-bottom-product .bannerwithsidebar-bottom-p-pic {
+		width: 110px;
+		height: 110px;
+	}
+
+	#bannerwithsidebar-product .banner-all-product .banner-product-icon {
+		width: 65%;
+	}
+
+	#bannerwithsidebar-product .all-saidebar-item .sidebar-all-color {
+		
+		top: 1300px;
+	}
+
+	#bannerwithsidebar-product .all-saidebar-item .sidebar-all-size {
+		
+		top: 743px;
+	}
+
+	#bannerwithsidebar-product .all-saidebar-item .sidebar-all-brand {
+		
+		top: 987px;
+	}
+	
+	#bannerwithsidebar-product {
+		padding-bottom: 100px;
+	}
+
+	#manin-fullwidthbanner-bottom-button .banner-all-product .banner-product-icon {
+		width: 65%;
+	}
+
+	/* bannerwithsidebar part end=============================================== */
+
+	/* ----------------- banner area start ---------------------- */
+	#banner .banner_slider .banner_items img{
+		height: 500px;
+		object-fit: cover;
+	}
+	#banner .banner_slider .banner_items .banner_text1 {
+		right: 80px;
+	}
+	#banner .banRT_img img{
+		height: 240px;
+		object-fit: cover;
+	}
+	#banner .banRb_img img{
+		height: 240px;
+		object-fit: cover;
+	}
+	/* ----------------- banner area end ---------------------- */
+
+	/* ----------------- support area start ---------------------- */
+	#support .support_wrapper .EIAR::after {
+		right: -10px;
+	}
+	/* ----------------- support area end ---------------------- */
+
+	/* ----------------- dealsday area start ---------------------- */
+	#dealsday .dealsday_slider .deals_items .deals_inner {
+		margin: 0 auto;
+		width: 100%;
+	}	
+	/* ----------------- dealsday area end ---------------------- */
+
+	/* ----------------- growingprud area start ---------------------- */
+	#growingprud .wrapper .head_text h4 {
+		padding-right: 50px;
+	}
+	/* ----------------- growingprud area end ---------------------- */
+
+	/* ----------------- clotheapprel area end ---------------------- */
+	#clotheapprel .cna_left {
+		padding: 16px 5px;
+	}
+	#clotheapprel .cna_left h3 {
+		margin-bottom: 18px;
+	}
+	#clotheapprel .cna_left .cna_left_Btn a {
+	margin-top: 10px;
+	}
+	/* ----------------- clotheapprel area end ---------------------- */
+
+	/* ----------------- fashionelect area end ---------------------- */
+	#fashionelect .fne_wrapper .fne_inner img {
+		height: 200px;
+		object-fit: cover;
+	}	
+	#fashionelect .fne_wrapper .fne_inner .fne_text img {
+		transform: scale(0.3);	
+	}
+	#fashionelect .fne_wrapper .fne_inner .fne_text img {
+		right: -50px;
+		top: 0px;
+	}
+	#fashionelect .fne_wrapper .fne_inner .fne_text .fnersle {
+		right: -110px;
+	}
+	/* ----------------- fashionelect area end ---------------------- */
+
+	/* ----------------- fashionelect area end ---------------------- */	
+	#electronics .elect_left {
+		padding: 16px 5px;
+	}
+	#electronics .elect_left h3 {
+		margin-bottom: 18px;
+	}
+	#electronics .elect_left .elect_left_Btn a {
+		margin-top: 10px;
+	}
+	/* ----------------- fashionelect area end ---------------------- */
+
+	/* ----------------- fridaysale area start ---------------------- */
+	#fridaysale .fridaysale_inner .saleimg img{
+		height: 200px;
+		object-fit: cover;
+	}
+	/* ----------------- fridaysale area end ---------------------- */	
+	
+	/* ----------------- giftgade area start ---------------------- */
+	#giftgade .giftgad_left {
+		padding: 16px 5px;
+	}	
+	#giftgade .giftgad_left h3 {
+		margin-bottom: 18px;
+	}
+	#giftgade .giftgad_left .giftgad_left_Btn a {
+		margin-top: 10px;
+	}
+	/* ----------------- giftgade area end ---------------------- */
+
+	/* ----------------- wolmartporduct area start ---------------------- */
+	#wolmartporduct .product_wrapper .product_items .product_inner {
+		width: 100%;
+	}	
+	#wolmartporduct .product_wrapper .product_items .product_inner .product_icon {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	/* ----------------- wolmartporduct area end ---------------------- */	
+
+	/* -------------------------- about page start ------------------------- */
+	#about .about_header {
+		margin-top: 20px;
+	}
+	#about .about_header p {
+		margin-top: 20px;
+		padding: 0 100px;
+	}
+	#about .service .service_text {
+		margin-top: 45px;
+	}
+	#boost .boost_text {
+		padding-top: 0;
+	}
+	#boost .boost_text h3 {
+		font-size: 30px;
+	}
+	#leader .leader_header p {
+		padding: 0;
+	}
+	/* -------------------------- about page end ------------------------- */
+
+	/* ----------------- blog area start ---------------------- */	
+	#blog .blog_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table tbody tr td span {
+		margin-right: 10px;
+	}
+	/* ----------------- blog area end ---------------------- */	
+
+	/* -------------------------- bloggrid page start ------------------------- */
+	#bloggrid .grid_nav .grid_button button {
+		margin-bottom: 15px;
+	}
+	#bloggrid .grid_items_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table tbody tr td span {
+		margin-right: 10px;
+	}
+	/* -------------------------- bloggrid page end ------------------------- */
+
+	/* ========================== bloglist page start ================================== */
+	#bloglist .blog_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table tbody tr td span {
+	margin-right: 10px;
+	}
+	/* ========================== bloglist page end ================================== */
+
+	/* ========================== maskgrid page end ================================== */
+	#maskgrid .mask_nav .mask_button button {
+	margin-bottom: 15px;
+	}
+	#maskgrid .grid_items_wrapper .mask_inner .grid_text .inner_text .text_mid a {
+		line-height: 22px;
+	}
+	#maskgrid .grid_items_wrapper .mask_inner:hover .grid_text .inner_text {
+		margin-bottom: -10px;
+	}
+	/* ========================== maskgrid page end ================================== */
+
+	/* ========================== maskgrid page end ================================== */
+	#elements .elements_icon .iconItem {
+		background: #fff;
+		width: 220px;
+		padding: 35px 0;
+		border: 1px solid #f1f1f1;
+		margin-bottom: 20px;
+		border-radius: 4px;
+		-webkit-box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.212);
+		box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.212);
+	}
+	/* ========================== maskgrid page end ================================== */
+
+	/* ---------------------- bloggrid page start --------------------------------- */
+#bloggrid .grid_items_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table thead tr th {
+	text-align: center;
+}
+#bloggrid .grid_items_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table tbody tr td {
+	text-align: center;
+}
+#bloggrid .grid_items_wrapper .blog_right_wrapper .blog_right .calender .calder_inner .table table tbody tr td span {
+	margin-right: 0;
+}
+/* ---------------------- bloggrid page end --------------------------------- */
+
+/* ---------------------- storelist2 page start --------------------------------- */
+#storelist2 .right .list_items .vendr_shape {
+	right: 10px;
+	bottom: 53px;
+	width: 70px;
+	height: 70px;
+}
+#storelist2 .right .list_items .vendr_brand {
+	right: 10px;
+	bottom: 53px;
+	width: 70px;
+	height: 70px;
+}
+/* ---------------------- storelist2 page end --------------------------------- */
+
+/* ---------------------- storelist3 page start --------------------------------- */
+#storelist3 .list_wrapper .items_inner .img img {
+	min-height: 300px;
+	object-fit: cover;
+}
+/* ---------------------- storelist3 page end --------------------------------- */
+
+/* ---------------------- storelist4 page start --------------------------------- */
+#storelist4 .list_wrapper .list_inner .img a img {
+	width: 120px;
+	height: 120px;
+}
+/* ---------------------- storelist4 page end --------------------------------- */
+
+/* ---------------------- vendor page start --------------------------------- */
+#vendor .vendor_right .right_img .rt_img{
+	height: 450px;
+	object-fit: cover;
+}
+/* ---------------------- vendor page end --------------------------------- */
+
+/* ---------------------- vendorlist4 page start --------------------------------- */
+#vendorlist4 .vendor_right .produt_wrapper .text .cart a {
+	left: 60px;
+}
+/* ---------------------- vendorlist4 page end --------------------------------- */
+
+	/* coming soon part start======================================================== */
+
+	#coming-soon {
+		padding-top: 120px;
+	}
+
+	#coming-soon .coming-soon-counter .countdown-container .days-c::after {
+		
+		right: -87%;
+		top: 22%;
+	}
+
+	#coming-soon .coming-soon-counter .countdown-container .days-c::before {
+		
+		right: -87%;
+		bottom: 43%;
+	}
+
+	#coming-soon .coming-soon-counter .countdown-container .hours-c::before {
+		
+		right: -54%;
+		bottom: 48%;
+	}
+
+	#coming-soon .coming-soon-counter .countdown-container .hours-c::after {
+		
+		right: -54%;
+		top: 22%;
+	}
+
+	#coming-soon .coming-soon-counter .countdown-container .mins-c::before {
+		
+		right: -80%;
+		bottom: 48%;
+	}
+
+	#coming-soon .coming-soon-counter .countdown-container .mins-c::after {
+		
+		right: -80%;
+		top: 20%;
+	}
+
+	/* coming soon part end======================================================== */
+
+	/* mainproduct part start==================================================================== */
+
+	#frequently .frequently-description ul li {
+		font-size: 19px;
+	}
+
+
+	#frequently .description-iteam-all .description-iteam p {
+		font-size: 12px;
+	}
+
+	#show-product .zoom-buy .addtocart {
+		padding: 0px 27px;
+		margin-left: 15px;
+	}
+
+	#show-product .zoom-icon .other-icon::after {
+		display: none;
+	}
+
+	#show-product .zoom-icon .other-icon {
+		margin-left: 0px;
+	}
+
+	#frequently .frequently-cart-button .cart-button a {
+		margin-top: 5px;
+		padding: 10px 5px;
+	}
+
+	#frequently .customer-reviews {
+		
+		flex-wrap: wrap;
+	}
+
+	#frequently .customer-reviews .customer-com {
+		width: 100%;
+	}
+
+	#frequently .customer-reviews .customer-rating {
+		width: 47%;
+		margin-bottom: 50px;
+	}
+
+	#shop-product .shop-product-all-item .shop-product-icon a i {
+		font-size: 16px;
+
+	}
+
+	#shop-product .shop-product-all-item .shop-product-icon {
+		width: 100%;
+	}
+
+	#shoppingcart .quantity-cart-product .quantity-cart-product-img a {
+		left: 109px;
+		top: 42px;
+	}
+
+	/* mainproduct part end==================================================================== */
+
+	/* footer part start=============================================================================== */
+
+	.footer-logo{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 50%;	
+	}
+	
+	#footer .footer-top-item .footer-logo img {
+		width: 100%;
+	}
+	
+	#footer .footer-top-item .footer-email .footer-email-text {
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	
+	#footer .footer-top-item .footer-email a i {
+		
+		margin-right: 20px;
+		margin-top: 21px;
+	}
+	
+	
+	#footer .footer-middle-item .footer-middle-all-menu-text {
+		
+		margin-top: 30px;
+	
+	}
+	
+	#footer .footer-top-item .footer-email {
+		
+		justify-content: center;
+	}
+	
+	
+	#footer .footer-top-item .email-box .form {
+		
+		flex-wrap: wrap;
+	}
+	
+	#footer .footer-top-item .email-box .form .footer-eml {
+		
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	
+	#footer .footer-top-item .email-box {
+		margin-top: 25px;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+	
+	#footer .footer-top-item .email-box .form .footer-email-btn {
+		
+		width: 100%;
+	}
+	
+	/* #footer .footer-end-item .consumer-electric .consumer-electric-item li::after {
+		display: none;
+	} */
+	
+	#footer .footer-end-item .consumer-electric .consumer-electric-item li {
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+	#footer .footer-end-item .consumer-electric .consumer-electric-item li:first-child {
+		margin-left: 0px;
+	}
+	
+	#footer .footer-end-item .consumer-electric {
+		
+		margin-top: 25px;
+	}
+	
+	#footer .footer-bottom .footer-bottom-item .footer-bottom-payment {
+		
+		margin-top: 10px;
+	}
+	
+	/* footer part end====================================================================================== */
+
+
+
+}
+
+/* Large part end================================================================================= */
+
+/* extra large part start================================================================================= */
+
+@media (min-width: 1199.99px) and (max-width: 1400px){
+
+	/* bannerwithsidebar part start======================================================================= */
+
+	#top-menu .menu-link .all-link .menu-textlink {
+		margin-left: 25px;
+	}
+
+	#shop-product .shop-product-all-item .shop-product-icon {
+		width: 84%;
+	}
+
+	#bannerwithsidebar-product .banner-all-product .banner-product-icon {
+		width: 54%;
+	}
+
+	#manin-fullwidthbanner-bottom-button .banner-all-product .banner-product-icon {
+		width: 54%;
+	}
+
+	/* bannerwithsidebar part end======================================================================= */
+
+	/* ---------------------------- banner area start ---------------------- */
+	#banner .banner_slider .banner_items .banner_text1 {
+		right: 100px;
+		top: 80px;
+	}
+	#banner .banner_slider .banner_items .banner_text1 h3 {
+		margin-bottom: 25px;
+	}
+	#banner .banner_slider .banner_items .banner_text1 a {
+		padding: 10px 20px;
+	}
+	/* ---------------------------- banner area end ---------------------- */
+
+	/* ---------------------------- support area start ---------------------- */
+	#support .support_wrapper .support_text h4 {
+		font-size: 13px;
+	}
+	#support .support_wrapper .support_text h5 {
+		font-size: 12px;
+		margin-top: 8px;
+	}
+	/* ---------------------------- support area end ---------------------- */
+
+	/* ---------------------------- dealsday area start ---------------------- */
+	#dealsday .dealsday_slider .deals_items .deals_inner {
+		width: 100%;
+	}
+	#dealsday .dealsday_slider .deals_items .deals_inner .deals_icon {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	/* ---------------------------- dealsday area end ---------------------- */
+
+	/* ---------------------------- growingprud area start ---------------------- */
+	#growingprud .wrapper .head_text h4 {
+		padding-right: 100px;
+	}
+	/* ---------------------------- growingprud area end ---------------------- */
+
+	/* ---------------------------- trand area start ---------------------- */
+	#trand .trand_slider .trand_inner .trand_img img {
+		border-radius: 5px;
+		height: 180px;
+		object-fit: cover;
+	}
+	/* ---------------------------- trand area end ---------------------- */
+
+	/* ---------------------------- clotheapprel area start ---------------------- */
+	#clotheapprel .cna_left h3 {
+		margin-bottom: 18px;
+		text-align: start;
+		margin-left: 0;
+	}
+	#clotheapprel .cna_left ul li {
+		margin-bottom: 5px;
+		margin-left: 0;
+	}
+	#clotheapprel .cna_left {
+		padding: 16px 20px;
+	}
+	#clotheapprel .cna_left .cna_left_Btn a {
+		margin-top: 12px;
+	}
+	#clotheapprel .cna_right .cna_slider .cna_right_inner .cna_items .cna_icon {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	/* ---------------------------- clotheapprel area end ---------------------- */
+
+	/* ---------------------------- fashionelect area start ---------------------- */
+	#fashionelect .fne_wrapper .fne_inner img {
+		height: 180px;
+		object-fit: cover;
+	}
+	#fashionelect .fne_wrapper .fne_inner .fne_text img {
+		transform: scale(0.3);
+		right: -26px;
+		top: 2px;
+	}
+	#fashionelect .fne_wrapper .fne_inner .fne_text .fnersle {
+		right: -95px;
+	}
+	/* ---------------------------- fashionelect area end ---------------------- */
+
+	/* ---------------------------- electronics area atart ---------------------- */
+	#electronics .elect_left {
+		padding: 16px 20px;
+	}
+	#electronics .elect_left ul li {
+		margin-bottom: 5px;
+		margin-left: 0;
+	}
+	#electronics .elect_left h3 {
+		margin-bottom: 18px;
+		text-align: start;
+		margin-left: 0;
+	}
+	#electronics .elect_left .elect_left_Btn a {
+	margin-top: 12px;
+	}
+	#electronics .elect_right .elect_slider .elect_right_inner .elect_items .elect_icon {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	/* ---------------------------- electronics area end ---------------------- */
+
+	/* ---------------------------- fridaysale area start ---------------------- */
+	#fridaysale .fridaysale_inner .saleimg img{
+		height: 200px;
+		object-fit: cover;
+	}
+	/* ---------------------------- fridaysale area end ---------------------- */
+
+	/* ---------------------------- giftgade area start ---------------------- */
+	#giftgade .giftgad_left {
+		padding: 16px 20px;
+	}
+	#giftgade .giftgad_left h3 {
+		margin-bottom: 18px;
+		text-align: start;
+		margin-left: 0;
+	}
+	#giftgade .giftgad_left ul li {
+		margin-bottom: 5px;
+		margin-left: 0;
+	}
+	#giftgade .giftgad_left .giftgad_left_Btn a {
+		margin-top: 12px;
+	}
+	#giftgade .giftgad_right .giftgad_slider .giftgad_right_inner .giftgad_items .giftgad_icon {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	/* ---------------------------- giftgade area end ---------------------- */
+
+	/* ---------------------------- wolmartporduct area start ---------------------- */
+	#wolmartporduct .product_wrapper .product_items .product_inner {
+		margin: 10px;
+		width: 100%;
+	}
+	#wolmartporduct .product_wrapper {
+		justify-content: center;
+	}
+	#wolmartporduct .product_wrapper .product_items .product_inner .product_icon {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	/* ---------------------------- wolmartporduct area end ---------------------- */
+
+	/* ---------------------------- vendorlist4 area start ---------------------- */
+	#vendorlist4 .vendor_right .produt_wrapper .text .cart a {
+		left: 90px;
+	}
+	/* ---------------------------- vendorlist4 area end ---------------------- */
+
+	/* comingsoon part start======================================================================= */
+
+	#coming-soon {
+		padding-top: 134px;
+	}
+
+	#coming-soon .coming-soon-counter .countdown-container .days-c::after {
+		
+		right: -87%;
+		top: 22%;
+	}
+
+	#coming-soon .coming-soon-counter .countdown-container .days-c::before {
+		
+		right: -87%;
+		bottom: 43%;
+	}
+
+	#coming-soon .coming-soon-counter .countdown-container .hours-c::before {
+		
+		right: -54%;
+		bottom: 48%;
+	}
+
+	#coming-soon .coming-soon-counter .countdown-container .hours-c::after {
+		
+		right: -54%;
+		top: 22%;
+	}
+
+	#coming-soon .coming-soon-counter .countdown-container .mins-c::before {
+		
+		right: -80%;
+		bottom: 48%;
+	}
+
+	#coming-soon .coming-soon-counter .countdown-container .mins-c::after {
+		
+		right: -80%;
+		top: 20%;
+	}
+
+	/* comingsoon part end================================================================= */
+
+	/* mainprodct part start========================================================== */
+
+	#show-product .zoom-buy .addtocart {
+		padding: 10px 14px;
+	}
+
+	#frequently .frequently-cart-button .cart-button a {
+		
+		padding: 10px 27px;
+	}
+
+	#frequently .frequently-description ul li {
+		margin-right: 26px;
+	}
+	
+	#frequently .customer-reviews .customer-rating {
+		width: 37%;
+	}
+
+	#frequently .customer-reviews .customer-com {
+		width: 61%;
+	}
+
+	/* mainprodct part end========================================================== */
+
+		/* footer part start=============================================================================== */
+
+	.footer-logo{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 50%;	
+	}
+	
+	#footer .footer-top-item .footer-logo img {
+		width: 100%;
+	}
+	
+	#footer .footer-top-item .footer-email .footer-email-text {
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	
+	#footer .footer-top-item .footer-email a i {
+		
+		margin-right: 20px;
+		margin-top: 21px;
+	}
+	
+	
+	#footer .footer-middle-item .footer-middle-all-menu-text {
+		
+		margin-top: 30px;
+	
+	}
+	
+	#footer .footer-top-item .footer-email {
+		
+		justify-content: center;
+	}
+	
+	
+	#footer .footer-top-item .email-box .form {
+		
+		flex-wrap: wrap;
+	}
+	
+	#footer .footer-top-item .email-box .form .footer-eml {
+		
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	
+	#footer .footer-top-item .email-box {
+		margin-top: 25px;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+	
+	#footer .footer-top-item .email-box .form .footer-email-btn {
+		
+		width: 100%;
+	}
+	
+	/* #footer .footer-end-item .consumer-electric .consumer-electric-item li::after {
+		display: none;
+	} */
+	
+	#footer .footer-end-item .consumer-electric .consumer-electric-item li {
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+	#footer .footer-end-item .consumer-electric .consumer-electric-item li:first-child {
+		margin-left: 0px;
+	}
+	
+	#footer .footer-end-item .consumer-electric {
+		
+		margin-top: 25px;
+	}
+	
+	#footer .footer-bottom .footer-bottom-item .footer-bottom-payment {
+		
+		margin-top: 10px;
+	}
+
+	#footer .footer-top-item .footer-email {
+		
+		text-align: center;
+	}
+
+	#footer .footer-end-item .consumer-electric .consumer-electric-item li:first-child {
+		margin-left: 13px;
+	}
+
+	#footer .footer-end-item .consumer-electric .consumer-electric-item li {
+		margin-top: 0px;
+	}
+
+	#main-menu .menu-all-icon .menu-icon-one {
+		margin-left: 14px;
+	}
+
+	/* footer part start======================================================================== */
+
+
+
+
+}
+
+/* extra large part end================================================================================= */
+
+@media (min-width: 1400px){
+
+	#coming-soon {
+		padding-top: 149px;
+	}
+	#clotheapprel .cna_left h3 {
+		margin-bottom: 20px;
+		margin-left: 0;
+		text-align: start;
+	}
+	#clotheapprel .cna_left {
+		padding: 25px 20px;
+	}
+	#clotheapprel .cna_left ul li {
+		margin-bottom: 8px;
+		margin-left: 0;
+	}
+	#clotheapprel .cna_left .cna_left_Btn a {
+		margin-top: 12px;
+	}
+	#electronics .elect_left {
+		padding: 25px 20px;
+	}
+	#electronics .elect_left h3 {
+		margin-bottom: 20px;
+		margin-left: 0;
+		text-align: start;
+	}
+	#electronics .elect_left ul li{
+		margin-bottom: 8px;
+		margin-left: 0;
+	}
+	#electronics .elect_left .elect_left_Btn a {
+		margin-top: 12px;
+	}
+	#giftgade .giftgad_left {
+		padding: 25px 20px;
+	}
+	#giftgade .giftgad_left h3 {
+		margin-bottom: 20px;
+		margin-left: 0;
+		text-align: start;
+	}
+	#giftgade .giftgad_left ul li {
+		margin-bottom: 8px;
+		margin-left: 0;
+	}
+	#giftgade .giftgad_left .giftgad_left_Btn a {
+		margin-top: 12px;
+	}
+}

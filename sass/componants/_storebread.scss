@@ -1,0 +1,30 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*--------------- store list area start ----------------*/ 
+#storebreadcumb{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    .bread_wrapper{
+        border-bottom: 1px solid #c9c9c9;
+        padding-bottom: 15px;
+        .storebred_header{
+            display: flex;
+            align-items: center;
+            a{
+                @include fs(14px,400,$popi,#333);
+                text-transform: capitalize;
+                margin-right: 3px;
+                transition: all linear .2s;
+                &:hover{
+                    color: $hover;
+                }
+            }
+            h4{
+                @include fs(14px,400,$popi,#333);
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+/*--------------- store list area end ----------------*/ 

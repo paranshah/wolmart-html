@@ -1,0 +1,13 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*------------------- client area start -------------------*/ 
+#client{
+    margin: 50px 0;
+    .client_slider{
+        .client_inner{
+            width: 141px;
+        }
+    }
+}
+/*------------------- client area end -------------------*/ 

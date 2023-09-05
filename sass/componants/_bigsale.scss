@@ -1,0 +1,139 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*----------------- big sale area start -----------------*/ 
+#bigsale{
+    margin: 50px 0;
+    .bigsale_wrapper{
+        background-image: url(../images/bigsale.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 25px 50px;
+        border-radius: 5px;
+        .bigS_left_text {
+          h4{
+            @include fs(35px,700,$popi,#1cbcd0);
+            text-transform: uppercase;
+          }
+          h5{
+            @include fs(20px,600,$popi,#FFF);
+            text-transform: uppercase;
+            margin-top: 10px;
+            margin-left: 10px;
+            position: relative;
+            &::after{
+                @include after_lt(0,-3px,100%,3px,#919191)
+            }
+            &::before{
+                @include before_lb(0,3px,100%,3px,#919191)
+            }
+        }
+        }
+        .bigS_right_text{
+            display: flex;
+            justify-content: end;
+            h5{
+                @include fs(20px,600,$popi,#FFF);
+                text-transform: uppercase;
+                margin-top: 10px;
+            }
+            a{
+                @include fs(15px,600,$popi,#fff);
+                text-transform: uppercase;
+                padding: 10px 30px;
+                background: #333;
+                border-radius: 3px;
+                margin-left: 40px;
+                transition: all linear .3s;
+                span{
+                    margin-left: 5px;
+                }
+                &:hover{
+                    background: #454545;
+                }
+            }
+        }
+    }
+
+    .deals-pday-head{
+        padding-top: 50px;
+        .deals-pday-head-text{
+            display: flex;
+            justify-content: space-between;
+
+            .deals-pday-head-counter{
+                display: flex;
+
+                h2{
+                    font-size: 20px;
+                    font-family: $popi;
+                    color: $head;
+                    font-weight: 700;
+                }
+
+                .deals-main-counter{
+                    margin-left: 30px;
+                    padding: 4px 7px;
+                    background: $hover;
+                    display: flex;
+                    color: #fff;
+                    border-radius: 3px;
+
+                    p{
+                        font-size: 12px;
+                                font-weight: 500;
+                                font-family: $popi;
+                    }
+
+                    #countdown{
+                        ul{
+                            display: flex;
+                            margin-bottom: 0;
+
+                            li{
+
+                                margin-left: 5px;
+                                font-size: 12px;
+                                font-weight: 500;
+                                font-family: $popi;
+
+                                &:nth-child(3){
+                                    margin-left: 2px;
+                                    margin-right: 2px;
+                                }
+
+                                &:nth-child(4){
+                                    margin-left: 2px;
+                                    margin-right: 2px;
+                                }
+
+                            }
+                        }
+                    }
+
+                    
+                }
+
+
+            }
+
+            .deals-pday-head-more{
+                a{
+                    font-size: 14px;
+                    font-weight: 700;
+                    font-family: $popi;
+                    color: $head;
+
+                    i{
+                        margin-left: 5px;                        
+                    }
+                }
+            }
+        }
+    }
+
+    
+
+}
+/*----------------- big sale area end -----------------*/ 

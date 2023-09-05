@@ -1,0 +1,57 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*------------ fashion & electronics area start --------------*/
+#fashionelect{
+    margin: 50px 0;
+    .fne_wrapper{
+        .fne_inner{
+            position: relative;
+            img{
+                border-radius: 5px;
+            }
+            .fne_text{
+                position: absolute;
+                left: 40px;
+                top: 30px;
+                h3{
+                    @include fs(30px,400,$yello,#fff);
+                    margin-bottom: 5px
+                }
+                h4{
+                    @include fs(30px,700,$popi,#fff);
+                    text-transform: uppercase;
+                }
+                a{
+                    @include fs(14px,600,$popi,#fff);
+                    text-transform: uppercase;
+                    margin-top: 10px;
+                    position: relative;
+                    span{
+                        margin-left: 5px;
+                    }
+                    &::after{
+                        @include after_lb(0,-3px,100%,2px,#fff);
+                        transform: scaleX(0);
+                        transition: all linear .2s;
+                    }
+                    &:hover{
+                        &::after{
+                            transform: scaleX(1);
+                        }
+                    }
+                }
+                img{
+                    transform: scale(.5);
+                    position: absolute;
+                    right: -10px;
+                    top: 20px;
+                }
+                .fnersle{
+                    right: -70px;
+                }
+            }
+        }
+    }
+} 
+/*------------ fashion & electronics area end --------------*/ 

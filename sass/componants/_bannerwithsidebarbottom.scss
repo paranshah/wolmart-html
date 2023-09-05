@@ -1,0 +1,70 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+#bannerwithsidebar-bottom{
+
+    .border-sidebar{
+
+        border-bottom: 1px solid $buttonb;
+        padding-bottom: 50px;
+
+        .bannerwithsidebar-bottom-all-img{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 100%;
+    
+            .bannerwithsidebar-img{
+                width: 14%;
+            }
+        }
+    
+        .bannerwithsidebar-bottom-allproduct{
+            
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+    
+            .bannerwithsidebar-bottom-product{
+                transition: all linear 0.3s;
+                    
+                &:hover .bannerwithsidebar-bottom-p-name h3{
+                    color: #485b5e;
+                }
+    
+                .bannerwithsidebar-bottom-p-pic{
+                    width: 128px;
+                    height: 128px;
+                    border-radius: 50%;
+                    transition: all linear 0.3s;               
+    
+                    &:hover{
+                        transform: scale(1.1);
+                        cursor: pointer;    
+                        box-shadow: 5px 0px 10px  05px #99c4cab9;               
+    
+                    }
+                }
+            }
+    
+            .bannerwithsidebar-bottom-p-name{
+                margin-top: 15px;
+                h3{
+                    color: $head;
+                    font-size: 14px;
+                    font-family: $popi;
+                    font-weight: 700;
+                    cursor: pointer;
+                    transition: all linear 0.3s;
+    
+                }
+            }
+    
+        }
+    }
+    
+    
+    
+        
+}

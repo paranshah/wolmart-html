@@ -1,0 +1,49 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*------------------- recent view area start ---------------*/ 
+#recentview{
+    margin: 50px 0;
+    .recent_view_header{
+        h3{
+            @include fs(20px,700,$popi,#333);
+            text-transform: capitalize;
+        }
+    }
+    .recentview_slider{
+        .view_items{
+            margin-top: 40px;
+            .items_inner{
+                width: 141px;
+                position: relative;
+                &:hover{
+                    .overlay{
+                        opacity: 1;
+                    }
+                }
+                .overlay{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.5);
+                    padding: 20px 10px;
+                    opacity: 0;
+                    transition: all ease .3s;
+                    text-align: center;
+                    a{
+                        @include fs(13px,400,$popi,#FFF);
+                        text-align: center;
+                        margin-top: 45px;
+                        transition: all linear .2s;
+                        &:hover{
+                            color: $hover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*------------------- recent view area end ---------------*/

@@ -1,0 +1,42 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*-------------- blog bredcumb area start -------------*/ 
+#blogbred{
+    background: #eeee;
+    .bred_text{
+        padding: 60px 0;
+        text-align: center;
+        h1{
+            @include fs(30px,700,$popi,#333);
+        }
+    }
+}
+#blogbredBtm{
+    margin-bottom: 30px;
+   .btm_inner{
+    position: relative;
+    &::after{
+        @include after_lb(0,0,100%,2px,#eeee);
+    }
+    .bred_btm_text {
+        display: flex;
+        align-items: center;
+        padding: 15px 0;
+        a{
+            @include fs(13px,300,$popi,#333);
+            span{
+                margin-left: 3px;
+                margin-right: 5px;
+            }
+            &:hover{
+                color: $hover;
+            }
+        }
+        p{
+            @include fs(13px,300,$popi,#333);
+        }
+    }
+   }
+}
+/*-------------- blog bredcumb area end -------------*/ 

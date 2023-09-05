@@ -1,0 +1,187 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*--------------- wolmart product area start --------------*/ 
+#wolmartporduct{
+    margin: 50px 0;
+    .Wproduct_header{
+        h3{
+            @include fs(20px,700,$popi,#333);
+            text-transform: capitalize;
+        }
+    }
+    .product_buttton{
+        button{
+            @include fs(14px,400,$popi,#000);
+            text-transform: capitalize;
+            border: none;
+            margin-left: 30px;
+            transition: all linear .3s;
+            &:hover{
+                color: $hover;
+            }
+        }
+    }
+    .product_wrapper{
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        .product_items{
+            .product_inner{
+                width: 244px;
+                position: relative;
+                margin: 5px;
+                .offf{
+                    position: absolute;
+                    left: 15px;
+                    top: 10px;
+                    z-index: 999;
+                    h5{
+                        display: inline-block;
+                        @include fs(13px,400,$popi,#fff);
+                        text-transform: uppercase;
+                        padding: 3px 5px;
+                        background: #1cbcd0;
+                        border-radius: 3px;
+                    }
+                }
+                .new{
+                    background: $hover;
+                    width: 40px;
+                    text-align: center;
+                    position: absolute;
+                    left: 30px;
+                    top: 20px;
+                    z-index: 999;
+                    border-radius: 3px;
+                    h6{
+                        @include fs(13px,400,$popi,#fff);
+                        padding: 2px 4px;
+                        text-transform: capitalize;
+                    }
+                }
+                .product_icon{
+                    width: 142px;
+                    padding: 10px 9px;
+                    background: #fff;
+                    border-radius: 5px;
+                    box-shadow: 0px 0px 6px 3px rgba(212, 207, 207, 0.4);
+                    position: absolute;
+                    left: 50px;
+                    bottom: 60px;
+                    z-index: 999;
+                    opacity: 0;
+                    transition: all linear .2s;
+                    a{
+                        i{
+                            font-size: 17px;
+                            color: #666;
+                            margin: 0 5px;
+                            transition: all linear .2s;
+                            &:hover{
+                                color: $hover;
+                            }
+                        }
+                    }
+                }
+                &:hover{
+                    .product_icon{
+                        opacity: 1;
+                        bottom: 110px;
+                    }
+                }
+                .product_img{
+                    position: relative;
+                    .wproduct_img{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        transition: all linear .2s;
+                        &:hover{
+                            opacity: 0;
+                        }
+                    }
+                }
+                .product_text{
+                    margin-top: -7px;
+                    padding: 20px 0;
+                    a{
+                        @include fs(13px,500,$popi,#333);
+                        display: block;
+                        text-transform: capitalize;
+                        transition: all ease .2s;
+                        &:hover{
+                            color: $hover;
+                        }
+                    }
+                    .product_star{
+                        position: relative;
+                        margin-bottom: 5px;
+                        i{
+                            cursor: pointer;
+                            color: #666;
+                            font-size: 11px;
+                            margin: 0 -1px;
+                            .star_numb{
+                                position: absolute;
+                                left: 77px;
+                                top: -32px;
+                                background: #333;
+                                width: 30px;
+                                height: 30px;
+                                text-align: center;
+                                opacity: 0;
+                                transition: all ease .2s;
+                                h6{
+                                    @include fs(12px,400,$popi,#fff);
+                                    line-height: 30px;
+                                }
+                                .shape{
+                                    position: absolute;
+                                    left: 9px;
+                                    bottom: -5px;
+                                    transform:rotate(45deg);
+                                    width: 10px;
+                                    height: 10px;
+                                    background: #333;
+                                }
+                            }
+                            &:hover{
+                                .star_numb{
+                                    opacity: 1;
+                                }
+                            }
+                        }
+                        span{
+                            display: inline-block;
+                            margin-left: 5px;
+                           a{
+                            @include fs(12px,400,$popi,#bdb9b9);
+                            text-transform: capitalize;
+                            transition: all linear .2s;
+                            &:hover{
+                                color: $hover;
+                            }
+                           }
+                           }
+                        .colornai{
+                            color: #bdb9b9;
+                        }
+                       }
+                       h5{
+                        @include fs(16px,600,$popi,#333);
+                        span{
+                            margin-left: 5px;
+                            color: #bdb9b9;
+                            position: relative;
+                            &::after{
+                                @include after_lb(0,9px,100%,3px,#bdb9b9);
+                            }
+                        }
+                       }
+                }
+            }
+        }
+    }
+}
+/*--------------- wolmart product area end --------------*/ 

@@ -1,0 +1,35 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*---------------- elementor area start -------------------*/ 
+#support{
+    margin-top: 20px;
+    .support_wrapper{
+        background: #fff;
+        padding: 30px 50px;
+        border-radius: 5px;
+        .EIAR{
+            position: relative;
+            &::after{
+                @include after_rt( 0, 0, 2px, 100%, #eee);
+            }
+        }
+        .support_icon{
+            i{
+                font-size: 40px;
+            }
+        }
+        .support_text{
+            text-align: left;
+            h4{
+                @include fs(15px,700,$popi,#333);
+                text-transform: capitalize;
+            }
+            h5{
+                @include fs(14px,300,$popi,#666); 
+                margin-top: 5px;
+            }
+        }
+    }
+}
+/*---------------- elementor area end -------------------*/ 

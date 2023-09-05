@@ -1,0 +1,1204 @@
+@import"../veriables/veriables";
+@import"../mixins/mixins";
+
+#frequently{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .frequently-head-text{
+        border-bottom: 1px solid $buttonb;
+        h2{
+            color: $head;
+            font-family: $popi;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+    }
+
+    .frequently-all-product-plus{
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+
+        .frequently-product-plus{
+            width: 30%;
+            position: relative;
+            cursor: pointer;
+
+            input{
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                width: 20px;
+                height: 20px;
+            }
+
+            .frequently-product-plus-text{
+                a{
+                    font-size: 13px;
+                    font-family: $popi;
+                    color: $head;
+                    font-weight: 400;
+                }
+
+                h2{
+                    margin-top: 5px;
+                    font-size: 15px;
+                    font-family: $popi;
+                    color: $head;
+                    font-weight: 700;
+                }
+            }
+
+        }
+
+        .frequently-product-main-plus{
+            width: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i{
+               font-size: 25px;
+               color: $buttonb;
+            }
+        }
+
+
+    }
+    
+    .frequently-cart-button{
+        display: flex;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+
+        h2{
+            font-size: 50px;
+            color: $buttonb;
+            margin-top: 30px;
+        }
+
+        .cart-button{
+            margin-left: 50px;
+            h3{
+                font-size: 24px;
+                color: #336699;
+                font-family: $popi;
+                font-weight: 700;
+            }
+
+            span{
+                font-size: 13px;
+                color: $head;
+                font-family: $popi;
+                font-weight: 400;
+            }
+
+            a{
+                margin-top: 30px;
+                padding: 10px 45px;
+                background: $head;
+                font-family: $popi;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+        }
+    }
+
+    .frequently-description{
+        padding-top: 80px;
+
+        ul{
+            display: flex;
+            padding-bottom: 20px;
+            border-bottom: 1px solid $buttonb;
+
+            .descriptionnav{
+                position: relative;
+            }
+
+            li{
+                margin-right: 30px;
+
+                font-size: 24px;
+                     font-weight: 700;
+                     font-family: $popi;
+                     color: $pera;
+                     position: relative;
+                     transition: all linear 0.3s;
+
+                     &:hover{
+                        color: $head;
+                     }
+
+                     &:hover::after{
+                        width: 100%;
+                        background: $ones;
+                        left: 0;
+                        transform: translateX(0);
+                        border-radius: 0;
+                     }
+
+                     &::after{
+                        position: absolute;
+                        content: '';
+                        width: 0%;
+                        height: 2px;
+                        bottom: -20px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        transition: all linear 0.3s;
+                     }
+            }
+        }
+
+    }
+
+    
+
+    .description-iteam-all{
+        display: flex;
+        justify-content: space-between;
+
+        .description-iteam{
+            margin-top: 30px;
+            h2{
+                color: $head;
+                font-family: $popi;
+                font-weight: 700;
+                font-size: 20px;
+            }
+    
+            p{
+                font-size: 13px;
+                font-family: $popi;
+                color: $pera;
+                font-weight: 400;
+                line-height: 25px;
+                margin-top: 20px;
+            }
+    
+            .fmark{
+    
+                margin-top: 40px;
+    
+                p{
+                    line-height: 0px;
+                    i{
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+
+        .fvideo{
+            margin-top: 30px;
+            width: 50%;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+    
+            .video-icon{               
+                
+                i{
+                    font-size: 80px;
+                    color: #f5f5f5;
+                    border-radius: 50%;
+                    transition: all linear 0.3s;
+                    box-shadow: 0px 0px 10px #eeeeee;
+                    cursor: pointer;
+    
+                    &:hover{
+                        color: $head;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .dptext-all{
+
+        display: flex;
+        justify-content: space-between;
+
+        .dptext{
+
+            p{
+                font-size: 13px;
+                font-family: $popi;
+                color: $pera;
+                font-weight: 400;
+                line-height: 25px;
+                margin-left: 20px;
+                margin-top: 10px;
+            }
+
+            h2{ 
+                color: $head;
+                font-size: 14px;
+                font-family: $popi;
+                font-weight: 500;
+
+                span{
+                    margin-right: 10px;
+                }
+
+            }
+        }
+    }
+      
+    .specificationshow{
+         display: none;
+        .sptext{
+            display: flex;
+            justify-content: space-between;
+    
+            ul{
+                li{
+                    color: $pera;
+                    font-family: $popi;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 40px;
+                }
+            }
+        }
+
+    }
+
+    .vendor-info-show{
+        display: none;
+        .vendor-info-reviews{
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+    
+            .vendor-info-img{
+                width: 50%;
+    
+                img{
+                    width: 100%;
+                }
+        
+            }
+    
+            .vendor-info-imgd{
+                width: 45%;
+    
+                .vandor-name-logo{
+                    display: flex;
+    
+                    .vadorlogo{
+                        img{
+                            border: 1px solid $buttonb;
+                        }
+                    }
+    
+                    .vador-name{
+                        margin-left: 20px;
+                        h3{
+                            color: $head;
+                            font-family: $popi;
+                            font-size: 18px;
+                            font-weight: 700;
+    
+                        }
+    
+                        h4{
+                            margin-top: 10px;
+                            color: $pera;
+                            font-family: $popi;
+                            font-size: 13px;
+                            font-weight: 400;
+    
+                            i{
+                                color: #f93;
+                                font-size: 12px;
+                            }
+                        }
+                    }                
+                }
+    
+                .nam-nam{
+                    display: flex;
+                    margin-top: 20px;
+    
+                    ul{
+    
+                        .pppp{
+                            margin-top: 30px;
+                        }
+                        li{
+    
+                            font-family: $popi;
+                    font-size: 14px;
+                    color: $pera;
+                    font-weight: 400;
+                    line-height: 30px;
+    
+                    &:first-child{
+                        width: 86px;
+                     }
+    
+                        }
+    
+                        &:first-child{
+    
+                           margin-right: 50px;
+                           
+                        }
+                    }
+                }
+    
+                a{
+                    font-size: 14px;
+                    font-family: $popi;
+                    font-weight: 700;
+                    color: $head;
+                    transition: all linear 0.3s;
+                    position: relative;
+    
+                    &:hover::after{
+                        width: 100%;
+                        background: $head;
+                        left: 0;
+                        transform: translateX(0);
+                        border-radius: 0;
+                     }
+    
+                     &::after{
+                        position: absolute;
+                        content: '';
+                        width: 0%;
+                        height: 2px;
+                        bottom: -5px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        transition: all linear 0.3s;
+                     }
+    
+    
+                    i{
+                        margin-left: 5px;
+                    }
+                }
+    
+            }
+    
+        }
+    
+        .vador-img-bottom{
+            margin-top: 50px;
+    
+            p{
+                font-weight: 400;
+                font-family: $popi;
+                font-size: 14px;
+                color: $pera;
+                line-height: 25px;
+    
+                span{
+                    color: $head;
+                    font-weight: 700;
+                }
+    
+                &:last-child{
+                    margin-top: 30px;
+                }
+            }
+        }
+
+    }
+
+    .customer-reviews{
+        display: flex;
+        justify-content: space-between;
+
+        .customer-rating{            
+            width: 35%;
+
+            .rating-customer-star{
+
+                display: flex;
+                align-items: center;
+
+                .rating-star{
+
+                    h5{
+                        margin-top: 20px;
+                        color: $head;
+                        font-size: 14px;
+                        font-family: $popi;
+                        font-weight: 500;
+    
+                    }
+
+                    ul{
+                        display: flex;
+                        margin-top: 10px;
+                        li{
+                            color: $pera;
+                            font-family: $popi;
+                            font-size: 13px;
+                            font-weight: 400;
+    
+                            &:last-child{
+                                margin-left: 5px;
+                            }
+    
+                            &:nth-child(4) i{
+                                color: $buttonb;
+                            }
+    
+                            &:nth-child(5) i{
+                                color: $buttonb;
+                            }
+    
+                            i{
+                                color: #f93;
+                            }
+                        }
+                    }
+
+                }                
+
+                h2{
+                    color: #336699;
+                    font-size: 60px;
+                    font-family: $popi;
+                    font-weight: 700;
+                    margin-right: 30px;
+                }
+
+            }
+
+            .customer-ratinggg{
+                margin-top: 10px;
+                h4{
+                    font-size: 26px;
+                    font-family: $popi;
+                    font-weight: 500;
+                    color: $head;
+
+                    span{
+                        font-size: 14px;
+                        font-family: $popi;
+                        font-weight: 400;
+                        color: $head; 
+                        margin-left: 30px;                       
+                    }
+                }
+            }
+
+            .star-five{
+                margin-top: 30px;
+                margin-bottom: -10px;
+                display: flex;
+                justify-content: space-between;
+                ul{
+                    display: flex;
+                    li{
+
+                        &:last-child{
+                            position: relative;
+
+                        }
+                        
+
+                        &::after{
+                            position: absolute;
+                            content: '';
+                            width: 170px;
+                            height: 8px;
+                            border-radius: 5px;
+                            left: 50px;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            background: #eee;
+                            transition: all linear 0.3s;
+                        }
+
+                        &::before{
+                            position: absolute;
+                            content: '';
+                            width: 120px;
+                            z-index: 1;
+                            height: 8px;
+                            border-radius: 5px;
+                            left: 50px;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            background: $buttonb;
+                            animation: rating 4s linear infinite;
+
+                            @keyframes rating {
+                                0%{
+                                    width: 0px;
+                                }
+
+                                100%{
+                                    width: 120px;
+                                }
+                            }
+                        }
+
+
+
+                        i{
+                            color: #f93;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .star-text{
+                    display: flex;
+                    flex-direction: column;
+
+                    a{
+                        color: $head;
+                        font-size: 13px;
+                        font-weight: 400;
+                        font-family: $popi;
+                    }
+                }
+            }
+
+            .star-four{
+                margin-bottom: -10px;
+                display: flex;
+                justify-content: space-between;
+                ul{
+                    display: flex;
+                    li{
+                        &:nth-child(5) i{
+                            color: $buttonb;
+                        }
+
+                        &:last-child{
+                            position: relative;
+
+                        }
+
+                        &::after{
+                            position: absolute;
+                            content: '';
+                            width: 170px;
+                            height: 8px;
+                            border-radius: 5px;
+                            left: 50px;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            background: #eee;
+                            transition: all linear 0.3s;
+                        }
+
+
+                        &::before{
+                            position: absolute;
+                            content: '';
+                            width: 70px;
+                            z-index: 1;
+                            height: 8px;
+                            border-radius: 5px;
+                            left: 50px;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            background: $buttonb;
+                            animation: ratingfour 4s linear infinite;
+
+                            @keyframes ratingfour {
+                                0%{
+                                    width: 0px;
+                                }
+
+                                100%{
+                                    width: 70px;
+                                }
+                            }
+                        }
+
+                        i{
+                            color: #f93;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .star-text{
+                    display: flex;
+                    flex-direction: column;
+
+                    a{
+                        color: $head;
+                        font-size: 13px;
+                        font-weight: 400;
+                        font-family: $popi;
+                    }
+                }
+            }
+
+            .star-three{
+                margin-bottom: -10px;
+                display: flex;
+                justify-content: space-between;
+                ul{
+                    display: flex;
+                    li{
+
+                        &:nth-child(4) i{
+                            color: $buttonb;
+                        }
+
+                        &:nth-child(5) i{
+                            color: $buttonb;
+                        }
+
+                        &::before{
+                            position: absolute;
+                            content: '';
+                            width: 50px;
+                            z-index: 1;
+                            height: 8px;
+                            border-radius: 5px;
+                            left: 50px;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            background: $buttonb;
+                            animation: ratingthree 4s linear infinite;
+
+                            @keyframes ratingthree {
+                                0%{
+                                    width: 0px;
+                                }
+
+                                100%{
+                                    width: 50px;
+                                }
+                            }
+                        }
+                        &::after{
+                            position: absolute;
+                            content: '';
+                            width: 170px;
+                            height: 8px;
+                            border-radius: 5px;
+                            left: 50px;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            background: #eee;
+                            transition: all linear 0.3s;
+                        }
+
+                        &:last-child{
+                            position: relative;
+
+                        }
+
+                        i{
+                            color: #f93;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .star-text{
+                    display: flex;
+                    flex-direction: column;
+
+                    a{
+                        color: $head;
+                        font-size: 13px;
+                        font-weight: 400;
+                        font-family: $popi;
+                    }
+                }
+            }
+
+
+            .star-two{
+                margin-bottom: -10px;
+                display: flex;
+                justify-content: space-between;
+                ul{
+                    display: flex;
+                    li{
+
+                        &:nth-child(1) i{
+                            color: #f93;
+                        }
+
+                        &:nth-child(2) i{
+                            color: #f93;
+                        }
+
+                        &:last-child{
+                            position: relative;
+
+                        }
+                        &::after{
+                            position: absolute;
+                            content: '';
+                            width: 170px;
+                            height: 8px;
+                            border-radius: 5px;
+                            left: 50px;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            background: #eee;
+                            transition: all linear 0.3s;
+                        }
+
+                        i{
+                            color: $buttonb;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .star-text{
+                    display: flex;
+                    flex-direction: column;
+
+                    a{
+                        color: $head;
+                        font-size: 13px;
+                        font-weight: 400;
+                        font-family: $popi;
+                    }
+                }
+            }
+
+
+            .star-one{
+                margin-bottom: -10px;
+                display: flex;
+                justify-content: space-between;
+                ul{
+                    display: flex;
+                    li{
+
+                        &:first-child i{
+                              color: #f93;
+                        }
+                        &:last-child{
+                            position: relative;
+
+                        }
+
+                        &::after{
+                            position: absolute;
+                            content: '';
+                            width: 170px;
+                            height: 8px;
+                            border-radius: 5px;
+                            left: 50px;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            background: #eee;
+                            transition: all linear 0.3s;
+                        }
+
+                        i{
+                            color: $buttonb;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .star-text{
+                    display: flex;
+                    flex-direction: column;
+
+                    a{
+                        color: $head;
+                        font-size: 13px;
+                        font-weight: 400;
+                        font-family: $popi;
+                    }
+                }
+            }
+
+           
+        }
+
+        .customer-com{         
+            width: 60%;
+
+            .customer-com-head{
+                h2{
+                    font-size: 20px;
+                    font-family: $popi;
+                    color: $head;
+                    font-weight: 600;
+                }
+
+                p{
+                    font-size: 14px;
+                    font-family: $popi;
+                    color: $pera;
+                    font-weight: 400;
+                    margin-top: 15px;
+                }
+
+                h4{
+                    font-size: 14px;
+                    font-family: $popi;
+                    color: $pera;
+                    font-weight: 400;
+                    margin-top: 20px;
+
+                    i{
+                        color: $head;
+                    }
+                }
+            }
+
+            .customer-form{
+                margin-top: 30px;
+
+                form{
+                    #Write{
+                        padding-top: 20px;
+                        padding-left: 20px;
+                        width: 100%;
+                        height: 150px;
+                        outline: none;
+                        border: 1px solid $buttonb;
+                        font-size: 14px;
+                    font-family: $popi;
+                    color: $pera;
+                    font-weight: 400;
+                    }
+
+                    input{
+                        margin-top: 30px;
+                        padding-left: 15px;
+                        height: 40px;
+                        width: 45%;
+                        margin-right: 4%;
+                        outline: none;
+                        border: 1px solid $buttonb;
+                        font-size: 14px;
+                    font-family: $popi;
+                    color: $pera;
+                    font-weight: 400;
+
+                    }
+
+                    .ccheckbox{
+                        margin-top: 40px;
+                        height: 20px;
+                        width: 20px;
+                        
+                    }
+
+                    label{
+                        margin-left: -17px;
+                        font-size: 13px;
+                    font-family: $popi;
+                    color: $pera;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                    }
+
+                    button{
+                        margin-top: 30px;
+                        padding: 10px 30px;
+                        border: none;
+                        background: $head;
+                        font-family: $popi;
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: #fff;
+                    }
+                }
+            }
+
+        }
+
+        
+    }
+
+    .customer-reviews-show{
+        margin-top: 80px;
+        display: none;
+
+        .customer-commend-item{
+
+            .customer-commend-menu{
+
+                border-bottom: 1px solid $buttonb;
+                ul{
+                    display: flex;
+                    justify-content: space-between;
+    
+                    li{
+                        a{  
+                             padding: 10px 25px;
+                             border: 1px solid transparent;
+                             border-radius: 25px;
+                             color: $head;
+                             font-size: 14px;
+                             color: $head;
+                             font-family: $popi;
+                             font-weight: 600;
+                             transition: all linear 0.3s;
+
+                             &:hover{
+                                border-color: $ones;
+                                color: $ones;
+                             }
+                        }
+                    }
+                }
+            }
+        }
+
+        .all-commmend-item{
+
+            display: flex;
+            justify-content: space-between;
+
+            .commend-profile{
+                border-bottom: 1px solid $buttonb;
+    
+                img{
+                    width: 50px;
+                }
+            }
+
+            .profile-name{
+
+                border-bottom: 1px solid $buttonb;
+                padding-bottom: 80px;
+    
+                h2{
+                    font-size: 18px;
+                    font-family: $popi;
+                    font-weight: 600;
+                    color: $head;
+    
+                    span{
+                        color: $pera;
+                        font-size: 12px;
+                    font-family: $popi;
+                    font-weight: 400;
+                    margin-left: 15px;
+                    }
+                }
+    
+                ul{
+                    display: flex;
+    
+                    li{
+                        &:nth-child(4) i{
+                           color: $buttonb;
+                        }
+                        &:nth-child(5) i{
+                            color: $buttonb;
+                         }
+                        i{
+                            color: #f93;
+                            font-size: 12px;
+                        }
+                    }
+                }
+    
+                p{
+                    color: $pera;
+                    font-size: 14px;
+                font-family: $popi;
+                font-weight: 400;
+                line-height: 25px;
+                }
+    
+                .commend-like{
+                    margin-top: 20px;
+    
+                    a{
+                        color: $head;
+                        font-size: 14px;
+                        font-family: $popi;
+                font-weight: 400;
+    
+                &:first-child{
+                    color: #f93;
+                    margin-right: 10px;
+                }
+    
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    .more-products-item{
+        padding-top: 50px;
+        border-bottom: 1px solid $buttonb;
+        padding-bottom: 30px;
+
+        .more-products-item-head{
+            display: flex;
+            justify-content: space-between;
+
+            h3{
+                color: $head;
+                font-family: $popi;
+                font-weight: 600;
+                font-size: 20px;
+            }
+
+            a{
+                color: $head;
+                font-family: $popi;
+                font-weight: 600;
+                font-size: 14px;
+                i{
+                    margin-left: 5px;
+                }
+            }
+        }
+
+
+    }
+    
+    .all-more-product{
+        
+        width: 100%;
+
+        &:hover .all-more-product-img .more-product-img-icon{
+            opacity: 1;
+            right: 20px;
+
+        }
+
+        &:hover .all-more-product-img h3 a{
+            opacity: 1;
+            bottom: 0px;
+
+        }
+
+        .all-more-product-img{
+            position: relative;
+
+            h3{
+
+                a{
+                    position: absolute;
+                    bottom: -10px;
+                    width: 100%;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    background: #336699;
+                    text-align: center;
+                    color: #fff;
+                    font-family: $popi;
+                    font-size: 18px;
+                    font-weight: 500;
+                    opacity: 0;
+                    transition: all linear 0.3s;
+
+                }
+            }
+
+            .more-product-img-icon{
+                transition: all linear 0.3s;
+                right: 10px;
+                top: 20px;
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                opacity: 0;
+
+                a{
+
+                    width: 32px;
+                    text-align: center;
+                        height: 32px;
+                        background: #fff;
+                        border-radius: 50%;
+                        line-height: 32px;
+                        transition: all linear 0.3s;
+                        margin-bottom: 8px;
+                    i{
+                        
+                        color: $buttonb;
+    
+    
+                    }
+                }
+
+                
+            }
+        }
+
+        .more-product-details{
+            margin-top: 10px;
+
+            h5{
+                    font-size: 11px;
+                    color: $buttonb;
+                    font-weight: 400;
+                    font-family: $popi;
+            }
+
+            h3{
+                    margin-top: 5px;
+                    font-size: 13px;
+                    color: $head;
+                    font-weight: 500;
+                    font-family: $popi;
+            }
+
+            ul{
+                display: flex;
+                li{
+                   
+                        color: #ccc;
+                        font-size: 11px;
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 400;
+                        margin-top: 5px;
+
+                        &:nth-child(5) i{
+                              color: $buttonb;
+                        }
+
+                        i{
+                            color: #f93;
+                            font-size: 11px;
+                        }
+
+
+                }
+            }
+
+            h2{
+               
+                    font-family: "Poppins", sans-serif;
+                    font-size: 16px;
+                    font-weight: 700;
+                    margin-top: 8px;
+                
+            }
+        }
+    }
+    
+    
+        
+
+    
+}

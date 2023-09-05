@@ -1,0 +1,49 @@
+@import"../veriables/veriables";
+@import"../mixins/mixins";
+
+/*------------- service area start ----------------*/
+#service{
+    margin: 50px 0;
+    .service_slider{
+        .service_inner{
+            width: 141px;
+            text-align: center;
+            cursor: pointer;
+            padding: 10px;
+            .service_item{
+                background: #fff;
+                border-radius: 50%;
+                padding: 25px 30px;
+                transition: all linear .2s;
+                a{
+                    font-size: 50px;
+                    color: #666;
+                }
+            }
+            .service_text{
+                margin-top: 15px;
+                h4{
+                    @include fs(15px,700,$popi,#333);
+                    text-transform: capitalize;
+                    transition: all linear .2s;
+                }
+            }
+            &:hover{
+                .service_item{
+                    box-shadow: 0px 0px 12px 3px rgba(174, 169, 169, 0.4);
+                    a{
+                        i{
+                            color: $hover;
+                        }
+                    }
+                }
+                .service_text{
+                    h4{
+                        color: $hover;
+                    }
+                }
+            }
+        }
+    }
+} 
+/*------------- service area end ----------------*/ 

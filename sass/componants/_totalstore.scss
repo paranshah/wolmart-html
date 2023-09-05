@@ -1,0 +1,244 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+
+/*---------------- list1 area start --------------*/
+#list1 {
+    margin-bottom: 50px;
+    .list1_headerL {
+        display: flex;
+        align-items: center;
+
+        a {
+            @include fs(15px, 700, $popi, #336699);
+            text-transform: uppercase;
+            padding: 5px 10px;
+            border: 2px solid #336699;
+            border-radius: 3px;
+        }
+
+        h5 {
+            @include fs(15px, 500, $popi, #333);
+            margin-left: 20px;
+        }
+    }
+
+    .list1_headerR {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        h5 {
+            @include fs(15px, 500, $popi, #333);
+            text-transform: capitalize;
+            margin-right: 15px;
+        }
+
+        .default {
+            position: relative;
+            cursor: pointer;
+
+            button {
+                @include fs(14px, 400, $popi, #333);
+                text-transform: capitalize;
+                padding: 5px 15px;
+                border: 1px solid #666;
+                border-radius: 3px;
+                background: transparent;
+
+                span {
+                    margin-left: 35px;
+                }
+            }
+
+            ul {
+                position: absolute;
+                bottom: -104px;
+                left: 0;
+                text-align: left;
+                width: 130px;
+                background: #bdbbbb;
+                padding: 10px 10px;
+                display: none;
+                z-index: 9999;
+                li {
+                    @include fs(13px, 400, $popi, #333);
+                    text-transform: capitalize;
+                    margin-bottom: 3px;
+
+                    &:hover {
+                        background: #c8c8c8;
+                    }
+                }
+            }
+        }
+    }
+
+    .list1_input {
+        margin-top: 20px;
+        padding: 15px;
+        margin-bottom: 40px;
+        background: #fff;
+        box-shadow: 0px 0px 11px -7px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 0px 11px -7px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 11px -7px rgba(0, 0, 0, 0.75);
+        display: none;
+
+        input {
+            width: 100%;
+            padding: 10px 20px;
+            border: 1px solid #a6a2a2;
+            @include fs(14px, 400, $popi, #333);
+            text-transform: capitalize;
+            outline: 0;
+        }
+
+        a {
+            @include fs(14px, 700, $popi, #fff);
+            padding: 10px 20px;
+            background: #336699;
+            border-radius: 3px;
+            text-transform: uppercase;
+        }
+    }
+
+    .list_items {
+        margin-top: 20px;
+        position: relative;
+        .listitems_top {
+            position: relative;
+
+            .lsit_text {
+                position: absolute;
+                left: 30px;
+                top: 20px;
+
+                h3 {
+                    @include fs(20px, 600, $popi, #fff);
+                    text-transform: capitalize;
+                    display: inline-block;
+                    position: relative;
+
+                    span {
+                        font-size: 10px;
+                        padding: 1px 5px;
+                        background: #336699;
+                        border-radius: 3px;
+                        text-transform: uppercase;
+                        position: absolute;
+                        right: -70px;
+                        top: 4px;
+                    }
+                }
+
+                .list_start {
+                    margin-top: 15px;
+                    margin-bottom: 5px;
+                    i {
+                        font-size: 14px;
+                        color: #f93;
+                        position: relative;
+                        cursor: pointer;
+
+                        .star_numb {
+                            position: absolute;
+                            left: -8px;
+                            top: -45px;
+                            opacity: 0;
+                            transition: all linear .2s;
+
+                            h6 {
+                                @include fs(12px, 400, $popi, #fff);
+                                padding: 10px 5px;
+                                background: #333;
+                            }
+
+                            .shape {
+                                position: absolute;
+                                left: 13px;
+                                bottom: -4px;
+                                transform: rotate(45deg);
+                                width: 7px;
+                                height: 7px;
+                                background: #333;
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        .star_numb {
+                            opacity: 1;
+                        }
+                    }
+                }
+
+                h5 {
+                    @include fs(13px, 300, $popi, #fff);
+                    margin-bottom: 8px;
+                }
+
+                h6 {
+                    @include fs(13px, 300, $popi, #fff);
+                }
+
+                a {
+                    @include fs(13px, 300, $popi, #fff);
+                }
+            }
+        }
+
+        .listitems_btm {
+            background: #fff;
+            padding: 25px 10px;
+            box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+            -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+            -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+
+            a {
+                @include fs(15px, 600, $popi, #333);
+                text-transform: uppercase;
+                position: relative;
+                span {
+                    margin-left: 5px;
+                }
+                &::after{
+                    @include after_lb(0,-2px,100%,2px,#333);
+                    transform: scaleX(0);
+                    transition: all ease .2s;
+                }
+                &:hover{
+                    &::after{
+                        transform: scaleX(1);
+                    }
+                }
+            }
+        }
+        .vendr_shape{
+            position: absolute;
+            right: 20px;
+            bottom: 38px;
+            width: 80px;
+            height: 80px;
+            background: #f93;
+            border-radius: 50%;
+        }
+        .vendr_brand{
+            position: absolute;
+            right: 20px;
+            bottom: 37px;
+            width: 81px;
+            height: 81px;
+            background: #f93;
+            border-radius: 50%;
+            overflow: hidden;
+            transition: all linear .2s;
+        }
+        &:hover{
+            .vendr_brand{
+                bottom: 45px;
+            }
+        }
+    }
+}
+
+/*---------------- list1 area end --------------*/

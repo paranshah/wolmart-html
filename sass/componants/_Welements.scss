@@ -1,0 +1,57 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*------------ Wolmart elements area start -----------*/ 
+#elements{
+    margin: 70px 0;
+    .element_header{
+        margin-bottom: 30px;
+        h1{
+            @include fs(35px,700,$popi,#333);
+        }
+        p{
+            margin-top: 20px;
+            @include fs(14px,400,$popi,#666);
+        }
+    }
+    .elements_icon{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .iconItem{
+            background: #fff;
+            width: 244px;
+            padding: 35px 0;
+            border: 1px solid #f1f1f1;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.212);
+            a{
+                svg{
+                    fill: #aaa;
+                    stroke: #aaa;
+                    stroke-dashoffset: 1500;
+                    stroke-dasharray: 1500;
+                    transition: all linear .3s, fill 0.5s;
+                }
+                h5{
+                    @include fs(16px,600,$popi,#333);
+                    text-transform: uppercase;
+                    margin-top: 10px;
+                }
+            }
+            &:hover{
+                a{
+                    svg{
+                        transform: scale(1.6);
+                        stroke-dashoffset: 0;
+                        stroke: #336699;
+                        fill: transparent;
+                        transition: transform 0.3s, fill 0.5s, stroke-dashoffset 6s;
+                    }
+                }
+            }
+        }
+    }
+}
+/*------------ Wolmart elements area end -----------*/ 

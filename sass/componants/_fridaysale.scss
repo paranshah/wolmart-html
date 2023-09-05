@@ -1,0 +1,26 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*------------ Friday sale area start -------------*/
+#fridaysale{
+    margin: 50px 0;
+    .fridaysale_inner{
+        position: relative;
+        .sale_text{
+            position: absolute;
+            top: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+           h3{
+            @include fs(45px,400,$yello,#fff);
+            text-transform: capitalize;
+           }
+           h4{
+            @include fs(45px,700,$popi,#fff);
+            margin-top: 10px;
+            text-transform: uppercase;
+           }
+        }
+    }
+} 
+/*------------ Friday sale area end -------------*/ 

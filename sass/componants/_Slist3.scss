@@ -1,0 +1,136 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*------------- store list3 area start --------------*/
+#storelist3{
+    .map{
+        margin-bottom: 0;
+    }
+    .form_area{
+        padding: 20px;
+        background: #eeee;
+        border-radius: 3px;
+        margin-bottom: 30px;
+        input{
+                padding:10px;
+                @include fs(15px,400,$popi,#333);
+                border: 1px solid #eee;
+                outline: 0;
+                border-radius: 3px;
+                width: 100%;
+                &::placeholder{
+                    @include fs(13px,400,$popi,#bebebe);
+                }
+        }
+       form{
+        select{
+            padding: 10px;
+            border: 1px solid #eeee;
+            outline: 0;
+            cursor: pointer;
+            @include fs(14px,400,$popi,#333);
+            box-sizing: border-box;
+            width: 100%;
+            option{
+                @include fs(13px,400,$popi,#666);
+                box-sizing: border-box;
+        }
+    }
+       }
+       form{
+        button{
+            padding: 10px 30px;
+            background: #333;
+            border-radius: 3px;
+            @include fs(16px,600,$popi,#fff);
+            text-transform: uppercase;
+        }
+       }
+    }
+    .list_top{
+        margin-bottom: 30px;
+        .list_top_inner{
+            display: flex;
+            form{
+                select{
+                    padding: 10px;
+                    border: 1px solid #d5d5d5;
+                    outline: 0;
+                    cursor: pointer;
+                    @include fs(14px,400,$popi,#666);
+                    box-sizing: border-box;
+                    width: 200px;
+                    option{
+                        @include fs(13px,400,$popi,#666);
+                        box-sizing: border-box;
+                    }
+                }
+            }
+            a{
+                @include fs(14px,600,$popi,#333);
+                text-transform: uppercase;
+                padding: 10px 15px;
+                background: #eee;
+                margin-left: 10px;
+                border-radius: 3px;
+                transition: all linear .3s;
+                &:hover{
+                    color: #fff;
+                    background: #333;
+                }
+            }
+        }
+    }
+    .list_wrapper{
+        margin-bottom: 50px;
+        .items_inner{
+            position: relative;
+            margin-bottom: 20px;
+            .img{
+                img{
+                    min-height: 330px;
+                }
+            }
+            .text{
+                background: rgba(51, 51, 51, 0.8);
+                padding: 20px 10px;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                .brand{
+                    img{
+                        border-radius: 50%;
+                    }
+                }
+                .inner_text{
+                    a{
+                        @include fs(20px,600,$popi,#fff);
+                    }
+                    h5{
+                        @include fs(13px,300,$popi,#eeee);
+                        line-height: 24px;
+                        span{
+                            margin-right: 5px;
+                        }
+                    }
+                    .start{
+                        margin-top: 5px;
+                        i{
+                            cursor: pointer;
+                            font-size: 13px;
+                            color: #f93;   
+                        }
+                        h6{
+                            @include fs(14px,300,$popi,#eeee);
+                            margin-left: 5px;
+                        }
+                        .colornai{
+                            color: #eee;
+                        }
+                    }
+                }
+            }
+        }
+    }
+} 
+/*------------- store list3 area end --------------*/ 

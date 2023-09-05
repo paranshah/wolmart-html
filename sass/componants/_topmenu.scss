@@ -1,0 +1,592 @@
+@import"../veriables/veriables";
+@import"../mixins/mixins";
+
+.off-register{
+    min-width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.404);
+  z-index: 999999;
+  position: fixed;
+  right: 0;
+  top: -100%;
+  transition: all linear 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  .main-register{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    background: #fff;
+    padding: 30px 30px;
+
+    .remove-register{
+        i{
+            font-size: 25px;
+            color: #fff;
+            position: absolute;
+            top: -30px;
+            right: 0;
+            transition: all linear 0.1s;
+            transform: rotate(184deg);
+
+            &:hover {
+                font-size: 35px;
+                transform: rotate(-184deg);
+                top: -38px;
+            }
+        } 
+    }
+
+    .register-head{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        border-bottom: 1px solid $buttonb;
+
+        a{
+            color: $head;
+            font-size: 16px;
+            font-family: $popi;
+            font-weight: 700;
+            margin-left: 150px;
+            position: relative;
+            transition: all linear 0.3s;
+            
+            &:hover .bhover{
+                display: block;           
+            }
+
+            &:hover{
+                color: $hover;
+            }
+
+            .bhover{
+                width: 360%;
+                position: absolute;
+                height: 2px;
+                bottom: -20px;
+                left: -81px;
+                transition: all linear 0.3s;
+                display: none;
+                background: $hover;
+            }
+
+            .bhoverone{
+                    width: 360%;
+                    position: absolute;
+                    height: 2px;
+                    bottom: -20px;
+                    left: -81px;
+                    transition: all linear 0.3s;
+                    background: $hover;
+                
+            }
+
+            &:first-child{
+                margin-left: 0;
+            }
+        }
+
+
+    }
+
+    .register-all-item{
+
+        .svas{
+            color: $hover;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $popi;
+                position: relative;
+                transition: all linear 0.3s;
+
+                &:hover::after{
+                    background: $hover;
+               }
+               &::after{
+                   width: 100%;
+                   position: absolute;
+                   content: '';
+                   bottom: -2px;
+                   left: 0;
+                   height: 1px;
+               }
+        }
+
+        p{
+
+            color: $pera;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $popi;
+
+                span{
+                    color: $hover;
+                }
+        }
+
+
+        form{
+            label{
+                color: $pera;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $popi;
+    
+            }
+            
+            input{
+                width: 100%;
+                outline: none;
+                border: 1px solid $buttonb;
+                height: 40px;
+                padding-left: 20px;
+            }
+        }
+
+        .register-bottom{
+            display: flex;
+            justify-content: space-between;
+    
+            a{
+                color: $pera;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $popi;
+
+                span{
+                    color: $hover;
+                }
+    
+                input{
+                    margin-right: 5px;
+                }
+            }
+    
+            h6{
+                a{
+                    color: $hover;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $popi;
+                position: relative;
+                transition: all linear 0.3s;
+    
+                &:hover::after{
+                     background: $hover;
+                }
+                &::after{
+                    width: 100%;
+                    position: absolute;
+                    content: '';
+                    bottom: -5px;
+                    left: 0;
+                    height: 1px;
+                }
+                }
+            }
+        }
+
+        .register-button{
+            button{
+                width: 100%;
+                padding: 10px;
+                border: none;
+                background: $hover;
+                color: #fff;
+                font-family: $popi;
+                font-weight: 600;
+                font-size: 16px;
+            }
+            h3{
+                margin-top: 30px;
+                text-align: center;
+                color: $pera;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $popi;
+            }
+    
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+                li{
+                    margin-left: 15px;
+    
+                    a{
+                        width: 32px;
+                        height: 32px;
+                        line-height: 32px;
+                        text-align: center;
+                        border-radius: 50%;
+                        transition: all linear 0.3s;
+    
+                        &:hover{
+                            color: #fff;
+                        }
+                    }
+    
+                    .facebook{
+                        border: 1px solid #1b4f9b;
+    
+                        &:hover{
+                            background: #1b4f9b;
+                        }
+                    }
+    
+                    .twitter{
+                        color: #00adef;
+                        border: 1px solid #00adef;
+    
+                        &:hover{
+                            background: #00adef;
+                        }
+                    }
+    
+                    .instagram{
+                        color: #dd4b39;
+                        border: 1px solid #dd4b39;
+    
+                        &:hover{
+                            background: #dd4b39;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .register-all-item-two{
+
+        display: none;
+
+        .svas{
+            color: $hover;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $popi;
+                position: relative;
+                transition: all linear 0.3s;
+
+                &:hover::after{
+                    background: $hover;
+               }
+               &::after{
+                   width: 100%;
+                   position: absolute;
+                   content: '';
+                   bottom: -2px;
+                   left: 0;
+                   height: 1px;
+               }
+        }
+
+        p{
+
+            color: $pera;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $popi;
+
+                span{
+                    color: $hover;
+                }
+        }
+
+
+        form{
+            label{
+                color: $pera;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $popi;
+    
+            }
+            
+            input{
+                width: 100%;
+                outline: none;
+                border: 1px solid $buttonb;
+                height: 40px;
+                padding-left: 20px;
+            }
+        }
+
+        .register-bottom{
+            display: flex;
+            justify-content: space-between;
+    
+            a{
+                color: $pera;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $popi;
+
+                span{
+                    color: $hover;
+                }
+    
+                input{
+                    margin-right: 5px;
+                }
+            }
+    
+            h6{
+                a{
+                    color: $hover;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $popi;
+                position: relative;
+                transition: all linear 0.3s;
+    
+                &:hover::after{
+                     background: $hover;
+                }
+                &::after{
+                    width: 100%;
+                    position: absolute;
+                    content: '';
+                    bottom: -5px;
+                    left: 0;
+                    height: 1px;
+                }
+                }
+            }
+        }
+
+        .register-button{
+            button{
+                width: 100%;
+                padding: 10px;
+                border: none;
+                background: $hover;
+                color: #fff;
+                font-family: $popi;
+                font-weight: 600;
+                font-size: 16px;
+            }
+            h3{
+                margin-top: 30px;
+                text-align: center;
+                color: $pera;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $popi;
+            }
+    
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+    
+                li{
+                    margin-left: 15px;
+    
+                    a{
+                        width: 32px;
+                        height: 32px;
+                        line-height: 32px;
+                        text-align: center;
+                        border-radius: 50%;
+                        transition: all linear 0.3s;
+    
+                        &:hover{
+                            color: #fff;
+                        }
+                    }
+    
+                    .facebook{
+                        border: 1px solid #1b4f9b;
+    
+                        &:hover{
+                            background: #1b4f9b;
+                        }
+                    }
+    
+                    .twitter{
+                        color: #00adef;
+                        border: 1px solid #00adef;
+    
+                        &:hover{
+                            background: #00adef;
+                        }
+                    }
+    
+                    .instagram{
+                        color: #dd4b39;
+                        border: 1px solid #dd4b39;
+    
+                        &:hover{
+                            background: #dd4b39;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    
+  }
+}
+
+#top-menu {
+    background: $head;
+    border-bottom: 2px solid #393939;
+    z-index: 999999999999;
+
+    .top-menupera {
+        padding-top: 12px;
+
+        p {
+            color: #BFBFBF;
+            font-size: 11px;
+            text-transform: uppercase;
+            font-weight: 200;
+        }
+
+    }
+
+    .top-main-menu {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        .top-menu-text {
+            display: flex;
+            justify-content: end;
+
+            .usd {
+                transition: all linear 0.3s;
+                margin-left: 20px;
+
+                img{
+                    width: 15px;
+                }
+
+                a {
+                    color: $menu;
+                    font-family: $popi;
+                    text-transform: uppercase;
+                    font-size: 11px;
+                    transition: all linear 0.3s;
+                    font-weight: 400;
+
+                    &:hover {
+                        color: $hover;
+                    }
+
+                    i {
+                        font-size: 10px;
+                    }
+                }
+
+                .drop {
+                    position: absolute;
+                    right: 50%;
+                    transform: translateX(-50%);
+                    width: 100%;
+                    height: auto;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    text-align: center;
+                    background: #fff;
+                    top: 25px;
+                    z-index: 2222;
+                    transition: all linear 0.3s;
+                    transform: scale(0);
+
+
+                    &::after {
+                        position: absolute;
+                        content: '';
+                        top: -5px;
+                        z-index: -1;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 0;
+                        height: 0;
+                        border-left: 5px solid transparent;
+                        border-right: 5px solid transparent;
+                        border-bottom: 5px solid rgb(255, 255, 255);
+                    }
+
+                    a {
+                        color: $head;
+                        transition: all linear 0.3s;
+                        font-size: 11px;
+                        font-family: $popi;
+                        font-weight: 400;
+                        
+                        &:hover{
+                             color: $hover;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .drop {
+                        top: 28px;
+                        transform: scale(1);
+                        left: -50%;
+                        transform: translateX(50%);
+                    }
+                }
+
+            }
+
+        }
+
+
+    }
+
+    .menu-link {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+        .all-link {
+            display: flex;
+            text-align: center;
+            justify-content: end;
+
+            .menu-textlink {
+                margin-left: 40px;
+
+                a {
+                    font-family: $popi;
+                    font-size: 11px;
+                    font-weight: 400;
+                    color: $menu;
+                    transition: all linear 0.3s;
+
+                    &:hover{
+                        color: $hover;
+                    }
+
+                    .sin,
+                    .register {
+                        transition: all linear 0.3s;
+                        &:hover {
+                            color: $hover;
+                        }
+
+                    }
+
+                    span {
+                        color: $menu;
+
+                        &:hover {
+                            color: $menu;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+

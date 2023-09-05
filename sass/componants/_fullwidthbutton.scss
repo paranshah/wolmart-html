@@ -1,0 +1,302 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+#manin-fullwidthbanner-bottom-button{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .fullwidthwithsidebar-product-filter {
+        h4 {
+            font-size: 16px;
+            font-family: $popi;
+            color: $ones;
+            font-weight: 700;
+            padding: 10px 15px;
+            border: 1px solid $ones;
+            width: 110px;
+            cursor: pointer;
+
+            a{
+                color: $ones;
+                margin-right: 10px;
+            }
+
+        }
+    }
+
+    .bannerwithsidebar-product-head-button {
+        display: flex;
+        align-items: center;
+
+        h5 {
+            color: $head;
+            font-size: 14px;
+            font-weight: 500;
+            font-family: $popi;
+        }
+
+        h6 {
+            color: $head;
+            font-size: 14px;
+            font-weight: 700;
+            font-family: $popi;
+            margin-left: 50px;
+            margin-right: 5px;
+        }
+
+        .dropdown {
+            .btn-secondary {
+                width: 170px;
+                font-size: 12px;
+                font-family: $popi;
+                font-weight: 400;
+                color: $head;
+                background-color: transparent;
+                border-color: #d7d7d7;
+
+            }
+
+            .btn-check:focus+.btn-secondary,
+            .btn-secondary:focus {
+                color: $head;
+                background-color: transparent;
+                border-color: #d7d7d7;
+                box-shadow: none;
+            }
+
+            .dropdown-item {
+                color: $head;
+                text-align: start;
+                font-family: $popi;
+                font-size: 12px;
+
+            }
+
+            .dropdown-toggle {
+                &::after {
+
+                    margin-left: 40px;
+                }
+
+            }
+
+        }
+    }
+
+    .bannerwithsidebar-product-toggler {
+
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+        .dropdown {
+            .btn-secondary {
+                padding: 12px 8px;
+                font-size: 12px;
+                font-family: $popi;
+                font-weight: 400;
+                color: $head;
+                background-color: transparent;
+                border-color: #d7d7d7;
+                margin-right: 30px;
+
+            }
+
+            .btn-check:focus+.btn-secondary,
+            .btn-secondary:focus {
+                color: $head;
+                background-color: transparent;
+                border-color: #d7d7d7;
+                box-shadow: none;
+            }
+
+            .dropdown-item {
+                color: $head;
+                text-align: start;
+                font-family: $popi;
+                font-size: 12px;
+
+            }
+
+            .dropdown-toggle {
+                &::after {
+
+                    margin-left: 20px;
+                }
+
+            }
+
+        }
+
+        .sidebar-toggler{
+            a{
+                i{
+                    font-size: 30px;
+                    color: $head;
+                    margin-right: 10px;
+                }
+                .last{
+                    color: $buttonb;
+                }
+            }
+        }
+
+    }
+
+    .bannerwithsidebar-product-bottom{
+        a{
+            font-size: 13px;
+            font-family: $popi;
+            font-weight: 400;
+            color: $head;
+            span{
+                color: $buttonb;
+            }
+        }
+    }
+
+    .bannerwithsidebar-product-page-n{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        a{
+            color: $head;
+            font-size: 13px;
+            font-family: $popi;
+            font-weight: 400;
+
+            &:first-child{
+                color: $buttonb;
+            }
+        }
+
+        ul{
+            display: flex;
+            margin-left: 30px;
+            margin-right: 30px;
+
+            li{
+                padding: 10px;
+                border: 1px solid $buttonb;
+
+                &:last-child{
+                    border: none;
+                    margin-left: 5px;
+                }
+
+                .nnnn{
+                    color: $head;
+            font-size: 13px;
+            font-family: $popi;
+            font-weight: 400;
+                }
+            }
+
+        }
+    }
+
+    .banner-all-product{
+        text-align: center;
+        width: 100%;
+        position: relative;
+        transition: all linear 0.3s;
+        margin-bottom: 40px;
+        cursor: pointer;
+
+        .banner-all-product-img{
+                width: 100%;
+                position: relative;   
+        }
+
+        .banner-product-icon{
+            width: 50%;
+            padding: 8px 8px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 6px 3px rgba(212, 207, 207, 0.4);
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 90px;
+            z-index: 1;
+            transition: all linear .2s;
+            opacity: 0;
+
+            a{
+                i{
+                    font-size: 17px;
+                    color: #666;
+                    margin: 0 5px;
+                    transition: all linear .2s;
+                    &:hover{
+                        color: $hover;
+                    }
+                }
+            }
+        }
+
+        .banner-product-text{
+            margin-top: 10px;
+
+            .banner-product-text-icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                a{
+                    i{
+                        color: #f93;
+                        margin-right: 1px;
+                        font-size: 11px;
+                    }
+
+                    color: $buttonb;
+                    font-size: 11px;
+                    font-family: $popi;
+                    font-weight: 400;
+                    margin-top: 5px;
+
+                    &:last-child{
+                        margin-left: 4px;
+                    }
+                }
+            }
+            
+
+            h5{
+
+                font-size: 11px;
+                color: $buttonb;
+                font-weight: 400;
+                font-family: $popi;
+            }
+
+            h4{
+
+                margin-top: 5px;
+                font-size: 13px;
+                color: $head;
+                font-weight: 500;
+                font-family: $popi;
+            }
+
+            h3{
+
+                color: #020101;
+                font-family: $popi;
+                font-size: 16px;
+                font-weight: 700;
+                margin-top: 8px;
+            }
+        }
+
+        &:hover .banner-product-icon {
+            opacity: 1;
+            bottom: 100px;
+        }
+
+    }
+
+}

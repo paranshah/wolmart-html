@@ -1,0 +1,62 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*------------- FAQS area start ------------*/ 
+#FAQs{
+    margin: 70px 0;
+    .faqs_header{
+        margin-bottom: 60px;
+        h4{
+            @include fs(25px,700,$popi,#333);
+            margin-bottom: 10px;
+        }
+        p{
+            @include fs(14px,300,$popi,#666);
+            span{
+                font-weight: 600;
+            }
+        }
+    }
+    .faqs_wrapper{
+        margin-bottom: 60px;
+            .items_head{
+                text-align: center;
+                margin-bottom: 30px;
+                h5{
+                    @include fs(20px,700,$popi,#333);
+                }
+            }
+            .faqs_items{
+                .faqs_accordian{
+                    .accordion{
+                        .accordion-item{
+                            border-bottom: none;
+                            border-top: none;
+                            border-left: none;
+                            border-right: none;
+                            margin-bottom: 10px;
+                            h2{
+                                .accordion-button{
+                                @include fs(16px,600,$popi,#333);
+                                background: #f5f5f5;
+                                &:hover{
+                                    color: #336699;
+                                }
+                                &:focus{
+                                    box-shadow: none;
+                                }
+                               }
+                            }
+                            .accordion-body{
+                                p{
+                                    @include fs(14px,400,$popi,#333);
+                                    line-height: 24px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    }
+}
+/*------------- FAQS area end ------------*/ 

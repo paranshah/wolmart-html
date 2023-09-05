@@ -1,0 +1,1893 @@
+@import"../veriables/veriables";
+@import"../mixins/mixins";
+
+#main-menu {
+    height: 50px;
+    background: $head;
+    z-index: 999999;
+
+    .categories {
+        position: relative;
+        width: 100%;
+        height: 50px;
+        background: $hover;
+        transition: all linear 0.3s;
+        cursor: pointer;
+
+        &:hover .categories-drop {
+            visibility: visible;
+            opacity: 1;
+            top: 50px;
+        }
+
+        .menu-bars {
+            line-height: 50px;
+            margin-left: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a {
+                color: #fff;
+                font-family: $popi;
+                font-size: 14px;
+                font-weight: 400;
+
+                i {
+                    margin-right: 3px;
+                }
+
+            }
+
+            i {
+                color: #fff;
+                font-size: 13px;
+                margin-right: 20px;
+            }
+
+        }
+
+        .categories-drop {
+            z-index: 99999;
+            visibility: hidden;
+            opacity: 0;
+            width: 100%;
+            height: auto;
+            background: #fff;
+            position: absolute;
+            top: 30px;
+            left: 0;
+            padding: 0px 15px 0 15px;
+            transition: all linear 0.3s;
+
+            .categories-main {
+
+                .fashion {
+
+                    position: relative;
+                    transition: all linear 0.3s;
+
+                    &:hover .fashion-bar-div {
+                        visibility: visible;
+                        opacity: 1;
+                        right: -615px;
+                    }
+
+                    .fashion-bar-div {
+
+                        transition: all linear 0.3s;
+                        position: absolute;
+                        width: 600px;
+                        height: 350px;
+                        right: -605px;
+                        top: 0;
+                        visibility: hidden;
+                        opacity: 0;
+                        display: flex;
+                        z-index: 999;
+                        padding-bottom: 20px;
+
+                        .menu-one {
+                            width: 33%;
+                            height: 100%;
+                            background: #fff;
+                            padding-left: 20px;
+
+                            h2 {
+                                margin-top: 15px;
+                                position: relative;
+                                font-size: 12px;
+                                margin-bottom: 10px;
+                                font-weight: 700;
+                                color: $head;
+
+                                &::after {
+                                    position: absolute;
+                                    content: '';
+                                    left: 0px;
+                                    bottom: -6px;
+                                    height: 1px;
+                                    width: 100%;
+                                    background: $menu;
+                                }
+                            }
+
+                            ul {
+                                li {
+                                    border: none;
+                                    line-height: 15px;
+                                    a {
+                                        color: $pera;
+                                        font-size: 13px;
+                                        font-weight: 400;
+                                        color: $pera;
+                                        transition: all linear 0.3s;
+
+                                        &:hover {
+                                            color: $hover;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+
+                        .menu-two {
+                            padding-left: 20px;
+                            width: 33%;
+                            height: 100%;
+                            background: #fff;
+                            padding-right: 15px;
+
+                            h2 {
+                                margin-top: 15px;
+                                position: relative;
+                                font-size: 12px;
+                                margin-bottom: 10px;
+                                color: $head;
+                                font-weight: 700;
+
+                                &::after {
+                                    position: absolute;
+                                    content: '';
+                                    left: 0px;
+                                    bottom: -6px;
+                                    height: 1px;
+                                    width: 100%;
+                                    background: $menu;
+                                }
+                            }
+
+                            ul {
+                                li {
+
+                                    border: none;
+                                    line-height: 15px;
+                                    a {
+                                        color: $pera;
+                                        font-size: 13px;
+                                        font-weight: 400;
+                                        color: $pera;
+                                        transition: all linear 0.3s;
+
+                                        &:hover {
+                                            color: $hover;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .menu-banner {
+                            width: 34%;
+                            height: 100%;
+                            padding-top: 20px;
+                            padding-left: 20px;
+
+                            h3 {
+                                color: $pera;
+                                font-size: 14px;
+                                font-weight: 400;
+                                font-family: $popi;
+
+                                span {
+                                    color: $hover;
+                                }
+                            }
+
+                            h2 {
+                                color: $head;
+                                font-size: 25px;
+                                font-family: $popi;
+                                font-weight: 700;
+                                margin-top: 3px;
+                            }
+
+                            h4 {
+                                a {
+                                    color: $pera;
+                                    text-transform: uppercase;
+                                    font-size: 13px;
+                                    font-family: $popi;
+                                    font-weight: 500;
+                                    transition: all linear 0.3s;
+
+                                    &:hover i {
+                                        margin-left: 10px;
+                                    }
+
+                                    i {
+
+                                        margin-left: 5px;
+
+                                    }
+                                }
+                            }
+
+                        }
+
+                    }
+                }
+
+                .garden {
+                    position: relative;
+                    transition: all linear 0.3s;
+
+                    &:hover .garden-bar-div {
+                        visibility: visible;
+                        opacity: 1;
+                        right: -615px;
+                    }
+
+                    .garden-bar-div {
+                        transition: all linear 0.3s;
+                        visibility: hidden;
+                        opacity: 0;
+                        position: absolute;
+                        right: -605px;
+                        top: 0;
+                        width: 600px;
+                        height: 410px;
+                        background: #fff;
+                        display: flex;
+
+                        .garden-text-one {
+                            padding-left: 16px;
+                            width: 33%;
+                            height: 100%;
+
+
+
+                            .garden-head-text {
+                                width: 100%;
+                                height: 50%;
+
+                                &:last-child h3 {
+                                    margin-top: -30px;
+                                }
+
+                                h3 {
+                                    margin-top: 15px;
+                                    position: relative;
+                                    font-size: 12px;
+                                    margin-bottom: 10px;
+                                    color: $head;
+                                    font-weight: 700;
+
+                                    &::after {
+                                        position: absolute;
+                                        content: '';
+                                        left: 0px;
+                                        bottom: -6px;
+                                        height: 1px;
+                                        width: 100%;
+                                        background: $menu;
+                                    }
+                                }
+
+                                ul {
+
+                                    li {
+                                        border: none;
+                                        padding: 4px;
+
+                                        a {
+                                            color: $pera;
+                                            font-size: 13px;
+                                            font-weight: 400;
+                                            font-family: $popi;
+                                            transition: all linear 0.3s;
+
+                                            &:hover {
+                                                color: $hover;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
+
+                        .garden-text-two {
+                            width: 33%;
+                            height: 100%;
+                            padding-left: 20px;
+                            padding-right: 15px;
+
+                            .garden-head-text {
+                                width: 100%;
+                                height: 50%;
+
+                                &:last-child h3 {
+                                    margin-top: -30px;
+                                }
+
+                                h3 {
+                                    margin-top: 15px;
+                                    position: relative;
+                                    font-size: 12px;
+                                    margin-bottom: 10px;
+                                    color: $head;
+                                    font-weight: 700;
+
+                                    &::after {
+                                        position: absolute;
+                                        content: '';
+                                        left: 0px;
+                                        bottom: -6px;
+                                        height: 1px;
+                                        width: 100%;
+                                        background: $menu;
+                                    }
+                                }
+
+                                ul {
+
+                                    li {
+                                        border: none;
+                                        padding: 4px;
+
+                                        a {
+                                            color: $pera;
+                                            font-size: 13px;
+                                            font-weight: 400;
+                                            color: $pera;
+                                            transition: all linear 0.3s;
+
+                                            &:hover {
+                                                color: $hover;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+
+                        }
+
+                        .garden-text-baner {
+                            width: 34%;
+                            height: 100%;
+                            position: relative;
+                            padding-bottom: 20px;
+                            padding-left: 20px;
+
+                            .garden-banner-text {
+                                position: absolute;
+                                bottom: 20px;
+
+                                h5 {
+
+                                    font-size: 16px;
+                                    font-family: $popi;
+                                    font-weight: 700;
+                                    color: #fff;
+                                    letter-spacing: 0.4px;
+                                }
+
+                                h2 {
+                                    color: #fff;
+                                    font-size: 22px;
+                                    font-family: $popi;
+                                    font-weight: 700;
+                                    margin-top: 3px;
+                                    letter-spacing: 0.4px;
+                                }
+
+                                h3 {
+                                    margin-top: 3px;
+                                    color: #fff;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    font-family: $popi;
+
+                                    span {
+                                        color: #1CBCD0;
+                                    }
+                                }
+
+                                h4 {
+                                    a {
+                                        color: #fff;
+                                        text-transform: uppercase;
+                                        font-size: 12px;
+                                        font-family: $popi;
+                                        font-weight: 500;
+                                        transition: all linear 0.3s;
+
+                                        &:hover i {
+                                            margin-left: 10px;
+                                        }
+
+                                        i {
+                                            color: #fff;
+                                            transition: all linear 0.3s;
+                                            margin-left: 5px;
+                                        }
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+                .electronics {
+                    position: relative;
+                    transition: all linear 0.3s;
+
+                    &:hover .electronics-bar {
+                        visibility: visible;
+                        opacity: 1;
+                        right: -615px;
+                    }
+
+                    .electronics-bar {
+                        transition: all linear 0.3s;
+                        position: absolute;
+                        right: -605px;
+                        width: 600px;
+                        height: 380px;
+                        background: #fff;
+                        top: 0;
+                        display: flex;
+                        flex-wrap: wrap;
+                        visibility: hidden;
+                        opacity: 0;
+
+
+                        .electronics-text-one {
+                            width: 33%;
+                            height: 100%;
+                            padding-left: 16px;
+
+                            .electronics-head-text {
+                                width: 100%;
+                                height: 50%;
+
+                                &:last-child h3 {
+                                    margin-top: -15px;
+                                }
+
+                                h3 {
+                                    margin-top: 15px;
+                                    position: relative;
+                                    font-size: 12px;
+                                    margin-bottom: 10px;
+                                    color: $head;
+                                    font-weight: 700;
+
+                                    &::after {
+                                        position: absolute;
+                                        content: '';
+                                        left: 0px;
+                                        bottom: -6px;
+                                        height: 0.5px;
+                                        width: 100%;
+                                        background: $menu;
+                                    }
+                                }
+
+                                ul {
+                                    li {
+                                        border: none;
+                                        padding: 4px;
+
+                                        a {
+                                            color: $pera;
+                                            font-size: 13px;
+                                            font-weight: 400;
+                                            font-family: $popi;
+                                            transition: all linear 0.3s;
+
+                                            &:hover {
+                                                color: $hover;
+                                            }
+                                        }
+                                    }
+                                }
+
+                            }
+
+                        }
+
+                        .electronics-text-two {
+                            width: 33%;
+                            height: 100%;
+                            padding-left: 16px;
+                            padding-right: 5px;
+
+                            .electronics-head-text {
+                                width: 100%;
+                                height: 50%;
+
+                                &:last-child h3 {
+                                    margin-top: -15px;
+                                }
+
+                                h3 {
+                                    margin-top: 15px;
+                                    position: relative;
+                                    font-size: 12px;
+                                    margin-bottom: 10px;
+                                    color: $head;
+                                    font-weight: 700;
+
+                                    &::after {
+                                        position: absolute;
+                                        content: '';
+                                        left: 0px;
+                                        bottom: -6px;
+                                        height: 0.5px;
+                                        width: 100%;
+                                        background: $menu;
+                                    }
+                                }
+
+                                ul {
+                                    li {
+                                        border: none;
+                                        padding: 4px;
+
+                                        a {
+                                            color: $pera;
+                                            font-size: 13px;
+                                            font-weight: 400;
+                                            font-family: $popi;
+                                            transition: all linear 0.3s;
+
+                                            &:hover {
+                                                color: $hover;
+                                            }
+                                        }
+                                    }
+                                }
+
+                            }
+
+                        }
+
+                        .electronics-banner {
+                            width: 34%;
+                            height: 100%;
+                            padding-left: 20px;
+                            padding-top: 20px;
+
+                            h4 {
+                                color: #ccc;
+                                font-size: 13px;
+                                font-weight: 400;
+                                font-family: $popi;
+                                letter-spacing: 0.4px;
+                            }
+
+                            h2 {
+                                color: #fff;
+                                font-size: 18px;
+                                font-family: $popi;
+                                font-weight: 700;
+                                margin-top: 5px;
+                                letter-spacing: 0.4px;
+                            }
+
+                            h3 {
+                                margin-top: 5px;
+                                color: #1CBCD0;
+                                font-size: 18px;
+                                font-weight: 400;
+                                font-family: $popi;
+                            }
+
+                            h5 {
+                                a {
+
+                                    padding: 10px 15px;
+                                    color: #fff;
+                                    text-transform: uppercase;
+                                    font-size: 13px;
+                                    font-family: $popi;
+                                    margin-top: 20px;
+                                    font-weight: 500;
+                                    transition: all linear 0.3s;
+                                    border: 2px solid #fff;
+
+                                    &:hover {
+                                        background: #fff;
+                                        color: $hover;
+                                    }
+
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+                .furniture {
+                    position: relative;
+                    transition: all linear 0.3s;
+
+                    &:hover .furniture-bar {
+                        visibility: visible;
+                        opacity: 1;
+                        right: -715px;
+                    }
+
+                    .furniture-bar {
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        padding-bottom: 20px;
+                        position: absolute;
+                        right: -705px;
+                        top: 0;
+                        width: 700px;
+                        height: 350px;
+                        background: #fff;
+                        display: flex;
+                        flex-wrap: wrap;
+                        visibility: hidden;
+                        opacity: 0;
+                        transition: all linear 0.3s;
+
+                        .furniture-text-one {
+                            width: 25%;
+                            height: 65%;
+
+                            .furniture-head-text {
+
+                                h3 {
+                                    margin-top: 15px;
+                                    position: relative;
+                                    font-size: 12px;
+                                    margin-bottom: 10px;
+                                    color: $head;
+                                    font-weight: 700;
+
+                                    &::after {
+                                        position: absolute;
+                                        content: '';
+                                        left: 0px;
+                                        bottom: -6px;
+                                        height: 0.5px;
+                                        width: 100%;
+                                        background: $menu;
+                                    }
+                                }
+
+                                ul {
+                                    margin-top: 20px;
+
+                                    li {
+                                        border: none;
+                                        padding: 3px;
+
+                                        a {
+                                            color: $pera;
+                                            font-size: 14px;
+                                            font-weight: 400;
+                                            font-family: $popi;
+                                            transition: all linear 0.3s;
+
+                                            &:hover {
+                                                color: $hover;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .furniture-text-two {
+                            width: 25%;
+                            height: 65%;
+                            padding-left: 15px;
+
+                            .furniture-head-text {
+
+                                h3 {
+                                    margin-top: 15px;
+                                    position: relative;
+                                    font-size: 12px;
+                                    margin-bottom: 10px;
+                                    color: $head;
+                                    font-weight: 700;
+
+                                    &::after {
+                                        position: absolute;
+                                        content: '';
+                                        left: 0px;
+                                        bottom: -6px;
+                                        height: 0.5px;
+                                        width: 100%;
+                                        background: $menu;
+                                    }
+                                }
+
+                                ul {
+
+                                    margin-top: 20px;
+
+                                    li {
+                                        border: none;
+                                        padding: 3px;
+
+                                        a {
+                                            color: $pera;
+                                            font-size: 14px;
+                                            font-weight: 400;
+                                            font-family: $popi;
+                                            transition: all linear 0.3s;
+
+                                            &:hover {
+                                                color: $hover;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .furniture-text-three {
+                            width: 25%;
+                            height: 65%;
+                            padding-left: 15px;
+
+                            .furniture-head-text {
+
+                                h3 {
+                                    margin-top: 15px;
+                                    position: relative;
+                                    font-size: 12px;
+                                    margin-bottom: 10px;
+                                    color: $head;
+                                    font-weight: 700;
+
+                                    &::after {
+                                        position: absolute;
+                                        content: '';
+                                        left: 0px;
+                                        bottom: -6px;
+                                        height: 0.5px;
+                                        width: 100%;
+                                        background: $menu;
+                                    }
+                                }
+
+                                ul {
+
+                                    margin-top: 20px;
+
+                                    li {
+                                        border: none;
+                                        padding: 3px;
+                                        line-height: 18px;
+
+                                        a {
+                                            color: $pera;
+                                            font-size: 14px;
+                                            font-weight: 400;
+                                            font-family: $popi;
+                                            transition: all linear 0.3s;
+
+                                            &:hover {
+                                                color: $hover;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .furniture-text-four {
+                            width: 25%;
+                            height: 65%;
+                            padding-left: 15px;
+
+                            .furniture-head-text {
+
+                                h3 {
+                                    margin-top: 15px;
+                                    position: relative;
+                                    font-size: 12px;
+                                    margin-bottom: 10px;
+                                    color: $head;
+                                    font-weight: 700;
+
+                                    &::after {
+                                        position: absolute;
+                                        content: '';
+                                        left: 0px;
+                                        bottom: -6px;
+                                        height: 0.5px;
+                                        width: 100%;
+                                        background: $menu;
+                                    }
+                                }
+
+                                ul {
+
+                                    margin-top: 20px;
+
+                                    li {
+                                        border: none;
+                                        padding: 3px;
+
+                                        a {
+                                            color: $pera;
+                                            font-size: 14px;
+                                            font-weight: 400;
+                                            font-family: $popi;
+                                            transition: all linear 0.3s;
+
+                                            &:hover {
+                                                color: $hover;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+
+                        }
+
+                        .furniture-banner {
+                            width: 49%;
+                            height: 35%;
+                            position: relative;
+                            padding-top: 20px;
+                            padding-bottom: 20px;
+
+                            .furniture-banner-text {
+                                position: absolute;
+                                right: 20px;
+
+                                h3 {
+                                    color: $pera;
+                                    font-size: 12px;
+                                    font-family: $popi;
+                                    font-weight: 400;
+                                }
+
+                                h2 {
+                                    color: $head;
+                                    font-size: 16px;
+                                    font-family: $popi;
+                                    font-weight: 700;
+                                    margin-top: 5px;
+                                }
+
+                                h4 {
+                                    margin-top: 10px;
+                                    color: $pera;
+                                    font-size: 12px;
+                                    font-family: $popi;
+                                    font-weight: 400;
+
+                                    span {
+
+                                        color: $head;
+                                        font-size: 12px;
+                                        font-family: $popi;
+                                        font-weight: 700;
+                                    }
+                                }
+                            }
+                        }
+
+                        .furniture-banner-two {
+                            margin-left: 2%;
+                            width: 49%;
+                            height: 35%;
+                            background: red;
+                            padding-top: 20px;
+                            padding-left: 20px;
+
+                            .furniture-banner-text {
+
+                                h3 {
+                                    color: #fff;
+                                    font-size: 12px;
+                                    font-family: $popi;
+                                    font-weight: 400;
+                                }
+
+                                h2 {
+                                    color: #fff;
+                                    font-size: 16px;
+                                    font-family: $popi;
+                                    font-weight: 700;
+                                    margin-top: 5px;
+                                }
+
+                                h4 {
+                                    margin-top: 10px;
+                                    color: #fff;
+                                    font-size: 12px;
+                                    font-family: $popi;
+                                    font-weight: 400;
+
+                                    span {
+
+                                        color: #fff;
+                                        font-size: 12px;
+                                        font-family: $popi;
+                                        font-weight: 700;
+                                    }
+                                }
+                            }
+
+
+                        }
+
+
+                    }
+                }
+
+
+                li {
+                    padding-bottom: 10px;
+                    border-bottom: 0.1px solid $menu;
+                    padding-top: 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    transition: all linear 0.3s;
+
+                    &:hover a {
+                        color: $hover;
+                    }
+
+                    &:hover a i {
+                        color: $hover;
+                    }
+
+                    &:hover i {
+                        margin-right: 10px;
+                        color: $hover;
+                    }
+
+                    i {
+                        font-size: 12px;
+                        margin-right: 15px;
+                        color: $pera;
+                        transition: all linear 0.3s;
+                    }
+
+                    a {
+                        color: $pera;
+                        font-size: 13px;
+                        font-weight: 400;
+                        font-family: $popi;
+                    }
+                }
+            }
+        }
+    }
+
+    .menu-Pages {
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+
+            .shop-menu {
+                position: relative;
+                transition: all linear 0.3s;
+
+                &:hover .shop-menu-drop {
+                    visibility: visible;
+                    opacity: 1;
+                    bottom: -285px;
+
+                }
+
+                .shop-menu-drop {
+                    bottom: -280px;
+                    left: 0;
+                    height: auto;
+                    padding-bottom: 20px;
+                    width: 690px;
+                    background: #fff;
+                    position: absolute;
+                    display: flex;
+                    flex-wrap: wrap;
+                    transition: all linear 0.3s;
+                    visibility: hidden;
+                    opacity: 0;
+                    z-index: 99999;
+
+
+                    .shop-iteam-one {
+                        width: 25%;
+                        height: 100%;
+                        padding-left: 15px;
+
+                        h2 {
+
+                            margin-top: 20px;
+                            font-size: 14px;
+                            margin-bottom: 10px;
+                            color: $head;
+                            font-weight: 700;
+                        }
+
+                        ul {
+                            li {
+                                margin-left: 0;
+                                line-height: 25px;
+
+                                a {
+
+                                    color: $pera;
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                    font-family: $popi;
+                                    transition: all linear 0.3s;
+
+                                    .new {
+                                        padding: 1px 2px;
+                                        background: $hover;
+                                        color: #ffff;
+                                        font-size: 10px;
+                                        transition: all linear 0.3s;
+                                        animation: on 3s linear infinite;
+
+                                        @keyframes on {
+                                            0% {
+                                                background: $hover;
+                                                color: #fff;
+                                            }
+
+                                            100% {
+                                                background: transparent;
+                                                color: $head;
+                                            }
+                                        }
+                                    }
+
+                                    span {
+                                        padding: 1px 2px;
+                                        background: #ff9742;
+                                        color: #ffff;
+                                        font-size: 10px;
+                                        animation: off 4s linear infinite;
+                                        transition: all linear 0.3s;
+
+                                        @keyframes off {
+                                            0% {
+                                                background: #ff9742;
+                                                color: #fff;
+                                            }
+
+                                            100% {
+                                                background: transparent;
+                                                color: $head;
+                                            }
+                                        }
+                                    }
+
+                                    &:hover {
+                                        color: $hover;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .shop-iteam-two {
+                        width: 25%;
+                        height: 100%;
+                        padding-left: 15px;
+
+                        h2 {
+
+                            margin-top: 20px;
+                            font-size: 14px;
+                            margin-bottom: 10px;
+                            color: $head;
+                            font-weight: 700;
+                        }
+
+                        ul {
+                            li {
+                                margin-left: 0;
+                                line-height: 25px;
+
+                                a {
+
+                                    color: $pera;
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                    font-family: $popi;
+                                    transition: all linear 0.3s;
+
+                                    .new {
+                                        padding: 1px 2px;
+                                        background: $hover;
+                                        color: #ffff;
+                                        font-size: 10px;
+                                        transition: all linear 0.3s;
+                                        animation: on 3s linear infinite;
+
+                                        @keyframes on {
+                                            0% {
+                                                background: $hover;
+                                                color: #fff;
+                                            }
+
+                                            100% {
+                                                background: transparent;
+                                                color: $head;
+                                            }
+                                        }
+                                    }
+
+                                    span {
+                                        padding: 1px 2px;
+                                        background: #ff9742;
+                                        color: #ffff;
+                                        font-size: 10px;
+                                        animation: off 4s linear infinite;
+                                        transition: all linear 0.3s;
+
+                                        @keyframes off {
+                                            0% {
+                                                background: #ff9742;
+                                                color: #fff;
+                                            }
+
+                                            100% {
+                                                background: transparent;
+                                                color: $head;
+                                            }
+                                        }
+                                    }
+
+                                    &:hover {
+                                        color: $hover;
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    .shop-iteam-three {
+                        width: 25%;
+                        height: 100%;
+                        padding-left: 15px;
+
+                        h2 {
+
+                            margin-top: 20px;
+                            font-size: 14px;
+                            margin-bottom: 10px;
+                            color: $head;
+                            font-weight: 700;
+                        }
+
+                        ul {
+                            li {
+                                margin-left: 0;
+                                line-height: 25px;
+
+                                a {
+
+                                    color: $pera;
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                    font-family: $popi;
+                                    transition: all linear 0.3s;
+
+                                    .new {
+                                        padding: 1px 2px;
+                                        background: $hover;
+                                        color: #ffff;
+                                        font-size: 10px;
+                                        transition: all linear 0.3s;
+                                        animation: on 3s linear infinite;
+
+                                        @keyframes on {
+                                            0% {
+                                                background: $hover;
+                                                color: #fff;
+                                            }
+
+                                            100% {
+                                                background: transparent;
+                                                color: $head;
+                                            }
+                                        }
+                                    }
+
+                                    span {
+                                        padding: 1px 2px;
+                                        background: #ff9742;
+                                        color: #ffff;
+                                        font-size: 10px;
+                                        animation: off 4s linear infinite;
+                                        transition: all linear 0.3s;
+
+                                        @keyframes off {
+                                            0% {
+                                                background: #ff9742;
+                                                color: #fff;
+                                            }
+
+                                            100% {
+                                                background: transparent;
+                                                color: $head;
+                                            }
+                                        }
+                                    }
+
+                                    &:hover {
+                                        color: $hover;
+                                    }
+
+                                }
+                            }
+                        }
+
+
+                    }
+
+                    .shop-iteam-four {
+                        width: 25%;
+                        height: 100%;
+                        text-align: start;
+
+                        h2 {
+
+                            margin-top: 20px;
+                            font-size: 14px;
+                            margin-bottom: 10px;
+                            color: $head;
+                            font-weight: 700;
+                            margin-left: 10px;
+                        }
+
+                        ul {
+                            li {
+                                line-height: 25px;
+                                margin-left: 10px;
+
+                                a {
+                                    color: $pera;
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                    font-family: $popi;
+                                    transition: all linear 0.3s;
+                                    width: 106px;
+
+                                    .new {
+                                        padding: 1px 2px;
+                                        background: $hover;
+                                        color: #ffff;
+                                        font-size: 10px;
+                                        transition: all linear 0.3s;
+                                        animation: on 3s linear infinite;
+
+                                        @keyframes on {
+                                            0% {
+                                                background: $hover;
+                                                color: #fff;
+                                            }
+
+                                            100% {
+                                                background: transparent;
+                                                color: $head;
+                                            }
+                                        }
+                                    }
+
+                                    span {
+                                        padding: 1px 2px;
+                                        background: #ff9742;
+                                        color: #ffff;
+                                        font-size: 10px;
+                                        animation: off 4s linear infinite;
+                                        transition: all linear 0.3s;
+
+                                        @keyframes off {
+                                            0% {
+                                                background: #ff9742;
+                                                color: #fff;
+                                            }
+
+                                            100% {
+                                                background: transparent;
+                                                color: $head;
+                                            }
+                                        }
+                                    }
+
+                                    &:hover {
+                                        color: $hover;
+                                    }
+                                }
+                            }
+                        }
+
+
+                    }
+                }
+            }
+
+
+
+            .brb {
+                position: relative;
+                transition: all linear 0.3s;
+
+                &:hover::after {
+                    left: 0%;
+                    visibility: visible;
+                    opacity: 1;
+                }
+
+                &:hover::before {
+                    right: 0%;
+                    visibility: visible;
+                    opacity: 1;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    bottom: 8px;
+                    left: -50%;
+                    background: #fff;
+                    width: 50%;
+                    height: 2.5px;
+                    transition: all linear 0.3s;
+                    visibility: hidden;
+                    opacity: 0;
+                }
+
+                &::before {
+                    position: absolute;
+                    content: '';
+                    bottom: 8px;
+                    right: -50%;
+                    background: #fff;
+                    width: 50%;
+                    height: 2.5px;
+                    transition: all linear 0.3s;
+                    visibility: hidden;
+                    opacity: 0;
+                }
+
+            }
+
+            .vendor-menu-drop {
+                position: relative;
+                transition: all linear 0.3s;
+
+                &:hover .vendor-tieam {
+                    visibility: visible;
+                    opacity: 1;
+                    bottom: -86px;
+                }
+
+                .vendor-tieam {
+                    z-index: 9999;
+                    position: absolute;
+                    left: 0;
+                    bottom: -80px;
+                    width: 150px;
+                    height: auto;
+                    padding-bottom: 15px;
+                    padding-top: 10px;
+                    padding-left: 15px;
+                    background: #fff;
+                    visibility: hidden;
+                    opacity: 0;
+                    transition: all linear 0.3s;
+
+                    .vendor-tieam-one {
+                        width: 100%;
+                        height: auto;
+
+                        ul {
+
+                            .store-listing {
+
+                                position: relative;
+                                transition: all linear 0.3s;
+
+                                &:hover .main-store-listing {
+                                    visibility: visible;
+                                    opacity: 1;
+                                }
+
+                                .main-store-listing {
+                                    position: absolute;
+                                    top: 0;
+                                    right: -137px;
+                                    width: 130px;
+                                    height: auto;
+                                    padding-top: 10px;
+                                    padding-bottom: 10px;
+                                    padding-left: 10px;
+                                    background: #fff;
+                                    visibility: hidden;
+                                    opacity: 0;
+                                    transition: all linear 0.3s;
+
+                                    ul {
+                                        li {
+                                            a {
+                                                color: $pera;
+                                                font-size: 14px;
+                                                font-weight: 400;
+                                                font-family: $popi;
+                                                transition: all linear 0.3s;
+
+                                                &:hover {
+                                                    color: $hover;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+
+
+                            li {
+
+                                margin-left: 0;
+                                line-height: 30px;
+
+                                a {
+                                    color: $pera;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    font-family: $popi;
+                                    transition: all linear 0.3s;
+
+                                    &:hover i {
+                                        margin-left: 38px;
+                                    }
+
+                                    &:hover {
+                                        color: $hover;
+                                    }
+
+                                    i {
+                                        margin-left: 35px;
+                                        transition: all linear 0.3s;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+            }
+
+            .blog-menu-drop {
+
+                position: relative;
+                transition: all linear 0.3s;
+
+                &:hover .blog-all-iteam {
+                    visibility: visible;
+                    opacity: 1;
+                    bottom: -192px;
+
+                }
+
+                .blog-all-iteam {
+                    visibility: hidden;
+                    opacity: 0;
+                    position: absolute;
+                    bottom: -188px;
+                    width: 200px;
+                    height: auto;
+                    background: #fff;
+                    padding-bottom: 10px;
+                    transition: all linear 0.3s;
+                    z-index: 99999;
+                    .bolg-txt {
+                        padding-top: 20px;
+                        width: 100%;
+                        height: 40%;
+                        padding-right: 77px;
+
+                        ul {
+                            li {
+                                line-height: 25px;
+                                margin-left: 15px;
+
+                                a {
+                                    color: $pera;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    font-family: $popi;
+                                    transition: all linear 0.3s;
+
+                                    &:hover {
+                                        color: $hover;
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    .bolg-icon {
+                        width: 100%;
+                        height: 60%;
+                        margin-right: 50px;
+
+                        ul {
+
+                            .grid-menu {
+                                position: relative;
+                                transition: all linear 0.3s;
+
+                                &:hover .grid-menu-iteam {
+                                    visibility: visible;
+                                    opacity: 1;
+                                    right: -237px;
+                                }
+
+                                .grid-menu-iteam {
+                                    visibility: hidden;
+                                    opacity: 0;
+                                    position: absolute;
+                                    width: 200px;
+                                    height: auto;
+                                    background: #fff;
+                                    top: 0;
+                                    padding-bottom: 15px;
+                                    padding-top: 15px;
+                                    right: -230px;
+                                    transition: all linear 0.3s;
+
+                                    ul {
+                                        li {
+                                            margin-left: 15px;
+
+                                            a {
+                                                color: $pera;
+                                                font-size: 14px;
+                                                font-weight: 400;
+                                                font-family: $popi;
+                                                transition: all linear 0.3s;
+
+                                                &:hover {
+                                                    color: $hover;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .masonry {
+                                position: relative;
+                                transition: all linear 0.3s;
+
+                                &:hover .masonry-menu-iteam {
+                                    visibility: visible;
+                                    opacity: 1;
+                                    right: -237px;
+                                }
+
+                                .masonry-menu-iteam {
+
+                                    visibility: hidden;
+                                    opacity: 0;
+                                    position: absolute;
+                                    width: 200px;
+                                    height: auto;
+                                    background: #fff;
+                                    top: 0;
+                                    padding-bottom: 15px;
+                                    padding-top: 15px;
+                                    right: -230px;
+                                    transition: all linear 0.3s;
+
+                                    ul {
+                                        li {
+                                            margin-left: 15px;
+
+                                            a {
+                                                color: $pera;
+                                                font-size: 14px;
+                                                font-weight: 400;
+                                                font-family: $popi;
+                                                transition: all linear 0.3s;
+
+                                                &:hover {
+                                                    color: $hover;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                }
+                            }
+
+                            .mask {
+                                position: relative;
+                                transition: all linear 0.3s;
+
+                                &:hover .mask-menu-iteam {
+                                    visibility: visible;
+                                    opacity: 1;
+                                    right: -237px;
+                                }
+
+                                .mask-menu-iteam {
+
+                                    visibility: hidden;
+                                    opacity: 0;
+                                    position: absolute;
+                                    width: 200px;
+                                    height: auto;
+                                    background: #fff;
+                                    top: 0;
+                                    padding-bottom: 15px;
+                                    padding-top: 15px;
+                                    right: -230px;
+                                    transition: all linear 0.3s;
+
+                                    ul {
+                                        li {
+                                            margin-left: 15px;
+
+                                            a {
+                                                color: $pera;
+                                                font-size: 14px;
+                                                font-weight: 400;
+                                                font-family: $popi;
+                                                transition: all linear 0.3s;
+
+                                                &:hover {
+                                                    color: $hover;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                }
+                            }
+
+
+                            li {
+
+                                margin-left: 15px;
+                                line-height: 25px;
+
+                                a {
+                                    color: $pera;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    font-family: $popi;
+                                    transition: all linear 0.3s;
+
+                                    &:hover {
+                                        color: $hover;
+                                    }
+
+                                    .three-r {
+                                        margin-left: 106px;
+                                    }
+
+                                    .two-r {
+                                        margin-left: 82px;
+                                    }
+
+                                    .one-r {
+                                        margin-left: 112px;
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+
+            }
+
+            .pages-menu-drop {
+                position: relative;
+                transition: all linear 0.3s;
+
+                &:hover .pages-all-iteam {
+                    visibility: visible;
+                    opacity: 1;
+                    bottom: -331px;
+                }
+
+                .pages-all-iteam {
+                    visibility: hidden;
+                    opacity: 0;
+                    position: absolute;
+                    width: 200px;
+                    height: auto;
+                    padding-bottom: 20px;
+                    padding-top: 15px;
+                    background: #fff;
+                    bottom: -327px;
+                    left: 0;
+                    transition: all linear 0.3s;
+                    z-index: 9999;
+
+                    ul {
+                        li {
+                            line-height: 25px;
+                            margin-left: 20px;
+
+                            a {
+                                color: $pera;
+                                font-size: 14px;
+                                font-weight: 400;
+                                font-family: $popi;
+                                transition: all linear 0.3s;
+                                width: 126px;
+
+                                &:hover {
+                                    color: $hover;
+                                }
+                            }
+                        }
+                    }
+
+
+                }
+            }
+
+            .elements-menu-drop {
+                position: relative;
+                transition: all linear 0.3s;
+
+                &:hover .elements-all-iteam {
+                    visibility: visible;
+                    opacity: 1;
+                    bottom: -434px;
+                }
+
+                .elements-all-iteam {
+                    position: absolute;
+                    bottom: -430px;
+                    left: 0;
+                    width: 200px;
+                    height: auto;
+                    padding-bottom: 15px;
+                    padding-top: 15px;
+                    background: #fff;
+                    transition: all linear 0.3s;
+                    visibility: hidden;
+                    opacity: 0;
+                    z-index: 9999;
+
+                    ul {
+                        li {
+                            line-height: 25px;
+                            margin-left: 20px;
+
+                            a {
+                                color: $pera;
+                                font-size: 14px;
+                                font-weight: 400;
+                                font-family: $popi;
+                                transition: all linear 0.3s;
+                                width: 130px;
+
+                                &:hover {
+                                    color: $hover;
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+
+
+
+
+            li {
+                margin-left: 30px;
+                line-height: 50px;
+
+                a {
+                    font-size: 14px;
+                    font-family: $popi;
+                    font-weight: 600;
+                    color: #fff;
+                    text-transform: capitalize;
+                    position: relative;
+                    transition: all linear 0.3s;
+
+                    i {
+                        font-size: 10px;
+                        margin-left: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    .menu-all-icon {
+        line-height: 50px;
+        display: flex;
+        justify-content: end;
+
+        .menu-icon-one {
+
+            margin-left: 30px;
+
+            a {
+                font-size: 14px;
+                font-family: $popi;
+                font-weight: 500;
+                color: #fff;
+                transition: all linear 0.3s;
+
+                &:hover{
+                    color: $hover;
+                }
+                i{
+                    font-size: 18px;
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
+
+}
+
+.menu_fix{
+    position: fixed;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    transition: all linear 1s;
+    animation-name: menufix;
+    animation-duration: 1s;
+
+    @keyframes menufix {
+        from {
+          opacity: 0;
+          top: -50px;
+        }
+        
+        to {
+          opacity: 1;
+          top: 0;
+        }
+      }
+
+}
+

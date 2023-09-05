@@ -1,0 +1,33 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+#fullwidthbannertop{
+    padding-top: 20px;
+
+    .banner-top-text-item{
+        display: flex;
+        flex-wrap: wrap;
+
+        li{
+
+            &:first-child a{
+                color: $menu;
+            }
+            a{
+                color: $head;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: $popi;
+
+                i{
+                    font-size: 12px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    color: $menu;
+                }
+            }
+
+        }
+    }
+}
+

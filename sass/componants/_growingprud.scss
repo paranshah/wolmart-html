@@ -1,0 +1,66 @@
+@import "../veriables/veriables";
+@import "../mixins/mixins";
+
+/*------------ growing vendor area start --------------*/
+#growingprud{
+    .wrapper{
+        background: url(../images/growing_bg.jpg) no-repeat center/cover;
+        padding: 30px 20px;
+        .head_text{
+            h3{
+                @include fs(25px,700,$popi,#333);
+                text-transform: capitalize;
+                margin-bottom: 10px;
+            }
+            h4{
+                @include fs(14px,400,$popi,#666);
+                text-transform: capitalize;
+                padding-right: 220px;
+                line-height: 24px;
+                margin-bottom: 20px;
+            }
+        }
+        .best_selling{
+            border: 2px solid #f1f1f1;
+            padding: 20px;
+            h4{
+                @include fs(14px,600,$popi,#000);
+                text-align: center;
+                margin-bottom: 15px;
+                margin-top: -5px;
+            }
+            .vendor_slider{
+                .slider_inner{
+                    position: relative;
+                    .overlay{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        background: rgba(0, 0, 0, 0.5);
+                        opacity: 0;
+                        text-align: center;
+                        transition: all ease .2s;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0 10px;
+                        a{
+                            @include fs(12px,400,$popi,#fff);
+                            line-height: 15px;
+                            text-overflow: ellipsis;
+                            word-break: break-word;
+                        }
+                    }
+                    &:hover{
+                        .overlay{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+} 
+/*------------ growing vendor area end --------------*/ 
